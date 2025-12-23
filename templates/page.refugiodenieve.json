@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_VbQK3V": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA1_34250340-8f99-418d-b615-4c83da66c4ad.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-ski"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA2_fd02bad5-ad77-47c3-93e5-01f08aa73f23.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-lazo-frontal-brown"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER2_18c9a2b3-162a-4456-b9e5-254d56c42d76.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-corazones-ecru"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA3_21dad544-b8f6-4537-97ce-0df8df68ba76.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-botones-pu-ecru"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/2449d4ebe1ec41dd9b1e1d7301dea6fa.mov",
+            "size": "half",
+            "selected_product": "puffa-bolsillo-corazon-ecru"
+          }
+        },
+        "column_YwJWHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER3_8e016ce7-5ee2-476c-bde5-58cfb69a5fc4.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-trenzado-black"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA5_c43e22b6-f288-4540-9a94-45afade43c39.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-raindoor-gray"
+          }
+        },
+        "column_t36T3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA6_58d47e71-39d2-4ee3-8d14-8b1b9e153a67.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-quilt-ecru"
+          }
+        },
+        "column_AFgait": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER4_ca36744d-50c1-4829-949d-37a0b63adf06.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-pu-cuello-chiporro-brown"
+          }
+        },
+        "column_4GH8xH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER5_b43e2c36-5bea-419c-83c6-36d706580174.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-acolchada-cintas-brown"
+          }
+        },
+        "column_7kdnz3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA7_30cd4689-efbe-423c-b5e2-1c207a23b781.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "puffa-bolsillo-corazon-ecru"
+          }
+        },
+        "column_GegrDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-abuca-wool"
+          }
+        },
+        "column_PxyMNA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER6_61d6fa83-2368-4e73-9a1b-31062e3a6e68.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-sherpa-quilt-gray"
+          }
+        },
+        "column_WFhQGy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA9_68794c42-4cc0-4ed1-8978-af2bfd625ac3.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-pano-marinera-blue"
+          }
+        },
+        "column_kQ8qyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA10_b47f6b6b-f48f-49b8-b59c-8b179f479454.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-pu-black"
+          }
+        },
+        "column_wnrPgX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga11_28b9d773-9032-40d0-9346-fcd7195ef853.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-acolchado-cuello-alto-gray"
+          }
+        },
+        "column_YKTPQA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12_e3ecc1b0-aabe-4c84-8439-b1f80d8684d6.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-pu-ecru"
+          }
+        },
+        "column_LPtHTG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner7_5e776a8f-9b6f-405a-887d-f5b0b72b2907.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-aviadora-bonded-brown-r"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_eJiMXj",
+        "column_ARJqii",
+        "column_j3YKwM",
+        "column_bLVeCb",
+        "column_YwJWHm",
+        "column_7EGhit",
+        "column_t36T3x",
+        "column_AFgait",
+        "column_4GH8xH",
+        "column_7kdnz3",
+        "column_GegrDP",
+        "column_PxyMNA",
+        "column_WFhQGy",
+        "column_kQ8qyP",
+        "column_wnrPgX",
+        "column_YKTPQA",
+        "column_LPtHTG"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": false,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_VbQK3V"
+  ]
+}

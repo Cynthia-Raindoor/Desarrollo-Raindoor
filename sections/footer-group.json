@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_BqHdk3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "TÉRMINOS Y CONDICIONES",
+            "menu": "raindoor-world"
+          }
+        },
+        "medios_de_pago_wDJqCQ": {
+          "type": "medios_de_pago",
+          "settings": {
+            "heading_medio_pago": "MEDIOS DE PAGO",
+            "img_medios_pago_01": "shopify://shop_images/mercadopago_6e77b31f-e88b-47f9-961e-f081a6fed41d.png",
+            "img_medios_pago_02": "shopify://shop_images/venti_9e1a6267-f8b1-4efc-9512-afeb96d92bc5.png"
+          }
+        },
+        "link_list_CACemx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "AYUDA",
+            "menu": "ayuda"
+          }
+        },
+        "text_cTmqj7": {
+          "type": "text",
+          "settings": {
+            "heading": "CONTACTO",
+            "subtext": "<ul><li>Llamadas Y WhatsApp: +56972082702</li><li>contacto@raindoor.cl</li><li>Atención en tiendas físicas:<br/>Lunes a Domingo de 10:00 a 20:30 hrs.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_BqHdk3",
+        "medios_de_pago_wDJqCQ",
+        "link_list_CACemx",
+        "text_cTmqj7"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

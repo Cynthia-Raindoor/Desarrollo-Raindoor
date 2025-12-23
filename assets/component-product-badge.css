@@ -1,0 +1,46 @@
+/* Product Badge Styles */
+.product-badge {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  top: var(--badge-top, 10px);
+  left: var(--badge-left, 10px);
+  background-color: var(--badge-bg-color, #ff0000);
+  color: var(--badge-text-color, #ffffff);
+  border-radius: var(--badge-border-radius, 4px);
+  font-size: var(--badge-font-size, 12px);
+  font-weight: 600;
+  padding: 4px 8px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* Ensure badge appears on both PLP and PDP */
+.card-wrapper .product-badge,
+.product__media-wrapper .product-badge,
+media-gallery .product-badge {
+  display: block;
+}
+
+/* PDP specific positioning */
+media-gallery {
+  position: relative;
+}
+
+media-gallery .product-badge {
+  position: absolute;
+  z-index: 3;
+}
+
+/* Hide badge if empty */
+.product-badge:empty {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 749px) {
+  .product-badge {
+    font-size: calc(var(--badge-font-size, 12px) * 0.9);
+    padding: 3px 6px;
+  }
+}

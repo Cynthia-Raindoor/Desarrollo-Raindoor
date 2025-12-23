@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_iJ3K9F": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/c23ab55c-cbd5-49e3-9bca-d677e403b590.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-algodon-white"
+          }
+        },
+        "column_WFYYNC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/f85c5db4-8398-48fc-ab23-32cfbee3991b.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cinturon-blue"
+          }
+        },
+        "column_PxyMNA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5_a6bd8092-ec47-4e1f-bdfb-11c7b251b932.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-wide-leg-strass-degrade-blue"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e1afdc9a-0d6e-4d7a-a906-40b830a0fe09.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-algodon-rayas"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/b61c00b2-4c60-4573-b513-9183d7bcb617.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "cardigan-cuello-dark-grey"
+          }
+        },
+        "column_pDw8yY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga7_c97c031c-e3bc-438b-9cce-a3e289480f2b.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-mom-andorra-grey"
+          }
+        },
+        "column_RGaptk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga7_c97c031c-e3bc-438b-9cce-a3e289480f2b.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-mom-andorra-grey"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/banner3_79f10f4d-4367-417d-888e-2f5f60e165cd.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "poleron-crew-neck-estampado-bone"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner4_6fda2b6f-08cf-42e1-8290-3511d8f52405.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "poleron-crew-neck-estampado-navy"
+          }
+        },
+        "column_YwJWHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6c9d4ec2-b2a3-4856-befb-41602a8b4143.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "poleron-crew-neck-logo-velvet-black"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/caluga8_673d79cb-0bc4-40bc-8ffe-af2eb55655db.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-strass-black"
+          }
+        },
+        "column_WFhQGy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga10_95e54a90-2a84-4800-8796-a918a87137d8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-blossom-grey"
+          }
+        },
+        "column_BgGRqU": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/ea8cec56567f430fb4c401349d3ccc0d.mp4",
+            "size": "half",
+            "selected_product": "poleron-crew-neck-estampado-bone"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/17ee80876a97449897dfdf8f935268f4.mp4",
+            "size": "half",
+            "selected_product": "poleron-crew-neck-estampado-navy"
+          }
+        },
+        "column_xrty9z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12_83251138-0718-4cc6-a45a-e1e57c3be08d.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-entrepierna-blue"
+          }
+        },
+        "column_yUbii6": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Caluga_01_b36f9a42-a69b-4ebd-9706-953047bb3790.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "cardigan-cinta-gray"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_WFYYNC",
+        "column_PxyMNA",
+        "column_eJiMXj",
+        "column_j3YKwM",
+        "column_pDw8yY",
+        "column_RGaptk",
+        "column_ARJqii",
+        "column_bLVeCb",
+        "column_YwJWHm",
+        "column_7EGhit",
+        "column_WFhQGy",
+        "column_BgGRqU",
+        "column_UbAfd8",
+        "column_xrty9z",
+        "column_yUbii6"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "the-city",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_iJ3K9F"
+  ]
+}

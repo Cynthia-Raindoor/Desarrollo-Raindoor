@@ -1,0 +1,253 @@
+{%- assign recommended_collection = collections[settings['collection-recommendations']] -%}
+
+{%- if recommended_collection != blank and recommended_collection.products_count > 0 -%}
+  {%- comment -%}
+    Agregamos clases condicionales para ocultar/mostrar según la pantalla
+  {%- endcomment -%}
+  <div class="cart-recommendations {% if mobile %}display-mobile-only{% else %}display-desktop-only{% endif %}">
+    {%- if settings.cart_recommendations_heading != blank -%}
+      <div class="drawer__header">
+        <h2 class="drawer__heading">{{ settings.cart_recommendations_heading | escape }}</h2>
+      </div>
+    {%- endif -%}
+
+    {%- if mobile -%}
+      <!--
+        ==========================================
+             MODO MOBILE: CARRUSEL (Slider)
+             Se muestra solo en pantallas chicas (<750px)
+        ===========================================
+      -->
+      <slider-component class="slider-mobile-gutter">
+        <ul
+          id="Slider-{{ section.id | default: 'drawer' }}"
+          class="grid grid--1-col slider slider--mobile product-grid"
+          role="list"
+          aria-label="Slider"
+        >
+          {%- for product in recommended_collection.products limit: 4 -%}
+            <li id="Slide-{{ section.id | default: 'drawer' }}-{{ forloop.index }}" class="grid__item slider__slide">
+              {% render 'card-product',
+                card_product: product,
+                media_aspect_ratio: 'adapt',
+                show_secondary_image: true,
+                show_vendor: false,
+                show_rating: false,
+                lazy_load: true
+              %}
+            </li>
+          {%- endfor -%}
+        </ul>
+
+        <div class="slider-buttons no-js-hidden" style="justify-content: center; margin-top: 10px;">
+          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="Previous">
+            {% render 'icon-caret' %}
+          </button>
+          <button type="button" class="slider-button slider-button--next" name="next" aria-label="Next">
+            {% render 'icon-caret' %}
+          </button>
+        </div>
+      </slider-component>
+
+    {%- else -%}
+      <!--
+        ==========================================
+             MODO DESKTOP: LISTA VERTICAL
+             Se muestra solo en pantallas grandes (>=750px)
+        ===========================================
+      -->
+      <ul class="grid grid--1-col product-grid" role="list">
+        {%- for product in recommended_collection.products limit: 4 -%}
+          <li class="grid__item">
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 'adapt',
+              show_secondary_image: true,
+              show_vendor: false,
+              show_rating: false,
+              lazy_load: true
+            %}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+<style>
+  .cart-recommendations .plp-swatches-wrapper {
+    bottom: 0 !important;
+    gap: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 5px !important;
+  }
+  .cart-recommendations button.plp-add-btn {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .cart-recommendations {
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-left: 15px !important;
+    padding-right: 35px !important;
+  }
+  .cart-recommendations .plp-swatches button {
+    transform: scale(0.8) !important;
+  }
+  .cart-recommendation-active {
+    width: 65rem;
+    flex-direction: row;
+  }
+
+  .cart-recommendations .plp-swatches {
+    gap: 0 !important;
+  }
+
+  .cart-recommendations.display-mobile-only {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    overflow: visible;
+  }
+
+  .cart-recommendations .plp-swatches-wrapper.only_drawer {
+    display: none;
+  }
+
+  .cart-drawer__main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    .display-mobile-only {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+ 
+    .cart-recommendations {
+      padding: 0 !important;
+    }
+    .cart-recommendations .card__heading {
+      min-height: auto;
+      margin-bottom: 5px !important;
+    }
+    .cart-recommendations button.plp-add-btn {
+      width: auto;
+      padding: 5px 10px;
+    }
+    .display-desktop-only {
+      display: none !important;
+    }
+
+    .cart-recommendations h2 {
+      margin-bottom: 1rem;
+    }
+    .cart-recommendations .only__drawer .plp-swatches {
+      width: 100%;
+    }
+    .cart-recommendations .drawer__header {
+      margin: 0 !important;
+      padding: 0;
+    }
+    .cart-recommendations ul {
+      margin: 0;
+    }
+    .cart-recommendations .card--media {
+      display: flex;
+      flex-direction: row !important;
+      gap: 10px;
+    }
+    .cart-recommendations .card--media .card__inner {
+      width: 40%;
+    }
+
+    .cart-recommendations .card--media img.motion-reduce {
+      height: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .cart-recommendations.display-mobile-only .card__information {
+      padding: 1rem;
+    }
+
+    .display-mobile-only .slider-button[disabled] .icon {
+      color: gray !important;
+    }
+    .display-mobile-only button.slider-button.slider-button--prev {
+      left: 0px;
+      top: 40%;
+      transform: translate(0, 50%);
+    }
+    .display-mobile-only button.slider-button.slider-button--next {
+      right: 0px;
+      top: 40%;
+      transform: translate(0, 50%);
+    }
+    .display-mobile-only .slider-button {
+      border: none;
+      cursor: pointer;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      background: black;
+      border-radius: 50%;
+      color: white;
+      z-index: 4;
+    }
+    .cart-recommendations .plp-swatches-wrapper {
+      display: none !important;
+    }
+    .cart-recommendations ul#Slider-drawer li {
+      width: 100% !important;
+    }
+
+    .cart-recommendations .only__drawer {
+      width: 100%;
+      height: auto;
+      display: flex !important;
+    }
+    .cart-recommendations .plp-swatches-wrapper.only_drawer {
+      width: 100%;
+      display: flex !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      height: auto !important;
+      position: relative;
+      justify-content: start;
+      align-items: start;
+      text-align: left;
+      padding: 0;
+      flex-direction: column;
+      top: 0;
+      left: 0;
+    }
+    .cart-recommendations .plp-swatches-wrapper.only_drawer p {
+      display: none;
+    }
+    .cart-recommendations .only_drawer .plp-swatches {
+      padding: 0 !important;
+    }
+    .cart-recommendations .only_drawer .plp-swatches button {
+      margin-bottom: 1rem;
+    }
+    .cart-recommendations .only__drawer .plp-swatches button {
+      transform: scale(0.8) !important;
+    }
+    .cart-recommendations .only__drawer .plp-swatches {
+      gap: 0;
+    }
+  }
+</style>

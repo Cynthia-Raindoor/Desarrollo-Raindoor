@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_wRRYtr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6x8CH6": {
+          "type": "heading",
+          "settings": {
+            "heading": "SÉ PARTE DE NUESTRO PLAN AMBASSADORS"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6x8CH6"
+      ],
+      "custom_css": [
+        ".section-heading {background-image: url(https://cdn.shopify.com/s/files/1/1680/7523/files/rosado-01.png?v=1732714474); padding: 36px 12px; font-weight: bold;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "none",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    },
+    "our_ambassadors_TnmenK": {
+      "type": "our-ambassadors",
+      "blocks": {
+        "benefit_9rbUm8": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/comisio._2-01.png",
+            "title": "COMISIÓN EN EFECTIVO",
+            "description": "<p>Gana un 5% en cada compra neta que use tu código.</p>",
+            "link": ""
+          }
+        },
+        "benefit_7Gg9Wh": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/aprende-01.png",
+            "title": "APRENDE + CRECE",
+            "description": "<p>Nuestro equipo te enseñará cómo perfeccionar tu contenido.</p>",
+            "link": ""
+          }
+        },
+        "benefit_eECtJr": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/eventos-01_c36ba358-27a7-4d3d-b8a7-0ab5d8c6eb8a.png",
+            "title": "EVENTOS + DESCUENTOS",
+            "description": "<p>Invitaciones especiales a eventos y oportunidades. Acceso a nuestras alianzas de descuentos.</p>",
+            "link": ""
+          }
+        },
+        "benefit_dwmYU9": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/try_on-01.png",
+            "title": "TRY ON",
+            "description": "<p>Agendas exclusivas con nuestras vendedoras en tiendas para que puedas. mostrar todas las colecciones.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "benefit_9rbUm8",
+        "benefit_7Gg9Wh",
+        "benefit_eECtJr",
+        "benefit_dwmYU9"
+      ],
+      "custom_css": [
+        ".card__image {max-width: 120px; margin: auto;}",
+        ".card__heading {font-size: 20px;}"
+      ],
+      "settings": {
+        "primary_color": "#d97cb6",
+        "primary_color_dark": "#c9659e",
+        "text_color_dark": "#333333",
+        "text_color_light": "#666666",
+        "postula_title": "POSTULA",
+        "postula_description": "CUÉNTANOS CUALES SON TUS REDES SOCIALES Y PORQUE QUIERES SER PARTE DE RAINDOOR AMBASSADORS",
+        "ventajas_title": "LAS VENTAJAS",
+        "show_benefit_border": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_wRRYtr",
+    "our_ambassadors_TnmenK"
+  ]
+}

@@ -1,0 +1,505 @@
+{% comment %}
+  Editoriales Section for Dawn Theme
+{% endcomment %}
+
+<script src="{{ 'editoriales.js' | asset_url }}" defer="defer"></script>
+{{ 'editoriales.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign skip_container = section.settings.skip_container
+  assign container_class = 'page-width'
+  if skip_container
+    assign container_class = ''
+  endif
+-%}
+
+<section class="section-gallery-{{ section.id }}">
+  <div class="{{ container_class }}">
+    {% if section.settings.show_button == true %}
+      <div class="grid-view-toggle">
+        <div class="grid-view-toggle__inner">
+          <button
+            type="button"
+            id="grid-toggle-button"
+            class="grid-view-button d-flex justify-content-start align-items-center"
+          >
+            <span class="grid-icon">
+              {{ 'icon-vista-4.svg' | inline_asset_content }}
+            </span>
+            <span class="txt-buttons-cat txt-vista4">Vista 4</span>
+          </button>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const button = document.getElementById('grid-toggle-button');
+          const gallery = document.querySelector('.gallery-blocks');
+          if (!button || !gallery) return;
+
+          const storageKey = 'editoriales_gallery_mode';
+          const iconSpan = button.querySelector('.grid-icon');
+          const textSpan = button.querySelector('.txt-buttons-cat');
+
+          // Íconos inyectados desde Liquid (funcionan aquí)
+          const icon4 = `{{ 'icon-vista-4.svg' | inline_asset_content }}`;
+          const iconOriginal = `{{ 'icon-vista-2.svg' | inline_asset_content }}`;
+
+          // Guardar clases originales
+          const blocks = Array.from(gallery.children);
+          const originalClasses = blocks.map((block) => {
+            return Array.from(block.classList).find((c) => c.startsWith('column-')) || 'column-quarter';
+          });
+
+          let isCompact = localStorage.getItem(storageKey) === 'compact';
+
+          const applyView = () => {
+            blocks.forEach((block, i) => {
+              // 1. Cambiar tamaño de columna
+              block.className = block.className.replace(/column-\w+/g, '').trim();
+              const targetClass = isCompact ? 'column-quarter' : originalClasses[i];
+              block.classList.add(targetClass);
+
+              // 2. Mostrar/ocultar imágenes
+              const imgNormal = block.querySelector('.img-normal');
+              const imgCuadrante = block.querySelector('.img-cuadrante');
+
+              if (imgNormal) imgNormal.style.display = isCompact ? 'none' : 'block';
+              if (imgCuadrante) imgCuadrante.style.display = isCompact ? 'block' : 'none';
+
+              // 3. Ocultar video solo en vista compacta (vista 4)
+const video = block.querySelector('video');
+if (video) {
+  video.style.display = isCompact ? 'none' : 'block';
+}
+
+              // NUEVO: Ocultar bloque completo si NO tiene producto y estamos en vista compacta
+              const hasProduct = block.hasAttribute('data-product-id');
+              if (isCompact && !hasProduct) {
+                block.style.display = 'none';
+              } else {
+                block.style.display = ''; // Restaurar (flex, block, etc. según CSS)
+              }
+            });
+
+            // 3. Actualizar botón
+            iconSpan.innerHTML = isCompact ? icon4 : iconOriginal;
+            textSpan.textContent = isCompact ? 'Vista Normal' : 'Vista Cuadrante';
+            textSpan.className = `txt-buttons-cat txt-vista${isCompact ? 'original' : '4'}`;
+
+            localStorage.setItem(storageKey, isCompact ? 'compact' : 'original');
+          };
+
+          button.addEventListener('click', () => {
+            isCompact = !isCompact;
+            applyView();
+          });
+
+          applyView(); // Carga inicial
+        });
+      </script>
+    {% endif %}
+
+    <div class="gallery-blocks">
+      {% for block in section.blocks %}
+        {%- liquid
+          assign size = block.settings.size
+          assign class_size = 'column-' | append: size
+          assign image = block.settings.image
+          assign image_cuadrante = block.settings.image_cuadrante
+          assign video = block.settings.video
+          assign product = block.settings.selected_product
+
+          if product != blank
+            assign has_product = true
+            assign product_url = product.url
+            assign product_handle = product.handle
+            assign product_id = product.id
+            assign product_title = product.title
+            assign product_price = product.selected_or_first_available_variant.price | money
+          else
+            assign has_product = false
+            assign product_url = ''
+            assign product_handle = ''
+            assign product_id = ''
+            assign product_title = ''
+            assign product_price = ''
+          endif
+        -%}
+
+        <div
+          class="{{ class_size }} editorial-block"
+          {{ block.shopify_attributes }}
+          {% if has_product %}
+            data-product-id="{{ product_id }}"
+          {% endif %}
+        >
+          <!-- IMAGEN CON LINK A PDP -->
+          <div class="editorial-block__media">
+            {% if product_url != blank %}
+              <a href="{{product_url }}">
+            {% endif %}
+            {% if image != blank %}
+              <img
+                src="{{ image | image_url: width: 1500 }}"
+                alt="{{ image.alt | escape }}"
+                loading="lazy"
+                width="100%"
+                height="auto"
+                class="img-normal"
+              >
+            {% endif %}
+
+            {% if block.settings.video != blank %}
+              <video
+                src="{{ block.settings.video }}"
+                loop
+                autoplay
+                muted
+                playsinline
+                style="width: 100%;height: 100%; pointer-events: none;"
+              ></video>
+            {%- endif -%}
+
+            {% if image_cuadrante != blank %}
+              <img
+                src="{{ image_cuadrante | image_url: width: 1500 }}"
+                alt="{{ image_cuadrante.alt | escape }}"
+                loading="lazy"
+                width="100%"
+                height="auto"
+                class="img-cuadrante"
+              >
+            {% else %}
+              <img
+                src="{{ product.images.first  | image_url: width: 1500 }}"
+                alt="{{ product.images.first.alt | escape }}"
+                loading="lazy"
+                width="100%"
+                height="auto"
+                class="img-cuadrante"
+              >
+            {% endif %}
+
+            {% if product_url != blank %}
+              </a>
+            {% endif %}
+          </div>
+
+          <!-- OVERLAY CON INFO -->
+          {% if has_product %}
+            <div class="editorial-block__overlay">
+              <div class="editorial-block__content">
+                <h3 class="editorial-block__title">
+                  <a href="{{ product_url }}">{{ product_title }}</a>
+                </h3>
+                <div class="editorial-block__price-wrapper">
+                  {% if product.selected_or_first_available_variant.compare_at_price
+                      > product.selected_or_first_available_variant.price
+                  %}
+                    <span class="editorial-block__compare-price">
+                      {{- product.selected_or_first_available_variant.compare_at_price | money -}}
+                    </span>
+                  {% endif %}
+                  <span class="editorial-block__price{% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %} on-sale{% endif %}">
+                    {{ product.selected_or_first_available_variant.price | money }}
+                  </span>
+                </div>
+
+                {% if product.variants.size > 1 or product.variants.first.title != 'Default Title' %}
+                  <form class="editorial-variant-form">
+                    <script type="application/json" data-variants>
+                      {{ product.variants | json }}
+                    </script>
+                    <script type="application/json" data-options>
+                      {{ product.options | json }}
+                    </script>
+
+                    {% assign rendered_values = '' %}
+                    {% assign default_options = '' %}
+
+                    <div class="variant-selectors-wrapper">
+                      <div class="variant-selectors">
+                        <p>Disponible en:</p>
+                        {% assign option_count = product.options.size %}
+
+                        {% comment %} PASO 1: Detectar el primer valor disponible por opción {% endcomment %}
+                      {% for i in (1..option_count) %}
+                        {% assign option_index = forloop.index0 %}
+                        {% assign option_name = product.options[option_index] %}
+
+                        {% assign first_available = '' %}
+                        {% for variant in product.variants %}
+                          {% assign value = variant.options[option_index] %}
+                          {% if value != blank and variant.available and first_available == '' %}
+                            {% assign first_available = value %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% if first_available != '' %}
+                          {% assign default_options = default_options
+                            | append: option_name
+                            | append: ':'
+                            | append: first_available
+                            | append: ','
+                          %}
+                        {% endif %}
+                      {% endfor %}
+
+                      {% comment %} PASO 2: Renderizar swatches y marcar el primero disponible {% endcomment %}
+                      {% for i in (1..option_count) %}
+                        {% assign option_index = forloop.index0 %}
+                        {% assign option_name = product.options[option_index] %}
+
+                        {% assign first_available = '' %}
+                        {% for variant in product.variants %}
+                          {% assign value = variant.options[option_index] %}
+                          {% if value != blank and variant.available and first_available == '' %}
+                            {% assign first_available = value %}
+                          {% endif %}
+                        {% endfor %}
+
+                        <div class="variant-option">
+                          <div class="swatches">
+                            {% for variant in product.variants %}
+                              {% assign value = variant.options[option_index] %}
+                              {% if value == blank %}{% continue %}{% endif %}
+
+                              {% assign value_key = option_name | append: ':' | append: value %}
+                              {% unless rendered_values contains value_key %}
+                                {% assign rendered_values = rendered_values | append: value_key | append: ',' %}
+
+                                <button
+                                  type="button"
+                                  class="swatch{% unless variant.available %} disabled{% endunless %}{% if value == first_available %} active{% endif %}"
+                                  data-option="{{ option_name }}"
+                                  data-value="{{ value }}"
+                                >
+                                  {{ value }}
+                                </button>
+                              {% endunless %}
+                            {% endfor %}
+                          </div>
+                        </div>
+                      {% endfor %}
+                      </div>
+                    </div>
+
+                    {% comment %} PASO 3: Encontrar el variant ID con las opciones por defecto {% endcomment %}
+                    {% comment %}
+                      {% assign default_variant_id = product.selected_or_first_available_variant.id %}
+                      {% if default_options != '' %}
+                        {% assign selected_pairs = default_options | split: ',' | pop %}
+                        {% for variant in product.variants %}
+                          {% assign match = true %}
+                          {% for pair in selected_pairs %}
+                            {% assign parts = pair | split: ':' %}
+                            {% assign opt_name = parts[0] %}
+                            {% assign opt_value = parts[1] %}
+                            {% assign opt_index = product.options | index0: opt_name %}
+
+                            {% if variant.options[opt_index] != opt_value %}
+                              {% assign match = false %}
+                            {% endif %}
+                          {% endfor %}
+                          {% if match and variant.available %}
+                            {% assign default_variant_id = variant.id %}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                    {% endcomment %}
+
+                    {% assign default_variant_id = product.selected_or_first_available_variant.id %}
+
+                    {% if default_options != '' %}
+                      {% assign selected_pairs = default_options | split: ',' %}
+
+                      {% for variant in product.variants %}
+                        {% assign match = true %}
+
+                        {% for pair in selected_pairs %}
+                          {% assign parts = pair | split: ':' %}
+                          {% assign opt_name = parts[0] %}
+                          {% assign opt_value = parts[1] %}
+
+                          {%- comment -%} Buscar índice de la opción (Color, Talla, etc.) {%- endcomment -%}
+                          {% assign opt_index = 0 %}
+                          {% assign counter = 0 %}
+
+                          {% for name in product.options %}
+                            {% if name == opt_name %}
+                              {% assign opt_index = counter %}
+                            {% endif %}
+                            {% assign counter = counter | plus: 1 %}
+                          {% endfor %}
+
+                          {% if variant.options[opt_index] != opt_value %}
+                            {% assign match = false %}
+                          {% endif %}
+                        {% endfor %}
+
+                        {% if match and variant.available %}
+                          {% assign default_variant_id = variant.id %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+
+                    <input type="hidden" name="id" value="{{ default_variant_id }}">
+                    <button type="submit" class="btn-add-to-cart">Agregar al carro</button>
+                  </form>
+                {% else %}
+                  <form class="editorial-variant-form">
+                    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                    <button type="submit" class="btn-add-to-cart">Agregar al carro</button>
+                  </form>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.collection_selected != blank and section.settings.collection_selected_quantity > 0 %}
+      {%- liquid
+        assign collection = section.settings.collection_selected
+        assign quantity = section.settings.collection_selected_quantity
+        assign columns = section.settings.collection_selected_columns
+      -%}
+
+      <div class="collection-products">
+        <div class="grid grid--{{ columns }}-col-desktop grid--2-col-tablet grid--1-col-mobile">
+          {%- for product in collection.products limit: quantity -%}
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 'adapt',
+              show_secondary_image: true,
+              show_vendor: false,
+              show_rating: true,
+              show_quick_view: true
+            %}
+          {%- endfor -%}
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.show_button_collection == true %}
+      <div class="text-center">
+        <a href="{{ section.settings.collection_selected.url }}" class="btn-view-more-collection"> Ver más </a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Editoriales",
+  "class": "section-gallery",
+  "max_blocks": 50,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Mostrar botón de cambio de vista",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button_collection",
+      "label": "Mostrar botón ver más",
+      "default": false
+    },
+    {
+      "type": "number",
+      "id": "margin_top",
+      "default": 50,
+      "label": "Margen Superior"
+    },
+    {
+      "type": "number",
+      "id": "margin_bottom",
+      "default": 50,
+      "label": "Margen Inferior"
+    },
+    {
+      "type": "checkbox",
+      "id": "skip_container",
+      "label": "Full screen width",
+      "default": false
+    },
+    {
+      "type": "collection",
+      "id": "collection_selected",
+      "label": "Selecciona una colección"
+    },
+    {
+      "type": "range",
+      "id": "collection_selected_columns",
+      "label": "Items a mostrar por fila",
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    {
+      "type": "number",
+      "id": "collection_selected_quantity",
+      "label": "¿Cuántos productos mostrar de la colección seleccionada?",
+      "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Producto",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Imagen Vista Normal"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_cuadrante",
+          "label": "Imagen vista cuadrante"
+        },
+        {
+          "type": "text",
+          "id": "video",
+          "label": "Video URL"
+        },
+        {
+          "type": "select",
+          "id": "size",
+          "label": "Width",
+          "default": "half",
+          "options": [
+            { "value": "quarter", "label": "1/4" },
+            { "value": "third", "label": "1/3" },
+            { "value": "half", "label": "1/2" },
+            { "value": "two-thirds", "label": "2/3" },
+            { "value": "full", "label": "Completo" }
+          ]
+        },
+        {
+          "type": "product",
+          "id": "selected_product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Editoriales",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

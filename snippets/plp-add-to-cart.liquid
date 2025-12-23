@@ -1,0 +1,145 @@
+<script src="{{ 'custom-swatch-plp.js' | asset_url }}"></script>
+
+<div class="plp-swatches-wrapper">
+  <p>Disponible en:</p>
+  <div class="plp-swatches">
+    {% if card_product.variants.size == 1 %}
+      <button
+        type="button"
+        class="plp-swatch"
+        data-variant-id="{{ card_product.selected_or_first_available_variant.id }}"
+        onclick="updateSelectedVariant(this)"
+      >
+        Talla Única
+      </button>
+    {% else %}
+      {% for variant in card_product.variants %}
+        <button
+          type="button"
+          class="plp-swatch{% unless variant.available %} disabled{% endunless %}"
+          data-variant-id="{{ variant.id }}"
+          onclick="updateSelectedVariant(this)"
+          {% unless variant.available %}disabled{% endunless %}
+        >
+          {{ variant.option1 }}
+        </button>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .plp-swatches-wrapper {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms, visibility 200ms;
+  }
+
+  @media (min-width: 751px) {
+    .card-wrapper:hover .plp-swatches-wrapper,
+    .grid__item:hover .plp-swatches-wrapper {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .plp-swatches-wrapper.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .plp-swatches-wrapper p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .plp-swatches {
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: center;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+    padding-bottom: 8px;
+  }
+
+  .plp-swatches::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .plp-swatches::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .plp-swatches::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+  }
+
+  @media (min-width: 751px) {
+    .plp-swatches {
+      justify-content: flex-start;
+    }
+  }
+
+  .only__drawer {
+  display: none;
+  }
+  @media (max-width: 750px) {
+    .plp-swatches-wrapper.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    .plp-swatches {
+      justify-content: flex-start;
+      padding-left: 5px;
+    }
+  }
+
+  .plp-swatch {
+    padding: 8px 12px;
+    border: 1px solid rgb(var(--color-button));
+    background: white;
+    color: rgb(var(--color-button));
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+    white-space: nowrap;
+    border-radius: 4px;
+  }
+
+  .plp-swatch.active {
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-button-text));
+  }
+
+  .plp-swatch.disabled {
+    color: lightgray;
+    border-color: lightgray;
+    cursor: not-allowed;
+  }
+
+  .plp-swatch.disabled:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top right, transparent calc(50% - .5px), rgba(128,128,128,.5) calc(50% - .5px), rgba(128,128,128,.5) calc(50% + .5px), transparent calc(50% + .5px));
+    pointer-events: none;
+  }
+</style>

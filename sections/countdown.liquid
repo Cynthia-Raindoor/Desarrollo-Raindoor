@@ -1,0 +1,57 @@
+{% comment %}
+  Sección: Contador de personas esperando
+  Con inputs numéricos (sin límite de pasos)
+{% endcomment %}
+
+<div class="contador">
+  <div style="text-align: center; margin-top: 20px;">
+    <h3>Hay <span id="contador">128</span> personas esperando para entrar.</h3>
+  </div>
+
+  <script>
+    // Valores desde el personalizador
+    const min = {{ section.settings.contador_min | default: 601 }};
+    const max = {{ section.settings.contador_max | default: 1548 }};
+
+    // Validar que max >= min
+    const finalMin = min;
+    const finalMax = max >= min ? max : min + 1;
+
+    // Número aleatorio
+    const numero = Math.floor(Math.random() * (finalMax - finalMin + 1)) + finalMin;
+
+    // Formato chileno
+    document.getElementById('contador').textContent = numero.toLocaleString('es-CL');
+  </script>
+</div>
+
+<style>
+  .contador h3 {
+    font-weight: 800; /* Negrita con grosor alto */
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Contador de Espera",
+  "settings": [
+    {
+      "type": "number",
+      "id": "contador_min",
+      "label": "Valor mínimo",
+      "default": 601
+    },
+    {
+      "type": "number",
+      "id": "contador_max",
+      "label": "Valor máximo",
+      "default": 1548
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contador de Espera"
+    }
+  ]
+}
+{% endschema %}

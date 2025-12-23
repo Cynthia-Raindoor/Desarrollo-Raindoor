@@ -1,0 +1,266 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_images_FtxEVn": {
+      "type": "slideshow-images",
+      "blocks": {
+        "slide_3Yd6HJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_9910752b-65f3-4574-81e2-248731b49b00.png",
+            "image_mobile": "shopify://shop_images/2_c7f38563-b15c-40d5-aa47-5beaf9c278a6.png",
+            "link": "shopify://collections/holiday-season"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3Yd6HJ"
+      ],
+      "disabled": true,
+      "name": "Sliders Home",
+      "settings": {
+        "top_margin": true
+      }
+    },
+    "editoriales_eEq4i9": {
+      "type": "editoriales",
+      "blocks": {
+        "column_grJbaX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ac3125af-6bf1-4857-868a-3becb53ce364.png",
+            "image_cuadrante": "shopify://shop_images/1856e1b3-6b50-42ec-9ae1-1ad6c1af8df2.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "jockey-bordado-brown"
+          }
+        },
+        "column_yqxc6k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/b552963b-8f58-4481-8130-11345386e5a2.png",
+            "image_cuadrante": "shopify://shop_images/cuadrantes_1.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "vestido-corto-white"
+          }
+        },
+        "column_AU8iiG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/af02ae54-5205-4fe6-9ecc-8702931c0ff7.png",
+            "image_cuadrante": "shopify://shop_images/e5de9c9a-ddc5-4f3e-bd99-bd1677cc413c.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-cintas-white"
+          }
+        },
+        "column_YRjPQf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA_VESTIDO.jpg",
+            "image_cuadrante": "shopify://shop_images/4b19d785-0b54-4477-b6d8-ecd9ce71ccd5.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "vestido-camisero-white"
+          }
+        },
+        "column_7PijDQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/14ccff7d-69dd-4871-af14-d41c3b66d252.png",
+            "image_cuadrante": "shopify://shop_images/fd73d765-f2af-4aad-a9c4-0965c2543d23.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "panuelo-polka-dot-brown"
+          }
+        },
+        "column_LDYLfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/19b4c629-f6b1-4e81-83ec-b2af9f8e9e4d.png",
+            "image_cuadrante": "shopify://shop_images/666cbb06-bd65-448a-9633-48d152b13300.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "sandalia-tiras-gold"
+          }
+        },
+        "column_XzFBME": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA_BLUSA_7f4cd517-b979-4983-a7fa-f2ed5aa509ad.jpg",
+            "image_cuadrante": "shopify://shop_images/b11b06f7-8c6d-416e-a137-860175d976d4.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-globo-lino-ecru"
+          }
+        },
+        "column_k68z6G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e68f75c2-da33-4d6a-90cd-6c24eeabc377.png",
+            "image_cuadrante": "shopify://shop_images/98ba2812-5901-4375-955f-e5790c2b7a4b.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-larga-panal-white"
+          }
+        },
+        "column_TnTGXf": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/11_1c25ed2f-0d99-4306-92ff-ab31f1856b22.png",
+            "image_cuadrante": "shopify://shop_images/9_dd6ab7c7-c1bd-45ad-822f-13e802f8d34b.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-ajustable-beige"
+          }
+        },
+        "column_WfmAmB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e2db018a-1e05-49ce-aebe-b9c1d48d71b2.png",
+            "image_cuadrante": "shopify://shop_images/2344dc48-74ad-41ab-9457-58adfbf52d5a.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "shopper-tachas-burgundy"
+          }
+        },
+        "column_PzBczm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/editorial-short_1.png",
+            "image_cuadrante": "shopify://shop_images/cuadrante_short.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "short-moon-white-2"
+          }
+        },
+        "column_Kx4iVx": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/10_9404a832-457b-454c-b36c-aa6d8e6b1473.png",
+            "image_cuadrante": "shopify://shop_images/8_93e15a47-063a-4e62-ad44-f5773917a418.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "short-moon-white-2"
+          }
+        },
+        "column_PQ9XDg": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/16.png",
+            "image_cuadrante": "shopify://shop_images/14_e7cfcc8a-e647-4ddd-8d96-247d83b1b8ee.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-bordadas-white"
+          }
+        },
+        "column_3YETNk": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/NYTGBFV-02.png",
+            "image_cuadrante": "shopify://shop_images/NYTGBFV-01.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-estampada-vuelos-lurex-blue"
+          }
+        },
+        "column_qwL6Q9": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dimensionado1.png",
+            "image_cuadrante": "shopify://shop_images/15_c9ef4da0-e259-4a0e-8999-3926eff858b8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-pliegues-white"
+          }
+        },
+        "column_G8pGwF": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dimensionado2.png",
+            "image_cuadrante": "shopify://shop_images/16_e63aedd9-e8ae-41c3-9769-a584af6d7e82.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "havaiana-slim-square-cafe"
+          }
+        }
+      },
+      "block_order": [
+        "column_grJbaX",
+        "column_yqxc6k",
+        "column_AU8iiG",
+        "column_YRjPQf",
+        "column_7PijDQ",
+        "column_LDYLfX",
+        "column_XzFBME",
+        "column_k68z6G",
+        "column_TnTGXf",
+        "column_WfmAmB",
+        "column_PzBczm",
+        "column_Kx4iVx",
+        "column_PQ9XDg",
+        "column_3YETNk",
+        "column_qwL6Q9",
+        "column_G8pGwF"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    },
+    "image_banner_qHFYGR": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/fc313385-b8b2-45e6-b6e2-a1455ca913c5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_images_FtxEVn",
+    "editoriales_eEq4i9",
+    "image_banner_qHFYGR"
+  ]
+}

@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mapa_custom_kW3JWq": {
+      "type": "mapa-custom",
+      "blocks": {
+        "item_PJXGfq": {
+          "type": "item",
+          "settings": {
+            "titulo": "Mall Casacostanera",
+            "direccion": "Av. Nueva Costanera 3900, Vitacura",
+            "latitud": "-33.4011438",
+            "longitud": "-70.6196852",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342906-primary.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "item_PJXGfq"
+      ],
+      "disabled": true,
+      "name": "Mapa",
+      "settings": {
+        "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    },
+    "rich_text_7K4eWn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xgVKDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Términos y Condiciones Black Friday"
+          }
+        },
+        "text_LaEKHP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. ASPECTOS GENERALES</p><p>Bienvenido a Raindoor. Estos Términos y Condiciones regulan el acceso y uso en Chile, de toda persona natural (consumidor final), en adelante, el “Usuario”, a la tienda virtual de Chileraindoor Spa. y para la campaña Cyber Raindoor a efectuarse a<br/>partir del 28 de noviembre de 2025 desde las 18:00 horas hasta el día 30 de<br/>noviembre hasta las 23:59 horas o hasta agotar stock de unidades disponibles, a<br/>la que se podrá acceder a través de nuestro sitio web raindoor.cl o en tiendas<br/>físicas Raindoor.</p><p> De esta forma, el Usuario acepta los términos y condiciones que se establecen en el presente instrumento, y manifiesta su conformidad con ellos.</p><p>En este sitio podrás usar, sin costo alguno, nuestro software, para visitar,<br/>comparar y adquirir, si lo deseas, los productos y servicios que aquí se<br/>exhiben.</p><p>Te recomendamos leer atentamente estos términos y condiciones.</p><p> Estos Términos y Condiciones se aplicarán y se entenderán incorporados en todas las compras realizadas en Chileraindoor Spa. (en adelante “Raindoor), RUT 76.718.895-1, domiciliada en Cerro El Plomo 5680, comuna de Las Condes, Chile,<br/>representada por Alejandra Acevedo Espinoza mediante los sistemas de<br/>comercialización comprendidos en este sitio web. Estos contratos, el uso de<br/>este sitio web y la aplicación de estos Términos y Condiciones se someterán a<br/>la duración de la campaña Cyber en su edición del mes de noviembre del año<br/>2025. </p><p>1.1.Sobre la base de la campaña</p><p>Podrán participar en la Campaña Black Friday Raindoor Noviembre 2025, todas las personas naturales que desde las 18:00 horas del 28 de noviembre de 2025 hasta las 23:59 horas del 30 de noviembre de 2025 realicen compras en raindoor.cl y tiendas físicas de Raindoor.</p><p>Solo estará disponible el envío a domicilio en compras online y compras en tiendas físicas, siempre y cuando los productos se encuentren con stock disponible en la tienda seleccionada.</p><p>1.2.Descuentos</p><p>Todos los productos Raindoor contarán con descuentos, los que irán desde un 0% a 50%.</p><p>Las promociones no son acumulables en Raindoor. *Exceptuando cupones seleccionados,<br/>sujetos a disponibilidad en la página web.</p><p>Los descuentos no se podrán combinar con códigos de descuentos ni Gift Cards.</p><p>Los códigos de embajadoras estarán inactivos.</p><p>Las Gift Card Banco de Chile estarán activas. </p><p> 2.1. Cambios y Devoluciones</p><p>Si los productos no satisfacen al usuario, éste puede realizar cambios en un plazo de 90 días desde realizada la compra en tiendas Raindoor o desde que reciba los productos de su compra en raindoor.cl.</p><p>Para gestionar un cambio se necesita:</p><p>Debes presentar la boleta (física o digital) o ticket de cambio.  </p><p>Debes gestionar el cambio dentro del plazo establecido, 90 días de corrido. </p><p>Los artículos tienen que estar en buenas condiciones, sin señales de uso y conservar todas sus etiquetas.  </p><p>Se realizarán máximo 2 cambios por boleta desde la boleta original.</p><p>Se respetarán los descuentos de compras realizadas en tiendas físicas o en página web solo cuando este sea por talla. Si se quiere cambiar por color u otro producto se deberá pagar la diferencia de precio correspondiente.</p><p>Los descuentos de compras realizadas en la Campaña Cyber Raindoor se respetarán al cambiar los productos siempre y cuando este sea por talla. En el caso contrario, si se quiere cambiar por color o modelo se deberá pagar la<br/>diferencia de precio total correspondiente.</p><p>Los cambios están sujetos a stock de productos.</p><p>Para devoluciones de dinero son hasta 10 días desde que es realizada la compra en tiendas Raindoor o que fue recibida por raindoor.cl. Para compras en Cyber la devolución será correspondiente al monto pagado.</p><p>Para gestionar una devolución se necesita:</p><p>Debes presentar la boleta (física o digital) o ticket de cambio.  </p><p>Debes gestionar la devolución dentro del plazo establecido, 10 días de corrido </p><p>Los artículos tienen que estar en buenas condiciones, sin señales de uso y conservar todas sus etiquetas. </p><p>Las devoluciones serán autorizados previa revisión de la jefa de Tienda o Vendedora a cargo en ese momento, quienes determinaran si el producto ha sido usado, intervenido, etc.  </p><p>No se generan devoluciones de productos cambiados.</p><p>En el caso de Accesorios tienen un plazo de 30 días para cambios y 10 días para realizar la devolución.</p><p>Si la compra se realizó en tienda se puede realizar el cambio/devolución<br/>únicamente en tienda. Si la compra es online se pueden hacer cambios y<br/>devoluciones mostrando la boleta en tiendas físicas o también por nuestra<br/>página web raindoor.reversso.cl</p><p>En caso de requerir el servicio de recogida a domicilio, se aplicará un costo adicional por despacho, el cual variará según la ubicación proporcionada por el<br/>cliente.</p><p>2.2. Garantía Legal</p><p>Si el producto presenta fallas o defectos de fábrica dentro de los 90 días<br/>siguientes a la fecha de emisión de boleta, puedes optar al cambio del mismo producto siempre que el producto no se hubiera deteriorado por un hecho imputable al Usuario. Puedes llevarlo directamente a nuestras tiendas. Los productos están sujetos a evaluación para realizar el cambio y según disponibilidad de stock. Si el producto no cuenta con stock disponible en la tienda en la que se presenta la solicitud de garantía se buscará disponibilidad en otras tiendas.</p><p>Se considerará que hay una falla o defecto de fábrica:</p><p>Productos sujetos a normas de seguridad o calidad de cumplimiento obligatorio que no<br/>cumplan con las especificaciones.</p><p>Si los materiales, partes, piezas o elementos que constituyan o integren los productos no correspondan a las especificaciones que ostenten o a las menciones del rotulado.</p><p>Productos que, por deficiencias de fabricación, elaboración, materiales, partes, piezas, elementos, estructura, calidad o condiciones, en su caso, no sea enteramente apto para el uso o consumo al que está destinado o al que el proveedor hubiese señalado en su publicidad.</p><p>Si el proveedor y consumidor hubieren convenido que los productos objeto del<br/>contrato debían reunir determinadas especificaciones y esto no ocurra.</p><p>Si después de la primera vez de haberse hecho efectiva la garantía y prestado el servicio técnico correspondiente, subsistieren las deficiencias que hagan al bien inapto para el uso o consumo a que se refiere el numeral 3. Este derecho subsistirá para el evento de presentarse una deficiencia a la que fue objeto del servicio técnico, o volviere a presentarse la misma.</p><p>Si la cosa objeto del contrato tiene efectos o vicios ocultos que imposibiliten el uso a que habitualmente se destine. </p><p>Para más información y detalles sobre la garantía de Raindoor puede consultar aquí.</p><p>Para más información puedes hacer click en Garantía Raindoor.</p><p>2.3. Stock de Productos</p><p>En el caso de que el producto seleccionado en la campaña Cyber Raindoor presente un quiebre de stock posterior a la compra del pedido debido a la cantidad de personas comprando en simultáneo, el equipo de Post Venta se contactará con el/la cliente/a para dar notificación y proceder a la devolución automática (al método de pago original).</p><p> 2.4. Cancelaciones</p><p>El pedido solo es posible cancelarlo si aún no sale a despacho (se encuentra en las bodegas de Raindoor) o es Retiro en Tienda (con stock de tienda). </p><p>Pedidos que se encuentren en traslado deben ser recepcionados para gestionar la devolución en tienda o por medio de la plataforma Reversso.</p><p>Pedidos con Despacho a tienda pueden ser cancelados si aún no sale a despacho.</p><p>Los reembolsos se verán reflejados en el mismo medio de pago en el que se realizó la compra en un plazo de 10 a 14 días hábiles, desde que se realizó la<br/>devolución del producto en una tienda o recepcionado por nuestra bodega.</p><p>Los reembolsos de compras realizadas con Gift Cards, una vez aprobada la<br/>devolución, se generará una nueva Gift Card con el monto de la devolución.</p><p> </p><p>3. DESPACHO DE LOS PRODUCTOS Y RETIRO EN TIENDA</p><p>3.1. Despacho de productos</p><p>Las condiciones de despacho y entrega de los productos adquiridos podrán ser<br/>escogidas de entre las opciones ofrecidas en el sitio.</p><p>La preparación de los pedidos para su posterior envío a domicilio de los productos comprados en la Campaña Cyber Raindoor será en un plazo de:</p><p>PedidosExpress: Ventas del día despachadas el mismo día, sujeto a apertura y cierre de sucursal. </p><p>Pedidos Same-Day: Estarán desactivados. </p><p>Pedidos página web: Región<br/>Metropolitana: 3 a 5 días.</p><p>Regiones: 5 a 8 días.</p><p>Retiro en Punto copec</p><p>Región Metropolitana: 3 a 5 días.</p><p>Pedidos con Despacho a tienda: </p><p>Región Metropolitana: 2 a 3 días.</p><p>Regiones: 5 a 8 días.</p><p>Retiro en Tienda:</p><p>Serán notificados como listos para retiro en un plazo de hasta 48 horas.</p><p>En periodo de alta demanda los plazos de entrega se pueden extender más de lo anteriormente mencionado.</p><p>En compras realizadas en raindoor.cl importante destacar que una vez preparado el pedido será entregado al courier para su entrega a domicilio.</p><p>Por compras sobre $39.990 obtén envío gratis a todo Chile. El monto debe ser sin descuentos aplicados para obtener el beneficio. <strong>*Excluye servicio de envíos Express.</strong></p><p></p><h4>3.2. Pedidos incompletos</h4><p>En caso de que una clienta reciba un pedido incompleto, ya sea una RaindoorBox u otro producto comercializado por Raindoor, se aplicarán los siguientes términos<br/>y condiciones:</p><h3>3.2.1. Plazo para realizar el reclamo</h3><p>La clienta contará con un plazo máximo de 5 días corridos desde la fecha de<br/>entrega del pedido para reportar la falta de uno o más productos.</p><p>Transcurrido este plazo, Raindoor no podrá garantizar la revisión ni la reposición de los artículos faltantes.</p><h3>3.2.2. Información obligatoria para gestionar el caso</h3><p>Para que el reclamo sea considerado válido, la clienta deberá enviar un correo electrónico a contacto@raindoor.cl, incluyendo:</p><p>- Imágenes detalladas del pedido recibido, donde se visualicen claramente:</p><p> - El contenido completo del paquete,</p><p> - El empaque y embalaje original,</p><p>  - El estado de la caja o envoltorio.</p><p>- Número de pedido.</p><p>- Boleta o comprobante de compra.</p><p>Esta documentación es imprescindible para verificar la falta de productos y<br/>gestionar una solución.</p><h3>3.2.3. Revisión del caso</h3><p>Una vez recibida toda la información solicitada, el equipo de Raindoor realizará una revisión del caso y emitirá una respuesta en un plazo razonable de 3 días hábiles.</p><p>La resolución puede incluir reposición del producto faltante u otra alternativa<br/>que Raindoor considere adecuada.</p><h3>3.2.4. Condiciones adicionales</h3><p>• El reclamo debe ser realizado por la persona que efectuó la compra o quien figure como receptora del pedido.</p><p>• Las imágenes deben ser claras, sin ediciones que dificulten la verificación del contenido.</p><p>• Raindoor podrá solicitar información adicional en caso de ser necesario para<br/>completar la evaluación.</p><p> 4. MEDIOS DE PAGO QUE PODRÁS UTILIZAR EN ESTE SITIO</p><p> 4.1. Medios de pago disponibles</p><p> - Mercado Pago</p><p>- Tarjetas<br/>de crédito bancarias Visa, Mastercard, siempre que mantengan un contrato<br/>vigente.</p><p>- Tarjetas de débito bancarias Redcompra ®, emitidas en Chile por bancos nacionales.</p><p>- Ventipay</p><p>- Tarjetas de crédito bancarias Visa, Mastercard.</p><p>- Tarjetas de débito bancarias hasta 3 cuotas sin interés.</p><p> </p><p>Si una transacción es anulada, la devolución se rige por las políticas del banco del usuario.</p><p> </p><p>4.2. Gift Cards</p><p>Las Gift Cards estarán inhabilitadas para la Campaña Cyber Raindoor.</p><p> </p><p>5. POLÍTICAS DE SEGURIDAD</p><p>Raindoor adoptará las medidas necesarias para resguardar la seguridad de los datos del Usuario. Si se detectan irregularidades, se contactará al Usuario para evitar fraudes.</p><p>En caso de no poder establecer contacto en 72 hrs, la orden será anulada.</p><p>Raindoor no solicita datos personales o financieros por correo electrónico.</p><p>Los datos personales sólo serán utilizados para gestionar la compra y no serán compartidos, salvo excepciones legales.</p><p>El Usuario puede ejercer sus derechos sobre sus datos (información, rectificación, cancelación, etc.) escribiendo a contacto@raindoor.cl.</p><p>El sitio puede contener enlaces a terceros; Raindoor no se hace responsable por su<br/>contenido.</p><p> </p><p>6. ALCANCE DE LOS PRECIOS INFORMADOS EN ESTE SITIO</p><p> Durante el Cyber, los precios pueden variar según el canal de venta.</p><p>Los precios del sitio web son exclusivos para ese canal.</p><p>No se aceptan reclamos por diferencias de precios.</p><p>Raindoor puede cancelar pedidos por errores de precio o stock.</p><p> </p><p>7. PROMOCIONES</p><p> Las promociones del sitio pueden no coincidir con las de otros canales de venta de<br/>Raindoor.</p><p> 8. PROPIEDAD INTELECTUAL</p><p> Todo el contenido del sitio es propiedad de Raindoor o sus proveedores y está<br/>protegido por leyes de propiedad intelectual.</p><p>Está prohibida la reproducción, copia o uso indebido del contenido sin autorización previa.</p><p> </p><p>9.SERVICIO AL USUARIO</p><p> Presentaciones,<br/>consultas o reclamos se deben enviar a contacto@raindoor.cl.</p><p> </p><p>10. VALIDEZ Y VIGENCIA DE ESTOS TÉRMINOS Y CONDICIONES</p><p> </p><p>Estos Términos pueden modificarse y entrarán en vigencia desde su publicación en el<br/>sitio.</p><p>Aplican a todas las transacciones realizadas a través del sitio.</p><p>Vigentes durante la campaña Cyber Raindoor Octubre 2025.</p><p> </p><p>11.EDAD MÍNIMA DE CONTRATACIÓN/COMPRA</p><p> La edad mínima para comprar en Raindoor es de 18 años.</p><p> </p><p> </p>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgVKDM",
+        "text_LaEKHP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "color_scheme": "scheme-2",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "mapa_custom_kW3JWq",
+    "rich_text_7K4eWn"
+  ]
+}

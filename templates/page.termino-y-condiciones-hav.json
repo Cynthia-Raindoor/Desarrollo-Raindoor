@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mapa_custom_kW3JWq": {
+      "type": "mapa-custom",
+      "blocks": {
+        "item_PJXGfq": {
+          "type": "item",
+          "settings": {
+            "titulo": "Mall Casacostanera",
+            "direccion": "Av. Nueva Costanera 3900, Vitacura",
+            "latitud": "-33.4011438",
+            "longitud": "-70.6196852",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342906-primary.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "item_PJXGfq"
+      ],
+      "disabled": true,
+      "name": "Mapa",
+      "settings": {
+        "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    },
+    "rich_text_7K4eWn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xgVKDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Términos y Condiciones HAVAIANAS X RAINDOOR"
+          }
+        },
+        "text_LaEKHP": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Cambios y Devoluciones Havaianas – Raindoor</strong></h3><ul><li>Si los productos Havaianas no satisfacen al cliente, éste podrá realizar <strong>cambios o devoluciones</strong> dentro de los plazos y<br/>condiciones que se detallan a continuación.</li></ul><h3><strong>Cambios</strong></h3><ul><li>El cliente puede realizar <strong>cambios dentro de 90 días corridos</strong> desde la fecha de compra en tiendas Raindoor o desde la recepción del pedido en raindoor.cl.</li><li>Para gestionar un cambio se requiere:</li><li>Presentar <strong>boleta (física o digital)</strong> o <strong>ticket de cambio</strong>.</li><li>Que el producto esté en <strong>perfectas condiciones</strong>, sin señales de uso y con <strong>todas sus etiquetas originales</strong>.</li><li>Los cambios están sujetos a <strong>disponibilidad de stock</strong>.</li><li>Se podrán realizar <strong>máximo 2 cambios por boleta</strong> desde la compra original.</li><li>Se respetarán los descuentos de compras realizadas en tiendas físicas o en el sitio web únicamente cuando el cambio sea por talla. Si el cambio es por color u otro producto, deberá abonarse la diferencia de precio correspondiente.</li><li>Si la compra fue realizada en tienda física, los cambios o devoluciones<br/>deben gestionarse exclusivamente en tiendas Raindoor.</li><li>Si la compra fue realizada en raindoor.cl, el cliente puede:</li></ul><p>Realizar el cambio o devolución en tiendas físicas Raindoor, presentando su<br/> boleta. O bien, enviar los productos a nuestro Centro de Distribución mediante Reversso en raindoor.reversso.cl.</p><h3><strong>Devoluciones</strong></h3><ul><li>El cliente puede solicitar una <strong>devolución dentro de 10 días corridos</strong> desde la fecha de compra en tiendas Raindoor o desde la recepción del pedido en<br/>raindoor.cl.</li><li>Para gestionar una devolución se requiere:</li></ul><p>Presentar <strong>boleta(física o digital)</strong> o <strong>ticket de cambio</strong>.</p><p>Que el producto esté en <strong>buenas condiciones</strong>, sin uso y con sus <strong>etiquetas intactas</strong>.</p><ul><li>Las devoluciones serán <strong>autorizadas previa revisión</strong> por parte de la jefa de tienda o vendedora a cargo, quienes verificarán el estado del producto.</li><li><strong>No se realizan devoluciones de productos que ya hayan sido cambiados.</strong></li><li>El reembolso será procesado dentro de un plazo máximo de <strong>14 días hábiles</strong> una vez aprobada la devolución, y se verá reflejado en la cuenta bancaria del cliente.</li></ul><h3><strong>Condiciones adicionales</strong></h3><ul><li>El cliente, al ejercer una de las garantías (cambio o devolución), <strong>anula automáticamente la otra opción</strong>.</li><li>No se realizan devoluciones de productos que hayan sido previamente cambiados.</li></ul><p> </p>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgVKDM",
+        "text_LaEKHP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "color_scheme": "scheme-2",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "mapa_custom_kW3JWq",
+    "rich_text_7K4eWn"
+  ]
+}

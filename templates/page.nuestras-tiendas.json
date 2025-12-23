@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mapa_custom_gacARL": {
+      "type": "mapa-custom",
+      "blocks": {
+        "item_e6aHYk": {
+          "type": "item",
+          "name": "Mall Paseo Los Dominicos",
+          "settings": {
+            "titulo": "Mall Plaza Los Dominicos",
+            "direccion": "Av. Padre Hurtado Sur 875, Las Condes Local: C_1085-1089",
+            "latitud": "-33.41516365",
+            "longitud": "-70.5406502420392",
+            "horarios": "<p><strong>Lunes a jueves:</strong> 10:30 am a 20:30 hrs.</p><p><strong>Viernes y sábado:</strong> 10:30 am a 21:00 hrs</p><p><strong>Domingo:</strong>11:00 a 20:00 hrs.<br/></p>",
+            "imagen": "shopify://shop_images/IMG_9738.heic"
+          }
+        },
+        "item_GWe7az": {
+          "type": "item",
+          "name": "Mall Parque Arauco",
+          "settings": {
+            "titulo": "Mall Parque Arauco",
+            "direccion": "Av. Presidente Kennedy 5413.",
+            "latitud": "-33.40273165",
+            "longitud": "-70.5786205037373",
+            "horarios": "<ul><li>Nivel 2, Local 287 -A</li><li>Contacto: +56937502216</li><li>Horarios:</li></ul><ol><li><strong>Lunes a jueves:</strong> 10:00 a 20:30 hrs.</li><li><strong>Viernes y sábado: </strong>10:00 a 21:00 hrs.</li><li><strong>Domingo:</strong> 11:00 a 20:30 hrs. </li></ol>",
+            "imagen": "shopify://shop_images/IMG_9738.heic"
+          }
+        },
+        "item_wNNDBn": {
+          "type": "item",
+          "name": "Mall Costanera Center",
+          "settings": {
+            "titulo": "Mall Costanera Center",
+            "direccion": "Av. Andrés Bello 2425, Providencia",
+            "latitud": "-33.4183131",
+            "longitud": "-70.6085746",
+            "horarios": "<ul><li>Piso 2, Local 2108</li><li>Contacto:<br/>+56 9 8301 3362<br/>costanera.center@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 21:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/1713984711-primary.jpg"
+          }
+        },
+        "item_gX4mgm": {
+          "type": "item",
+          "name": "Mall Casacostanera",
+          "settings": {
+            "titulo": "Mall Casacostanera",
+            "direccion": "Av. Nueva Costanera 3900, Vitacura",
+            "latitud": "-33.4033631",
+            "longitud": "-70.5986609",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342906-primary.jpg"
+          }
+        },
+        "item_kjpcBH": {
+          "type": "item",
+          "name": "Mall Portal La Dehesa",
+          "settings": {
+            "titulo": "Mall Portal La Dehesa",
+            "direccion": "Av. La Dehesa 1445, Lo Barnechea.",
+            "latitud": "-33.357279582675396",
+            "longitud": "-70.51516233244814",
+            "horarios": "<ul><li>Piso 2 - Local 2086 </li><li>Contacto:<br/>+56 9 79636506<br/></li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/IMG_9738.heic"
+          }
+        },
+        "item_EpNh8r": {
+          "type": "item",
+          "name": "Mall Marina Oriente",
+          "settings": {
+            "titulo": "Mall Marina Oriente",
+            "direccion": "14 Norte 976, Viña del Mar",
+            "latitud": "-33.0097376",
+            "longitud": "-71.5457208",
+            "horarios": "<ul><li>Piso 3 - Local 328</li><li>Contacto:<br/>+56 9 6615 5943<br/>tiendamarina@raindoor.cl</li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/marina_oriente.jpg"
+          }
+        },
+        "item_6KpthK": {
+          "type": "item",
+          "name": "Mall Plaza Maule",
+          "settings": {
+            "titulo": "Mall Plaza Maule",
+            "direccion": "Av. Circunvalación Oriente 1055, Talca",
+            "latitud": "-35.4231882",
+            "longitud": "-71.6496958",
+            "horarios": "<ul><li>Piso 1 - Local 1139-1140</li><li>Contacto: <br/>+56 9 5483 8588<br/>raindoortalca@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342771-marker.jpg"
+          }
+        },
+        "item_KEbCQT": {
+          "type": "item",
+          "name": "Mall Arauco Chillán",
+          "settings": {
+            "titulo": "Mall Arauco Chillán",
+            "direccion": "El Roble 770, Chillán.",
+            "latitud": "-36.609577111170424",
+            "longitud": "-72.10061850345785",
+            "horarios": "<ul><li>Piso 2 - Local 121</li><li>Contacto:<br/>+56 9 40753380<br/>tiendachillan@raindoor.cl </li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/APERTURA_CHILLAN.jpg"
+          }
+        },
+        "item_6XjbaX": {
+          "type": "item",
+          "name": "Mall Plaza Trébol",
+          "settings": {
+            "titulo": "Mall Plaza Trébol",
+            "direccion": "Av. Jorge Alessandri 3177, Concepción",
+            "latitud": "-36.7918656",
+            "longitud": "-73.0690384",
+            "horarios": "<ul><li>Piso 1 - Local H131</li><li>Contacto:<br/>+56972885709<br/>tiendatrebol@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas.</li></ul>",
+            "imagen": "shopify://shop_images/Imagen_de_WhatsApp_2024-04-29_a_las_14.45.01_d898b405_eaa5baef-e818-4be9-9e95-3730350515c2.jpg"
+          }
+        },
+        "item_KMUjVr": {
+          "type": "item",
+          "name": "Pucón",
+          "settings": {
+            "titulo": "Pucón",
+            "direccion": "Fresia N°335, Pucón",
+            "latitud": "-39.275641581804784",
+            "longitud": "-71.97628400517338",
+            "horarios": "<ul><li>Contacto:<br/>+56978965362<br/></li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/IMG_2984.heic"
+          }
+        },
+        "item_9jMhBb": {
+          "type": "item",
+          "name": "Mall Paseo Valdivia",
+          "settings": {
+            "titulo": "Mall Paseo Valdivia",
+            "direccion": "Mall Paseo Valdivia",
+            "latitud": "-39.8143523",
+            "longitud": "-73.24349579999999",
+            "horarios": "<ul><li>Piso 1, Local 108-D</li><li>Contacto:<br/>+56 9 8547 8244<br/>tiendavaldivia@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas</li></ul>",
+            "imagen": "shopify://shop_images/1722528941-primary.jpg"
+          }
+        },
+        "item_QrBzT4": {
+          "type": "item",
+          "name": "Mall Paseo Costanera",
+          "settings": {
+            "titulo": "Mall Paseo Costanera",
+            "direccion": "Illapel 10, Puerto Montt",
+            "latitud": "-41.4736888",
+            "longitud": "-72.9345251",
+            "horarios": "<ul><li>Piso 2, Local 211-A</li><li>Contacto:<br/>+56978714259<br/>tiendapuertomontt@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo de 10:00 a 20:00 horas.</li></ul>",
+            "imagen": "shopify://shop_images/IMG_4723_1.jpg"
+          }
+        },
+        "item_nddqnd": {
+          "type": "item",
+          "name": "Mall Plaza Los Ángeles",
+          "settings": {
+            "titulo": "[Próximamente] Mall Plaza Los Ángeles",
+            "direccion": "Valdivia 440, Los Ángeles",
+            "latitud": "-37.4669782",
+            "longitud": "-72.3531378",
+            "horarios": "",
+            "imagen": "shopify://shop_images/IMG_3240.jpg"
+          }
+        },
+        "item_hxxhkf": {
+          "type": "item",
+          "name": "Mall Alto Las Condes",
+          "settings": {
+            "titulo": "[Próximamente] Mall Alto Las Condes",
+            "direccion": "Av. Presidente Kennedy Lateral 9001, 7591567",
+            "latitud": "-33.39090545",
+            "longitud": "-70.5460815771821",
+            "horarios": "",
+            "imagen": "shopify://shop_images/IMG_3240.jpg"
+          }
+        },
+        "item_7N77E3": {
+          "type": "item",
+          "name": "Corner Falabella ",
+          "settings": {
+            "titulo": "Raindoor Falabella",
+            "direccion": "",
+            "latitud": "",
+            "longitud": "",
+            "horarios": "<ul><li>Falabella Parque Arauco<br/>Av. Pdte. Kennedy 5413, Las Condes, RM<br/>10:30 - 20:30</li><li>Falabella Alto Las Condes<br/>Av. Padre Hurtado Nte 223, Las Condes, RM<br/>10:30 - 20:30</li><li>Falabella La Dehesa<br/>Av. La Dehesa 1445, La Dehesa, Lo Barnechea, RM<br/>10:30 - 20:30</li><li>Falabella Temuco<br/>Arturo Prat 570, Temuco, Araucanía<br/>9:30 - 19:30</li><li>Falabella La Serena<br/>Alberto Solari 1400, La Serena, Coquimbo<br/>10:30 - 20:30</li></ul>",
+            "imagen": "shopify://shop_images/IMG_4231.jpg"
+          }
+        },
+        "item_4aTnj3": {
+          "type": "item",
+          "name": "Corner Paris",
+          "settings": {
+            "titulo": "Raindoor Paris",
+            "direccion": "",
+            "latitud": "",
+            "longitud": "",
+            "horarios": "<ul><li>Paris Alto Las Condes<br/>Av. Pdte. Kennedy 9001, Las Condes, RM<br/>10:00 - 20:00</li><li>Paris Portal Rancagua<br/>Av. Presidente Eduardo Frei 750, Rancagua, O'Higgins<br/>10:00 - 20:00</li><li>Paris Parque Arauco<br/>Av. Pdte. Kennedy 5413, Las Condes, RM<br/>10:00 - 20:00</li><li>Paris Plaza La Serena<br/>Alberto Solari 1400, La Serena, Coquimbo<br/>10:00 - 20:00</li><li>Paris Marina Arauco<br/>Av. Libertad 1390, Viña del Mar, Valparaíso<br/>10:00 - 20:00</li><li>Paris La Dehesa<br/>Av. La Dehesa 1445, La Dehesa, Lo Barnechea, RM<br/>10:00 - 20:00</li><li>Paris Costanera Center<br/>Av. Andrés Bello 2447, local 1200, Providencia, RM<br/>10:30 - 20:30</li><li>Paris Portal Temuco<br/>Av. Alemania 0671, Temuco, Araucanía<br/>10:00 - 20:00</li><li>Paris Puerto Montt<br/>Egaña 20, Puerto Montt, Los Lagos<br/>10:00 - 20:00</li><li>Paris Vespucio<br/>Vicuña Mackenna, Mall Pl. Vespucio 7110, La Florida<br/>10:30 - 20:30</li><li>Paris Antofagasta<br/>Av. José Manuel Balmaceda 2355, Antofagasta<br/>10:00 - 20:00</li></ul>",
+            "imagen": "shopify://shop_images/IMG_4231.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "item_e6aHYk",
+        "item_GWe7az",
+        "item_wNNDBn",
+        "item_gX4mgm",
+        "item_kjpcBH",
+        "item_EpNh8r",
+        "item_6KpthK",
+        "item_KEbCQT",
+        "item_6XjbaX",
+        "item_KMUjVr",
+        "item_9jMhBb",
+        "item_QrBzT4",
+        "item_nddqnd",
+        "item_hxxhkf",
+        "item_7N77E3",
+        "item_4aTnj3"
+      ],
+      "name": "Mapa",
+      "settings": {
+        "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "mapa_custom_gacARL"
+  ]
+}

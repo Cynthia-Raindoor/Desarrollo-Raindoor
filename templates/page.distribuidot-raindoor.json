@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_JgnCnE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MtRTBd": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>SÉ DISTRIBUIDOR RAINDOOR</strong></h2>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_MtRTBd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "scheme-2",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": "#ffffff"
+      }
+    },
+    "image_with_text_Dz8khE": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_xBBk6d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si estás interesado en ser distribuidor de la marca y vender nuestros productos, tenemos precios especiales para ti. Sólo debes tener tienda o marca con local físico. </p><p>Hoy en día tenemos más de 40 mayoristas activos que con su ayuda hemos logrado tener presencia a lo largo de todo Chile. No queremos quedarnos así, sino que, queremos seguir creciendo y llevando nuestra marca a todos los puntos del país. </p>",
+            "text_style": "subtitle"
+          }
+        },
+        "heading_G4cnyh": {
+          "type": "heading",
+          "settings": {
+            "heading": "REVISA NUESTRO CATÁLOGO",
+            "heading_size": "h2"
+          }
+        },
+        "button_UHMQiN": {
+          "type": "button",
+          "settings": {
+            "button_label": "COMPRA AL POR MAYOR",
+            "button_link": "https://somoslokal.cl/makers/raindoor?referred=raindoor",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_xBBk6d",
+        "heading_G4cnyh",
+        "button_UHMQiN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/mayorista_1d635c30-f050-46ae-a06a-14f95a868226.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_LeMP3m": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/1234r.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_zeydJG": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qXLGib": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Para más información escríbenos a <a href=\"mailto:contacto@raindoor.cl\" title=\"mailto:contacto@raindoor.cl\">contacto@raindoor.cl</a> y te ayudaremos en cualquier duda que tengas. Debes incluir el nombre de tu marca, la ubicación y redes sociales.<br/><br/>No lo dudes y sé parte de Raindoor.</h6>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_qXLGib"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_JgnCnE",
+    "image_with_text_Dz8khE",
+    "image_banner_LeMP3m",
+    "rich_text_zeydJG"
+  ]
+}

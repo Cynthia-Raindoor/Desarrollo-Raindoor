@@ -1,0 +1,339 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_7XQJHk": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BANNER-WEB_Roqueria03.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-flores-tachas-white"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner3_03389f40-5f38-4270-ac6e-3e4dcdecfb1a.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blazer-tejido-tartan-brown"
+          }
+        },
+        "column_GegrDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit_4.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-entrepierna-black-r"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit_5.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-corazon-gray-r"
+          }
+        },
+        "column_QEw6em": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner4_81f54839-f97c-4490-84c5-4b1320e19c34.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-botones-pu-ecru"
+          }
+        },
+        "column_RGAywG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit_6.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-whistler-blue-r"
+          }
+        },
+        "column_haYMfe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit7.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "puffa-bolsillo-corazon-ecru"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-bordado-langosta-blue"
+          }
+        },
+        "column_3efYjT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit_8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-quilt-ecru"
+          }
+        },
+        "column_eraKKT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit-9.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-pocket-blue-r"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_j3YKwM",
+        "column_GegrDP",
+        "column_UbAfd8",
+        "column_QEw6em",
+        "column_RGAywG",
+        "column_haYMfe",
+        "column_7EGhit",
+        "column_3efYjT",
+        "column_eraKKT"
+      ],
+      "settings": {
+        "show_button": false,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "la-roqueria",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    },
+    "editoriales_e9VRqG": {
+      "type": "editoriales",
+      "blocks": {
+        "column_ryz7Hd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner6.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-pliegues-broderie-white"
+          }
+        },
+        "column_QqxEYr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit10.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-panal-lineas-blue"
+          }
+        },
+        "column_FRYhUe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit11.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pants-laser-rombos-blue"
+          }
+        },
+        "column_YMdkgx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner8.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-royal-escoses"
+          }
+        },
+        "column_VVQ6ca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit14.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-quilt-gray"
+          }
+        },
+        "column_7mqYgL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit15.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-puffa-gray"
+          }
+        },
+        "column_4TQVij": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner7_fe569e7d-0131-4b34-bc3f-a1b810d50ed7.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "abrigo-trench-vichy-beige"
+          }
+        },
+        "column_C8WQGe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit12.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-panal-lineas-blue"
+          }
+        },
+        "column_q3WM4b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit13.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cargo-bag-blue"
+          }
+        }
+      },
+      "block_order": [
+        "column_ryz7Hd",
+        "column_QqxEYr",
+        "column_FRYhUe",
+        "column_YMdkgx",
+        "column_VVQ6ca",
+        "column_7mqYgL",
+        "column_4TQVij",
+        "column_C8WQGe",
+        "column_q3WM4b"
+      ],
+      "settings": {
+        "show_button": false,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "la-roqueria",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    },
+    "editoriales_ekW7fa": {
+      "type": "editoriales",
+      "blocks": {
+        "column_YKTPQA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner9.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-cuello-bebe-estampada-white"
+          }
+        },
+        "column_a9Mgcc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit16.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-sherpa-pu-ecru"
+          }
+        },
+        "column_wnrPgX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit17.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-nuria-black-r"
+          }
+        },
+        "column_LPtHTG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner10.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-corazones-ecru"
+          }
+        },
+        "column_3WpN6K": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit20.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-whistler-black-r"
+          }
+        },
+        "column_UjVJdz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit18.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "puffa-bolsillo-corazon-ecru"
+          }
+        },
+        "column_CMQkhz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit19.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-animal-print-straight"
+          }
+        }
+      },
+      "block_order": [
+        "column_YKTPQA",
+        "column_a9Mgcc",
+        "column_wnrPgX",
+        "column_LPtHTG",
+        "column_3WpN6K",
+        "column_UjVJdz",
+        "column_CMQkhz"
+      ],
+      "settings": {
+        "show_button": false,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "la-roqueria",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_7XQJHk",
+    "editoriales_e9VRqG",
+    "editoriales_ekW7fa"
+  ]
+}

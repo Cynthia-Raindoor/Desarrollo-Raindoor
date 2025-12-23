@@ -1,0 +1,150 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_plp_TjqfGi": {
+      "type": "editoriales-plp",
+      "blocks": {
+        "column_r9zPnk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Web-Lunes10.png",
+            "size": "full",
+            "page_selected": "silvestre"
+          }
+        },
+        "column_tHtx9B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BannerMobile_Miercoles29.png",
+            "size": "half",
+            "page_selected": "slow-editorial"
+          }
+        },
+        "column_e4Ef9c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barra_Menu_Home_Aurora.jpg",
+            "size": "half",
+            "page_selected": "aurora"
+          }
+        },
+        "column_p6UNPW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/editorial9_b9fef5a3-4429-4304-bb40-90c56edf15da.jpg",
+            "size": "half",
+            "page_selected": "chiloe-editorial-nueva-coleccion"
+          }
+        },
+        "column_GXG9mr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/La_Herencia_Barra_Lateral.jpg",
+            "size": "half",
+            "page_selected": "la-herencia"
+          }
+        },
+        "column_QU3cM6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barra_Menu_Home_Josefa_Saez.jpg",
+            "size": "full",
+            "page_selected": "josefa-saez-x-raindoor"
+          }
+        }
+      },
+      "block_order": [
+        "column_r9zPnk",
+        "column_tHtx9B",
+        "column_e4Ef9c",
+        "column_p6UNPW",
+        "column_GXG9mr",
+        "column_QU3cM6"
+      ],
+      "disabled": true,
+      "name": "Listado de Editoriales",
+      "settings": {
+        "show_button": true,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false
+      }
+    },
+    "rich_text_Pek8KF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V6zeLP": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡PRUEBA TU SUERTE!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V6zeLP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_tiL8d6": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Tgh3jY\"></div>",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_JqpHe8": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/GIF-PAGINA.gif",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_plp_TjqfGi",
+    "rich_text_Pek8KF",
+    "custom_liquid_tiL8d6",
+    "image_with_text_JqpHe8"
+  ]
+}

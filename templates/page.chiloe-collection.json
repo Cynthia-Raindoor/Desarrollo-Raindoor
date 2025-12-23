@@ -1,0 +1,514 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_7XQJHk": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner2_8c083ac0-acc1-42e1-a4b7-0a2c6411b911.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-abuca-black"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga4_3f1e447f-43e7-4653-bbb3-e971b78bc8a8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "jardinera-cotele-vuelos-gray"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga-5.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-cuello-en-v-white"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner3_d633d11d-632f-427b-acc8-9d88d6363a10.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-vichy-lazos-red"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bufan.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-maxi-black"
+          }
+        },
+        "column_YwJWHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/calida_sss-01.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-entrepierna-blue-r"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner6_71c2d6dd-2a65-471c-a632-0b996ab2b963.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-vest-trenzado-gray"
+          }
+        },
+        "column_t36T3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga-8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-acolchada-black"
+          }
+        },
+        "column_AFgait": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga9.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "poncho-flecos-gray"
+          }
+        },
+        "column_4GH8xH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga6_dcf669ff-ed4f-4d2e-b5de-177c5527c063.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-aviadora-pu-black"
+          }
+        },
+        "column_7kdnz3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga7_bf7c659b-ab35-4338-916e-f0d1232548e6.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-abuca-wool"
+          }
+        },
+        "column_GegrDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner7_0e74cb0a-3d09-4b28-aec8-16f9a3732ed2.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-mapa-mundi"
+          }
+        },
+        "column_PxyMNA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga11.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-acolchado-cuello-alto-gray"
+          }
+        },
+        "column_kQ8qyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-vest-acolchado-beige"
+          }
+        },
+        "column_BgGRqU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga15.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-cuello-tortuga-black"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga16.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-flores-tachas-black"
+          }
+        },
+        "column_yUbii6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga13.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "abrigo-lanilla-melange-brown"
+          }
+        },
+        "column_4CRiag": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga14.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-acolchada-tachas-black"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_eJiMXj",
+        "column_ARJqii",
+        "column_j3YKwM",
+        "column_bLVeCb",
+        "column_YwJWHm",
+        "column_7EGhit",
+        "column_t36T3x",
+        "column_AFgait",
+        "column_4GH8xH",
+        "column_7kdnz3",
+        "column_GegrDP",
+        "column_PxyMNA",
+        "column_kQ8qyP",
+        "column_BgGRqU",
+        "column_UbAfd8",
+        "column_yUbii6",
+        "column_4CRiag"
+      ],
+      "settings": {
+        "skip_container": false,
+        "collection_selected": "chiloe-new-collection"
+      }
+    },
+    "editoriales_e9VRqG": {
+      "type": "editoriales",
+      "blocks": {
+        "column_qHUcEW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5_24c9b09a-3b96-411d-9c25-5dec36d9581f.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-cuello-tortuga-ecru"
+          }
+        },
+        "column_QhKKdC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/polera-manga-larga-lineas-white.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "polera-manga-larga-lineas-white"
+          }
+        },
+        "column_X6ABx3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/diagonal22.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-diagonal-light-blue-r"
+          }
+        },
+        "column_FRYhUe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/editorial_xa-01.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "sweater-polo-rayas-black"
+          }
+        },
+        "column_ryz7Hd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cvdsvdcxsa-01.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-remaches-white"
+          }
+        },
+        "column_3zEtCr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BAG.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "bag-shopper-tachas-beige"
+          }
+        },
+        "column_QqxEYr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/chioprro-black.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "chiporro-black"
+          }
+        },
+        "column_qwTk3a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bufanda-red.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "bufanda-maxi-red"
+          }
+        },
+        "column_JfPheR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/aviadroa.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "chaqueta-aviadora-bonded-brown-r"
+          }
+        },
+        "column_C8WQGe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/diagonal-pu.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "puffa-pu-diagonal-black"
+          }
+        },
+        "column_AM3fqW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CROSAN.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "baguette-bag-beige"
+          }
+        },
+        "column_eHHcKb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pu-brown.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-pu-cuello-chiporro-brown"
+          }
+        },
+        "column_4TQVij": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/chaqueta-pu-brown.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-tiro-bajo"
+          }
+        },
+        "column_q3WM4b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/chiporro-pu_7fb95c07-f673-4ede-9dcf-9fe88456edd1.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-drizzle-black"
+          }
+        },
+        "column_9nxDt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bufanda-ec.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-maxi-beige"
+          }
+        },
+        "column_ULzrDq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HARRYPOTER.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-mini-rayada"
+          }
+        },
+        "column_tTj73e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cuello-cotele.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-cuello-cotele-brown"
+          }
+        },
+        "column_q4HPUj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/blazer_7820c40a-3dd1-426c-a2aa-532c3e507ed3.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "blazer-lineas-lurex-blue"
+          }
+        },
+        "column_wkHMiK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vest.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "vest-lineas-lurex-blue"
+          }
+        },
+        "column_PEVh7Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pants-lurex.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-lineas-lurex-blue"
+          }
+        }
+      },
+      "block_order": [
+        "column_qHUcEW",
+        "column_QhKKdC",
+        "column_X6ABx3",
+        "column_FRYhUe",
+        "column_ryz7Hd",
+        "column_3zEtCr",
+        "column_QqxEYr",
+        "column_qwTk3a",
+        "column_JfPheR",
+        "column_C8WQGe",
+        "column_AM3fqW",
+        "column_eHHcKb",
+        "column_4TQVij",
+        "column_q3WM4b",
+        "column_9nxDt8",
+        "column_ULzrDq",
+        "column_tTj73e",
+        "column_q4HPUj",
+        "column_wkHMiK",
+        "column_PEVh7Y"
+      ],
+      "settings": {
+        "skip_container": false,
+        "collection_selected": "chiloe-new-collection"
+      }
+    },
+    "editoriales_ekW7fa": {
+      "type": "editoriales",
+      "blocks": {
+        "column_wnrPgX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Polera-Tejida-Ho.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "polera-tejida-hombros-gray"
+          }
+        },
+        "column_YKTPQA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pano.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-pano-marinera-blue"
+          }
+        },
+        "column_LPtHTG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/chiporro-vuelos_3ac6ff69-0d4a-4d3e-8b5e-6219a9b22649.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-vuelos-frontales-black"
+          }
+        },
+        "column_a9Mgcc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sweater-lineas.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-cuello-alto-lineas-ecru"
+          }
+        },
+        "column_3WpN6K": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/edit20.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-whistler-black-r"
+          }
+        },
+        "column_UjVJdz": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/edit18.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "puffa-bolsillo-corazon-ecru"
+          }
+        },
+        "column_CMQkhz": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/edit19.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-animal-print-straight"
+          }
+        }
+      },
+      "block_order": [
+        "column_wnrPgX",
+        "column_YKTPQA",
+        "column_LPtHTG",
+        "column_a9Mgcc",
+        "column_3WpN6K",
+        "column_UjVJdz",
+        "column_CMQkhz"
+      ],
+      "settings": {
+        "skip_container": false,
+        "collection_selected": "chiloe-new-collection"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_7XQJHk",
+    "editoriales_e9VRqG",
+    "editoriales_ekW7fa"
+  ]
+}

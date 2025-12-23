@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_wrGMRJ": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner2_e2d0f6b8-c7da-4f50-be89-10323bc1fbc9.png",
+            "image_cuadrante": "shopify://shop_images/banner2_045d4d7d-97a6-4b90-9514-c122bc20f4c1.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-flare-blue-r"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner3_6be41107-220e-4591-9302-4734a58e783c.png",
+            "image_cuadrante": "shopify://shop_images/banner3_670a5b3a-41a5-48da-8320-090e7005c269.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-bicolor-franja-white"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner-denim_pdte.png",
+            "image_cuadrante": "shopify://shop_images/banner-denim_pdte_16ee9e1c-1f75-48db-a34c-7ab3630fd877.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pants-animal-print-star-2"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga5_047eac2f-b217-4ac1-a9d5-664b90c1ad6e.png",
+            "image_cuadrante": "shopify://shop_images/Relleno_generativo_f0f58d1f-4493-415f-abed-98055ea95e38.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-tiro-bajo"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner4_26522364-bffa-478a-b666-c5c577a4d86a.png",
+            "image_cuadrante": "shopify://shop_images/banner4_d0af4955-d676-4eae-96df-ff76c7f3ca01.png",
+            "video": "",
+            "size": "two-thirds",
+            "selected_product": "pantalon-flare-gray-r"
+          }
+        },
+        "column_YwJWHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5_329d877c-a3d0-4f01-9b85-518f2e0fd12d.png",
+            "image_cuadrante": "shopify://shop_images/banner5_58e30f6a-6e66-4a40-9f52-6b7f2f30451a.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-animal-print-straight"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner6_a7e8bcc0-d2c8-4d05-8e06-3be27290de63.png",
+            "image_cuadrante": "shopify://shop_images/Relleno_generativo_2_df8238cc-1dff-44f6-9545-7db627ffe92d.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-pockets-cow"
+          }
+        },
+        "column_t36T3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner7_410eaaa5-466e-40ee-9a6e-c281051068fa.png",
+            "image_cuadrante": "shopify://shop_images/banner7_5b5f8412-f4c2-461a-b804-708ccca52d99.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-pretina-cruzada-black"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_eJiMXj",
+        "column_ARJqii",
+        "column_j3YKwM",
+        "column_bLVeCb",
+        "column_YwJWHm",
+        "column_7EGhit",
+        "column_t36T3x"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_wrGMRJ"
+  ]
+}

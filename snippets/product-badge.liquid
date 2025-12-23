@@ -1,0 +1,36 @@
+{%- comment -%}
+  Renders a product badge using metafield
+
+  Accepts:
+  - product: {Object} Product Liquid object
+  - class: {String} Additional CSS classes (optional)
+
+  Usage:
+  {% render 'product-badge', product: product %}
+{%- endcomment -%}
+
+{%- if settings.enable_product_badge and product.metafields.global['product-text-badge'] != blank -%}
+  {%- liquid
+    assign badge_text = product.metafields.global['product-text-badge']
+    assign badge_bg_color = settings.product_badge_bg_color | default: '#ff0000'
+    assign badge_text_color = settings.product_badge_text_color | default: '#ffffff'
+    assign badge_border_radius = settings.product_badge_border_radius | default: 4
+    assign badge_font_size = settings.product_badge_font_size | default: 12
+    assign badge_top = settings.product_badge_top | default: 10
+    assign badge_left = settings.product_badge_left | default: 10
+  -%}
+  
+  <div 
+    class="product-badge {{ class }}"
+    style="
+      --badge-bg-color: {{ badge_bg_color }};
+      --badge-text-color: {{ badge_text_color }};
+      --badge-border-radius: {{ badge_border_radius }}px;
+      --badge-font-size: {{ badge_font_size }}px;
+      --badge-top: {{ badge_top }}px;
+      --badge-left: {{ badge_left }}px;
+    "
+  >
+    {{ badge_text }}
+  </div>
+{%- endif -%}

@@ -1,0 +1,326 @@
+{% comment %}
+  Editoriales Section for Dawn Theme
+{% endcomment %}
+
+
+{% comment %} {{ 'editoriales-plp.css' | asset_url | stylesheet_tag }} {% endcomment %}
+
+{%- liquid
+  assign skip_container = section.settings.skip_container
+  assign container_class = 'page-width'
+  if skip_container
+    assign container_class = ''
+  endif
+-%}
+<section class="section-gallery-{{ section.id }}">
+  <div class="{{ container_class }}">
+    {% if section.settings.show_button == true %}
+      <div class="grid-view-toggle ">
+        <div class="grid-view-toggle__inner">
+          <button
+            type="button"
+            id="grid-toggle-button"
+            class="grid-view-button d-flex justify-content-start align-items-center"
+          >
+            <span class="grid-icon">
+              {{ 'icon-vista-4.svg' | inline_asset_content }}
+            </span>
+            <span class="txt-buttons-cat txt-vista4">Vista 4</span>
+          </button>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const button = document.getElementById('grid-toggle-button');
+          const gallery = document.querySelector('.gallery-blocks');
+
+          if (!button || !gallery) {
+            console.warn('Botón o galería no encontrada');
+            return;
+          }
+
+          const storageKey = 'editoriales_gallery_mode';
+          const iconSpan = button.querySelector('.grid-icon');
+          const textSpan = button.querySelector('.txt-buttons-cat');
+
+          const icon4 = `{{ 'icon-vista-4.svg' | inline_asset_content }}`;
+          const iconOriginal = `{{ 'icon-vista-2.svg' | inline_asset_content }}`;
+
+          // === GUARDAR ESTADO ORIGINAL DE COLUMNAS ===
+          const blocks = Array.from(gallery.children);
+          const originalClasses = blocks.map((block) => {
+            const classList = Array.from(block.classList);
+            return classList.filter((c) => c.startsWith('column-'))[0] || 'column-quarter';
+          });
+
+          // === ESTADO ===
+          let isCompact = localStorage.getItem(storageKey) === 'compact';
+
+          // === APLICAR VISTA ===
+          const applyView = () => {
+            blocks.forEach((block, i) => {
+              // --- 1. Clases de columna ---
+              block.className = ''; // limpiar clases
+              const targetClass = isCompact ? 'column-quarter' : originalClasses[i];
+              block.classList.add(targetClass);
+
+              // --- 2. Mostrar/ocultar imágenes ---
+              const imgNormal = block.querySelector('.img-normal');
+              const imgCuadrante = block.querySelector('.img-cuadrante');
+
+              if (imgNormal) {
+                imgNormal.style.display = isCompact ? 'none' : 'block';
+              }
+              if (imgCuadrante) {
+                imgCuadrante.style.display = isCompact ? 'block' : 'none';
+              }
+            });
+
+            // --- 3. Actualizar botón ---
+            iconSpan.innerHTML = isCompact ? icon4 : iconOriginal;
+            textSpan.textContent = isCompact ? 'Vista Normal' : 'Vista Cuadrante';
+            textSpan.className = `txt-buttons-cat txt-vista${isCompact ? 'original' : '4'}`;
+
+            localStorage.setItem(storageKey, isCompact ? 'compact' : 'original');
+          };
+
+          // === CLICK ===
+          button.addEventListener('click', () => {
+            isCompact = !isCompact;
+            applyView();
+          });
+
+          // === CARGA INICIAL ===
+          applyView();
+        });
+      </script>
+    {% endif %}
+    <div class="gallery-blocks">
+      {% for block in section.blocks %}
+        {%- liquid
+          assign size = block.settings.size
+          assign class_size = 'column-' | append: size
+          assign image = block.settings.image
+          assign image_cuadrante = block.settings.image_cuadrante
+          assign page = block.settings.page_selected
+        -%}
+
+        <div class="{{ class_size }}" {{ block.shopify_attributes }}>
+          {% if page != blank %}
+            <a href="{{ page.url }}">
+          {% endif %}
+
+          {% if image != blank %}
+            <img
+              src="{{ image | image_url: width: 1500 }}"
+              alt="{{ image.alt | escape }}"
+              loading="lazy"
+              width="100%"
+              height="auto"
+              class="img-normal"
+            >
+          {% endif %}
+
+          {% if image_cuadrante != blank and section.settings.show_button %}
+            <img
+              src="{{ image_cuadrante | image_url: width: 1500 }}"
+              alt="{{ image_cuadrante.alt | escape }}"
+              loading="lazy"
+              width="100%"
+              height="auto"
+              class="img-cuadrante"
+            >
+          {% endif %}
+
+          {% if page != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Listado de Editoriales",
+  "class": "section-gallery",
+  "max_blocks": 50,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Mostrar botón de cambio de vista",
+      "default": false
+    },
+    {
+      "type": "number",
+      "id": "margin_top",
+      "default": 50,
+      "label": "Margen Superior"
+    },
+    {
+      "type": "number",
+      "id": "margin_bottom",
+      "default": 50,
+      "label": "Margen Inferior"
+    },
+    {
+      "type": "checkbox",
+      "id": "skip_container",
+      "label": "Full screen width",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Pages",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Imagen"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_cuadrante",
+          "label": "Imagen vista cuadrante"
+        },
+        {
+          "type": "select",
+          "id": "size",
+          "label": "Ancho",
+          "default": "half",
+          "options": [
+            { "value": "quarter", "label": "1/4" },
+            { "value": "third", "label": "1/3" },
+            { "value": "half", "label": "1/2" },
+            { "value": "two-thirds", "label": "2/3" },
+            { "value": "full", "label": "Completo" }
+          ]
+        },
+        {
+          "type": "page",
+          "id": "page_selected",
+          "label": "Página destino"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Listado de Editoriales",
+      "blocks": [{ "type": "column" }, { "type": "column" }]
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+  .section-gallery-{{ section.id }} .img-normal,
+  .section-gallery-{{ section.id }} .img-cuadrante {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* Aseguramos que las imágenes ocultas no ocupen espacio */
+  .section-gallery-{{ section.id }} img[style*="display: none"] {
+    display: none !important;
+  }
+      .section-gallery-{{ section.id }} {
+        padding-top: {{section.settings.margin_top}}px;
+        padding-bottom: {{section.settings.margin_bottom}}px;
+      }
+
+      .section-gallery-{{ section.id }} .gallery-blocks {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .section-gallery-{{ section.id }} .gallery-blocks > [class^="column-"] {
+        padding: 0.5rem;
+        box-sizing: border-box;
+      }
+
+      /* === Tamaños de columnas === */
+      .section-gallery-{{ section.id }} .column-quarter {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+
+      .section-gallery-{{ section.id }} .column-third {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+      }
+
+      .section-gallery-{{ section.id }} .column-half {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .section-gallery-{{ section.id }} .column-two-thirds {
+        flex: 0 0 66.666%;
+        max-width: 66.666%;
+      }
+
+      .section-gallery-{{ section.id }} .column-full {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+
+
+      /* === Imágenes y videos dentro de bloques === */
+      .section-gallery-{{ section.id }} img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+      }
+
+      .section-gallery-{{ section.id }} a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .section-gallery-{{ section.id }} a:hover {
+        opacity: 0.9;
+      }
+
+
+      .section-gallery-{{ section.id }} #grid-toggle-button {
+        color: rgba(var(--color-foreground), 0.85) !important;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        gap: 0.6rem;
+        min-width: 8rem;
+        font-size: 1.3rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-gallery-{{ section.id }} .grid-icon {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-gallery-{{ section.id }} .grid-view-toggle__inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom:2rem;
+        font-size: 1.4rem;
+    }
+{% endstyle %}

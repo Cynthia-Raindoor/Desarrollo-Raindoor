@@ -1,0 +1,196 @@
+{% comment %}
+  Renders a header drawer menu for mobile and desktop.
+
+  Usage:
+  {% render 'header-drawer' %}
+{% endcomment %}
+
+<header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
+  <details id="Details-menu-drawer-container" class="menu-drawer-container">
+    <summary
+      class="header__icon header__icon--menu header__icon--summary link focus-inset"
+      aria-label="{{ 'sections.header.menu' | t }}"
+    >
+      <span>
+        {{- 'icon-hamburger.svg' | inline_asset_content -}}
+        {{- 'icon-close.svg' | inline_asset_content -}}
+      </span>
+    </summary>
+    <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
+      <div class="menu-drawer__inner-container">
+        <div class="menu-drawer__navigation-container">
+          <nav class="menu-drawer__navigation">
+            <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+              {%- for link in section.settings.menu.links -%}
+                <li>
+                  {%- if link.links != blank -%}
+                    <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                      
+                      {% comment %} --- LOGICA ARRAY PARA MENU CON SUBMENU --- {% endcomment %}
+                      {% assign match_found = false %}
+                      {% assign link_title_down = link.title | downcase | strip %}
+                      {% assign highlight_list = section.settings.menu_highlight_text | split: ',' %}
+                      
+                      {% for item in highlight_list %}
+                        {% assign item_down = item | downcase | strip %}
+                        {% if item_down == link_title_down %}
+                          {% assign match_found = true %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                      {% comment %} ----------------------------------------- {% endcomment %}
+
+                      <summary
+                        id="HeaderDrawer-{{ link.handle }}"
+                        class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
+                        
+                        {% if match_found %}
+                          style="color: {{ section.settings.menu_highlight_color }};"
+                        {% endif %}
+                      >
+                        {{ link.title | escape }}
+                        <span class="svg-wrapper">
+                          {{- 'icon-plus.svg' | inline_asset_content -}}
+                          {{- 'icon-minus.svg' | inline_asset_content -}}
+                        </span>
+                      </summary>
+                      <div
+                        id="link-{{ link.handle | escape }}"
+                        class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                        tabindex="-1"
+                      >
+                        <div class="menu-drawer__inner-submenu">
+                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                            {%- for childlink in link.links -%}
+                              <li>
+                                {%- if childlink.links == blank -%}
+                                  <a
+                                    id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                                    href="{{ childlink.url }}"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                    {% if childlink.current %}
+                                      aria-current="page"
+                                    {% endif %}
+                                  >
+                                    {{ childlink.title | escape }}
+                                  </a>
+                                {%- else -%}
+                                  <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
+                                    <summary
+                                      id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                                    >
+                                      {{ childlink.title | escape }}
+                                      <span class="svg-wrapper">
+                                        {{- 'icon-plus.svg' | inline_asset_content -}}
+                                        {{- 'icon-minus.svg' | inline_asset_content -}}
+                                      </span>
+                                    </summary>
+                                    <div
+                                      id="childlink-{{ childlink.handle | escape }}"
+                                      class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                                    >
+                                      <ul
+                                        class="menu-drawer__menu list-menu"
+                                        role="list"
+                                        tabindex="-1"
+                                      >
+                                        {%- for grandchildlink in childlink.links -%}
+                                          <li>
+                                            <a
+                                              id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                              href="{{ grandchildlink.url }}"
+                                              class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                              {% if grandchildlink.current %}
+                                                aria-current="page"
+                                              {% endif %}
+                                            >
+                                              {{ grandchildlink.title | escape }}
+                                            </a>
+                                          </li>
+                                        {%- endfor -%}
+                                      </ul>
+                                    </div>
+                                  </details>
+                                {%- endif -%}
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                        </div>
+                      </div>
+                    </details>
+                  {%- else -%}
+                    {% assign title_normalized = link.title | strip | downcase %}
+                    
+                    {% comment %} --- LOGICA ARRAY PARA MENU SIMPLE --- {% endcomment %}
+                    {% assign match_found = false %}
+                    {% assign link_title_down = link.title | downcase | strip %}
+                    {% assign highlight_list = section.settings.menu_highlight_text | split: ',' %}
+                      
+                    {% for item in highlight_list %}
+                       {% assign item_down = item | downcase | strip %}
+                       {% if item_down == link_title_down %}
+                          {% assign match_found = true %}
+                          {% break %}
+                       {% endif %}
+                    {% endfor %}
+                    {% comment %} ------------------------------------- {% endcomment %}
+
+                    <a
+                      id="HeaderDrawer-{{ link.handle }}"
+                      href="{{ link.url }}"
+                      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+                      {% if link.current %}
+                        aria-current="page"
+                      {% endif %}
+
+                      {% if match_found %}
+                        style="color: {{ section.settings.menu_highlight_color }};"
+                      {% endif %}
+                    >
+                      {{ link.title | escape }}
+                    </a>
+                    {% if title_normalized == 'editoriales' %}
+                      {% if section.settings.show_submenu_images == true %}
+                        {% if section.settings.submenu_image_heading != blank %}
+                          <span class="menu-img-heading">{{ section.settings.submenu_image_heading }}</span>
+                        {% endif %}
+
+                        {% if section.settings.submenu_image_url != blank
+                          or section.settings.submenu_image_scnd_url != blank
+                        %}
+                          <div class="menu_img_container">
+                            <a href="{{ section.settings.submenu_image_url }}">
+                              <img
+                                src="{{ section.settings.submenu_image | img_url: '245x' }}"
+                                alt="Editoriales Image 1"
+                                width="245"
+                                height="369"
+                                style="max-width: 100%; height: auto;"
+                                loading="lazy"
+                              >
+                            </a>
+                            <a href="{{ section.settings.submenu_image_scnd_url }}">
+                              <img
+                                src="{{ section.settings.submenu_image_scnd | img_url: '245x' }}"
+                                alt="Editoriales Image 2"
+                                width="245"
+                                height="369"
+                                style="max-width: 100%; height: auto;"
+                                loading="lazy"
+                              >
+                            </a>
+                          </div>
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+                  {%- endif -%}
+                </li>
+              {%- endfor -%}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </details>
+</header-drawer>

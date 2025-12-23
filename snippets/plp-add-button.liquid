@@ -1,0 +1,40 @@
+<form action="/cart/add" method="post" class="plp-add-form">
+  <input type="hidden" name="id" class="selected-variant-id" value="">
+  <button type="submit" class="plp-add-btn" onclick="handleAddToCart(event, this)">
+    Agregar al carro
+  </button>
+</form>
+
+<style>
+  .plp-add-form {
+    margin-top: 1rem;
+  }
+
+  .plp-add-btn {
+    padding: 12px;
+    border: 1px solid rgb(var(--color-button)) !important;
+    background: rgb(var(--color-button)) !important;
+    color: rgb(var(--color-button-text)) !important;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+
+  @media (max-width: 750px) {
+    .plp-add-btn {
+      font-size: 0.9rem;
+    }
+  }
+
+  .plp-add-btn:hover:not([disabled]) {
+    background: rgba(var(--color-button), 0.85) !important;
+  }
+
+  .plp-add-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+</style>

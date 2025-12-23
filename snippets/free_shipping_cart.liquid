@@ -1,0 +1,164 @@
+{% if settings.mini_cart_free != blank %}
+  {% assign price = settings.mini_cart_free %}
+{% else %}
+  {% assign price = 40000 | money_without_trailing_zeros %}
+{% endif %}
+
+{% assign price = price | times: 1 %}
+{% assign price_cart_total = cart.total_price | divided_by: 100 %}
+
+{% assign width = '' %}
+{% if price_cart_total < price %}
+  {% assign remaining_price = price | minus: price_cart_total %}
+  {% capture width %}
+    {{ price_cart_total | times: 100 | divided_by: price }}%
+    {% endcapture %}
+{% else %}
+  {% capture width %}100%{% endcapture %}
+{% endif %}
+{% assign diff = price | minus: price_cart_total %}
+<div class="side-cart-progress-bar{% if price_cart_total >= price %} cm-free-ship{% endif %} {% if diff < 16 %}orange-bar{% endif %}">
+  {% if price_cart_total >= price %}
+    <h6>{{ 'sections.cart.free_shipping_html' | t }}</h6>
+
+  {% else %}
+    {% assign add_ship_text = 'sections.cart.progress_html' | t %}
+    <h6>
+      {{ add_ship_text | split: '$remaining_price' | first -}}
+      {{- remaining_price | times: 100 | money -}}
+      {{- add_ship_text | split: '$remaining_price' | last }}
+    </h6>
+  {% endif %}
+  <div class="progress-bar ">
+    <div class="back-bar">
+      <span style="width:{{ width }}"></span>
+    </div>
+  </div>
+</div>
+
+<style>
+  /*======= Progrees Bar Cart =====*/
+  .side-cart-progress-bar h6 {
+    margin: 0!important;
+    padding: 0;
+  }
+  .side-cart-progress-bar {
+    padding: 10px 0;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+
+    margin-bottom: 20px;
+  }
+
+  .side-cart-progress-bar.cm-free-ship {
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+  }
+  .cm-minicart-footer .side-cart-progress-bar.cm-free-ship h6 {
+    color: #8688bc;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+  }
+  .side-cart-progress-bar.cm-free-ship .back-bar span {
+    background-color: #58b76a;
+  }
+
+  .side-cart-progress-bar h6 {
+    color: #666666;
+    font-family: var(--Visby-CF-Medium);
+    font-size: 12px;
+    margin: 10px 0;
+    width: calc(100% - 20px);
+    text-align: center;
+    font-weight: 500;
+  }
+  .side-cart-progress-bar h6 b {
+    font-family: var(--VisbyCF-Bold);
+  }
+  .side-cart-progress-bar h6 a {
+    text-decoration: underline;
+    padding-left: 5px;
+  }
+
+  .progress-bar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .back-bar {
+    background: #e4e4e4;
+    height: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 5px auto 0;
+    border-radius: 30px;
+    text-align: left;
+  }
+
+  .back-bar span {
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    background: #aeb208;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .cm-mini-cart-body .side-cart-progress-bar h6 {
+    color: #666666;
+    font-family: var(--Visby-CF-Medium);
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0 5px;
+    display: block;
+    text-align: center;
+  }
+  .cm-mini-cart-body .side-cart-progress-bar h6 b {
+    font-family: var(--VisbyCF-Bold);
+    padding: 0 2px;
+    font-weight: 700;
+  }
+  .cm-mini-cart-body .side-cart-progress-bar .back-bar {
+    margin: 10px 0 0 !important;
+    width: 100%;
+    background: rgba(215, 216, 216, 0.4);
+  }
+
+  .cm-mini-cart-body .side-cart-progress-bar h6 span {
+    text-decoration: line-through;
+  }
+  .cm-mini-cart-body .side-cart-progress-bar .back-bar span {
+    background: #aeb208;
+  }
+
+  .side-cart-progress-bar.orange-bar h6 b.orange-txt {
+    color: #000000;
+  }
+  .side-cart-progress-bar.cm-free-ship.orange-bar .back-bar span {
+    background: #aeb208;
+  }
+  .side-cart-progress-bar.cm-free-ship.orange-bar h6 b {
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const newSideCartProgressBar = doc.querySelector('.side-cart-progress-bar');
+    const currentSideCartProgressBar = document.querySelector('.side-cart-progress-bar');
+    if (newSideCartProgressBar && currentSideCartProgressBar) {
+      currentSideCartProgressBar.innerHTML = newSideCartProgressBar.innerHTML;
+    }
+  });
+</script>

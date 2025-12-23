@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mapa_custom_kW3JWq": {
+      "type": "mapa-custom",
+      "blocks": {
+        "item_PJXGfq": {
+          "type": "item",
+          "settings": {
+            "titulo": "Mall Casacostanera",
+            "direccion": "Av. Nueva Costanera 3900, Vitacura",
+            "latitud": "-33.4011438",
+            "longitud": "-70.6196852",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342906-primary.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "item_PJXGfq"
+      ],
+      "disabled": true,
+      "name": "Mapa",
+      "settings": {
+        "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    },
+    "rich_text_7K4eWn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xgVKDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Términos y Condiciones Calendario Adviento"
+          }
+        },
+        "text_LaEKHP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>TÉRMINOS Y CONDICIONES – CALENDARIO DE ADVIENTO RAINDOOR<br/>2025</strong></p><p>El presente instrumento regula los términos y condiciones<br/>aplicables a la compra del producto denominado “Calendario de Adviento Raindoor<br/>2025” (en adelante, el “Producto”), comercializado por Raindoor a través de sus<br/>tiendas físicas y del sitio web oficial <a href=\"http://www.raindoor.cl/\">www.raindoor.cl</a><br/>(en adelante, el “Sitio”).</p><p>La adquisición del Producto implica la aceptación expresa,<br/>íntegra e irrevocable de las cláusulas que se detallan a continuación, así como<br/>de los Términos y Condiciones Generales de Raindoor vigentes en el Sitio.</p><p><strong>1. DISPONIBILIDAD Y VENTA</strong></p><p>1.1. Fecha de<br/>lanzamiento. El Producto estará disponible para su venta a contar del viernes 12<br/>de diciembre de 2025, manteniéndose vigente su comercialización hasta el<br/>agotamiento total del stock disponible, en tiendas físicas.</p><p>El Producto<br/>estará disponible para su venta a contar del martes 09 de diciembre de 2025,<br/>manteniéndose vigente su comercialización hasta el agotamiento total del stock<br/>disponible, en Ecommerce.</p><p>1.2. Stock. Se dispone de un stock limitado, distribuido de<br/>la siguiente forma:</p><ul><li>Tiendas<br/>     físicas: 350 unidades, estas se dividirán en cada una de las tiendas<br/>     oficiales.</li><li>Ecommerce:<br/>     50 unidades.</li></ul><p>1.3. Actualización de disponibilidad. La disponibilidad del<br/>Producto se encuentra sujeta a confirmación y actualización en tiempo real<br/>conforme al stock existente en el canal de venta respectivo. Raindoor no<br/>garantiza la reserva de unidades hasta la confirmación efectiva del pago.</p><p><strong>2. PRECIOS DE LOS PRODUCTOS INCLUIDOS</strong></p><p>2.1. Valores referenciales. El Producto incluye diversos<br/>artículos, cuyos precios unitarios son meramente referenciales y no constituyen<br/>oferta independiente de venta. Dichos valores corresponden a una estimación al<br/>momento de la publicación, y pueden variar por campañas promocionales vigentes:</p><ul><li>Top Halter Pink – $29.990 CLP</li><li>Top Bandana Broderie White – $29.990 CLP</li><li>Falda Larga Panal White – $34.990 CLP</li><li>Falda Vuelos Grey – $29.990 CLP</li><li>Jockey Estrella Bicolor Navy – $19.990 CLP</li><li>Botella Rose – $19.990 CLP</li><li>Top Halter Brown – $29.990 CLP</li><li>Falda Tachas Black – $34.990 CLP</li><li>Top Tank Estrellas Grey – $24.990 CLP</li><li>Blusa Pliegues White – $29.990 CLP </li><li>Cinturón Estrellas Tachas Brown – $14.990 CLP</li><li>Aros Estrellas Gold – $9.990 CLP</li><li>Collar – $9.990 CLP</li></ul><p>2.2. Garantía legal. En conformidad a la normativa vigente sobre protección de los derechos de los consumidores, si el Producto presentare fallas o defectos de fabricación dentro de los 6 meses legales siguientes a la fecha de emisión de la boleta, el consumidor tendrá derecho a exigir el cambio del mismo producto, siempre que el deterioro no sea imputable<br/>a un uso indebido por parte del Usuario.</p><ul><li>El ejercicio de este derecho deberá realizarse presentando el Producto en cualquiera de las tiendas Raindoor.</li><li>Todo producto será sometido a evaluación técnica previa para determinar la procedencia de la garantía.</li><li>El cambio estará sujeto a disponibilidad de stock. En caso de no existir stock en la tienda donde se realiza la solicitud, Raindoor gestionará la búsqueda en otras tiendas.</li></ul><p>Se entenderá que existe falla o defecto de fábrica, entre otros casos, cuando:</p><p>a) El Producto no cumpla con normas de seguridad o calidad obligatorias.<br/><br/>b) Sus materiales, partes o piezas no se correspondan con las especificaciones<br/>informadas en el rotulado.<br/><br/>c) Presente deficiencias de fabricación, materiales o estructura que lo hagan<br/>inhábil para el uso al que está destinado o al publicitado por Raindoor.<br/><br/>d) No reúna las características o especificaciones expresamente convenidas con el consumidor.<br/><br/>e) Subsistan defectos después de haberse hecho efectiva la garantía y prestado servicio técnico, o reaparezcan defectos iguales o distintos.<br/><br/>f) Posea vicios ocultos que impidan su uso habitual.</p><p>Para mayor información sobre la garantía legal y convencional de Raindoor, el consumidor deberá revisar la sección correspondiente en el Sitio (Garantía Raindoor).</p><p>2.3. Alcance de precios informados. Los precios publicados en el Sitio:</p><ul><li>Son  exclusivos para dicho canal de venta y pueden diferir de otros canales.</li><li>Pueden variar durante eventos promocionales (Cyber u otros).</li><li>No dan derecho a reclamo por diferencias de precio.</li><li>Raindoor se reserva el derecho de anular pedidos por errores manifiestos de precio o stock.</li></ul><p>2.4. Cancelaciones.<br/><br/>a) La cancelación de pedidos sólo procederá si éstos aún no han sido<br/>despachados desde bodegas Raindoor o cuando correspondan a modalidad Retiro en Tienda con stock disponible.<br/><br/>b) Los pedidos en tránsito deberán ser recepcionados por el consumidor para<br/>luego gestionar devolución en tienda o mediante la plataforma Reversso.<br/><br/>c) Los pedidos con despacho a tienda podrán cancelarse únicamente mientras no hayan salido a distribución.<br/><br/>d) Los reembolsos se efectuarán en el mismo medio de pago utilizado en la<br/>compra, dentro de 10 a 14 días hábiles desde que el Producto sea devuelto en<br/>tienda o recepcionado en bodega.<br/><br/>e) En compras realizadas con Gift Card, una vez aprobada la devolución, se<br/>emitirá una nueva Gift Card por el monto correspondiente.</p><p> </p><p><strong>3. CAMBIOS</strong></p><p>3.1. El consumidor podrá solicitar cambio del Producto dentro de 90 (noventa) días corridos desde la fecha de compra.</p><p>3.2. El cambio procederá exclusivamente por talla, no<br/>admitiéndose cambios por modelo, color u otros atributos.</p><p>3.3. Para solicitar cambio, deberá restituirse el Producto en su totalidad, esto es, con la caja completa y todos los artículos incluidos, sin excepción.</p><p>3.4. El cambio se realizará por una caja completa correspondiente a la nueva talla disponible.</p><p>3.5. Pedidos incompletos. Si el consumidor recibe un pedido<br/>incompleto, se aplicarán las siguientes reglas:</p><p>3.5.1. Plazo de reclamo</p><p>El consumidor contará con un plazo máximo de 5 (cinco) días<br/>corridos desde la fecha de entrega para reportar la falta de productos.<br/>Transcurrido dicho plazo, Raindoor no garantiza reposición.</p><p>3.5.2. Antecedentes obligatorios</p><p>El reclamo deberá enviarse a <a href=\"mailto:contacto@raindoor.cl\">contacto@raindoor.cl</a>, adjuntando<br/>obligatoriamente:</p><ul><li>Imágenes claras del pedido recibido, mostrando:</li><li>Contenido completo del paquete;</li><li>Empaque/embalaje original;</li><li>Estado de caja o envoltorio.</li><li>Número de pedido.</li><li>Boleta o comprobante de compra.</li></ul><p>3.5.3. Revisión y respuesta</p><p>Raindoor revisará los antecedentes y responderá dentro de un<br/>plazo de 3 (tres) días hábiles, pudiendo disponer reposición del producto<br/>faltante u otra medida razonable.</p><p>3.5.4. Condiciones adicionales</p><ul><li>El reclamo debe ser realizado por el comprador o destinatario registrado.</li><li>Las  imágenes deberán ser nítidas, sin ediciones.</li><li>Raindoor podrá requerir antecedentes adicionales.</li></ul><p><strong> </strong></p><p><strong>4. DEVOLUCIONES</strong></p><p>4.1. Se aceptarán devoluciones dentro de 10 (diez) días<br/>corridos desde la compra.</p><p>4.2. Para su procedencia, el consumidor deberá restituir el Producto completo, sin uso, con todos los artículos incluidos y en perfecto estado.</p><p>4.3. No se aceptarán devoluciones parciales o individuales de artículos contenidos en la caja.</p><p><strong> </strong></p><p><strong>5. DESCUENTOS Y CÓDIGOS PROMOCIONALES</strong></p><p>5.1. Los códigos de Embajadoras no serán aplicables a la compra del Producto.</p><p>5.2. La Gift Card Banco de Chile será válida conforme a sus propios términos de uso.</p><p><strong> </strong></p><p><strong>6. PLAZOS DE ENTREGA (ECOMMERCE)</strong></p><p>6.1. Los pedidos realizados en el Sitio serán despachados dentro de los siguientes plazos estimados:</p><ul><li>Región Metropolitana: hasta 6 días hábiles.</li><li>Regiones: hasta 8 días hábiles.</li></ul><p>6.2. Los plazos son referenciales y pueden variar por contingencias logísticas ajenas a Raindoor.</p><p><strong> </strong></p><p><strong>7. PROMOCIONES</strong></p><p>Las promociones del Sitio pueden no coincidir con aquellas vigentes en tiendas físicas u otros canales oficiales de Raindoor.</p><p><strong> </strong></p><p><strong>8. PROPIEDAD INTELECTUAL</strong></p><p>Todo contenido incluido en el Sitio y asociado al Producto es propiedad de Raindoor o de sus proveedores, y se encuentra protegido por las leyes de propiedad intelectual. Queda prohibida su reproducción total o parcial<br/>sin autorización previa y expresa.</p><p><strong> </strong></p><p><strong>9. SERVICIO AL USUARIO</strong></p><p>Toda presentación, consulta o reclamo deberá dirigirse al correo <a href=\"mailto:contacto@raindoor.cl\">contacto@raindoor.cl</a>.</p><p><strong> </strong></p><p><strong>10. VALIDEZ Y VIGENCIA</strong></p><p>10.1. Raindoor se reserva el derecho de modificar estos términos en cualquier momento, entrando en vigencia desde su publicación en el sitio.</p><p>10.2. Estos términos serán aplicables a todas las compras del Producto efectuadas durante el período de comercialización del Calendario<br/>de Adviento Raindoor 2025.</p><p><strong> </strong></p><p><strong>11. EDAD MÍNIMA PARA CONTRATACIÓN</strong></p><p>Sólo podrán efectuar compras en Raindoor personas mayores de<br/>18 (dieciocho) años.</p><p><strong> </strong></p><p><strong>12. POLÍTICAS DE SEGURIDAD</strong></p><p>12.1. Raindoor adoptará las medidas necesarias para resguardar la seguridad de los datos del Usuario.<br/><br/>12.2. En caso de detectar irregularidades, Raindoor podrá contactar al Usuario para prevenir fraudes.<br/><br/>12.3. Si no se logra contacto en un plazo de 72 horas, Raindoor podrá anular la<br/>orden.<br/><br/>12.4. Raindoor no solicita datos personales o financieros por correo<br/>electrónico.<br/><br/>12.5. Los datos personales serán utilizados sólo para la gestión de la compra y no serán compartidos, salvo obligación legal.<br/><br/>12.6. El Usuario podrá ejercer sus derechos de información, rectificación o<br/>cancelación mediante correo a <a href=\"mailto:contacto@raindoor.cl\">contacto@raindoor.cl</a>.<br/><br/>12.7. El Sitio puede contener enlaces a terceros, sin responsabilidad de Raindoor respecto de su contenido.</p><p><strong> </strong></p><p><strong>13. DISPOSICIONES FINALES</strong></p><p>13.1. El stock del Producto es limitado y su disponibilidad no se entenderá garantizada hasta la confirmación del pago.</p><p>13.2. La compra del Producto implica la aceptación de estas condiciones y de los Términos y Condiciones Generales de Raindoor publicados en<br/>el Sitio.</p><p><strong> </strong></p><p></p><p> </p>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgVKDM",
+        "text_LaEKHP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "color_scheme": "scheme-2",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "mapa_custom_kW3JWq",
+    "rich_text_7K4eWn"
+  ]
+}

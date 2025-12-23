@@ -1,0 +1,328 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_FYMXCc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ta4GNW": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bFmHP3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YtY9jy": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qxqeji": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ta4GNW",
+        "column_bFmHP3",
+        "column_YtY9jy",
+        "column_qxqeji"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "editoriales_cXTELH": {
+      "type": "editoriales",
+      "blocks": {
+        "column_WiFLjN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bannersentido-edit.png",
+            "video": "",
+            "size": "full",
+            "selected_product": ""
+          }
+        },
+        "column_A3zRzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6_6b3108f7-b615-4aec-a1d4-476b76d8f394.png",
+            "image_cuadrante": "shopify://shop_images/6_af01ffe9-7e69-4278-b595-937e78eb36ff.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-logo-white"
+          }
+        },
+        "column_3BRFBM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7_b60e0a01-9c49-4416-8664-f4c1816958a1.png",
+            "image_cuadrante": "shopify://shop_images/7_fe5a4947-d0e7-4598-ad1d-726f555cc838.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-lateral-tachas-white"
+          }
+        },
+        "column_JfQNzf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8_542779c8-c3bb-4fe2-afc5-a3eca0a3fc66.png",
+            "image_cuadrante": "shopify://shop_images/8_fe58dbb8-54c5-4af7-80fc-591a053ae45c.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "top-tank-estrellas-white"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/9_eacab692-aeda-4f25-9eba-77606ede883a.png",
+            "image_cuadrante": "shopify://shop_images/9_2b1beac5-5dfd-4219-b8f2-81d1d7a23ac1.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-cruzado-botones"
+          }
+        },
+        "column_DQFaAL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/polera-rosada_editorial1.png",
+            "image_cuadrante": "shopify://shop_images/polera-rosada_editorial1_87f3811f-9192-491e-9c22-afc57cf42865.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-halter-pink"
+          }
+        },
+        "column_kTaPdQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shor-rosado_2.png",
+            "image_cuadrante": "shopify://shop_images/shor-rosado_2_fb2b6761-de39-46fa-8762-2d1ad0a995ce.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "short-moon-blue-2"
+          }
+        },
+        "column_J63weT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/12_1.png",
+            "image_cuadrante": "shopify://shop_images/12_1_4d226fa4-98f6-42af-83ba-1545e794b034.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "top-halter-blue"
+          }
+        },
+        "column_cU3MNW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pantsgrey2.png",
+            "image_cuadrante": "shopify://shop_images/pantsgrey2_aa55fcc2-24bd-410f-b288-19e61b220c80.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-lino-liso-grey"
+          }
+        },
+        "column_7GzKcH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hombro1.png",
+            "image_cuadrante": "shopify://shop_images/hombro1_2cbbb699-4968-47fd-84a4-ed7c31bbcc84.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-hombro-vuelos-grey"
+          }
+        },
+        "column_pUUbbm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/15_1.png",
+            "image_cuadrante": "shopify://shop_images/15_1_682f8357-aa03-4399-9084-52dd6b2d3f51.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sandalia-hebillas-brown"
+          }
+        },
+        "column_LRCjhD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/16_1.png",
+            "image_cuadrante": "shopify://shop_images/16_1_1f0a417b-43a6-4020-b8fe-ca8b04b948d0.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-vuelos-grey"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bannerpantalontachas_editorial.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-tachas-black"
+          }
+        },
+        "column_dqh6q3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/18_1.png",
+            "image_cuadrante": "shopify://shop_images/Relleno_generativo_11758858-e6b6-4309-9343-1ea32bc6da44.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "vestido-panal-black"
+          }
+        },
+        "column_iMqM86": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/19_1.png",
+            "image_cuadrante": "shopify://shop_images/19_1_469cd0d0-ab0c-4935-8fba-bf5d553c6de4.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-tank-estrellas-grey"
+          }
+        },
+        "column_77TKPk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/20_62946963-1012-491b-b6a8-237c8ef7ec9b.png",
+            "image_cuadrante": "shopify://shop_images/20_8194e472-3d16-4073-9dd1-907132232767.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-straight-estrellas-grey"
+          }
+        },
+        "column_xbxmJg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/snake1.png",
+            "image_cuadrante": "shopify://shop_images/snake1_2be98314-548e-4506-93c1-eaa59934d666.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-laser-snake"
+          }
+        },
+        "column_fqmkHV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/22_1.png",
+            "image_cuadrante": "shopify://shop_images/22_1_66dca6f6-67f6-48d8-b765-1e04c8a2f2aa.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sandalias-tachas-black"
+          }
+        },
+        "column_7qXHja": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/23_1.png",
+            "image_cuadrante": "shopify://shop_images/23_1_885135d6-9547-444d-9d14-8fbfae4a60e4.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pants-flare-cargo-green"
+          }
+        },
+        "column_xCDzgQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/24.png",
+            "image_cuadrante": "shopify://shop_images/24_2b7b8b7b-ba68-4e43-bd7d-ca84025d3fd9.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-straight-estrellas-black"
+          }
+        }
+      },
+      "block_order": [
+        "column_WiFLjN",
+        "column_A3zRzf",
+        "column_3BRFBM",
+        "column_JfQNzf",
+        "column_eJiMXj",
+        "column_DQFaAL",
+        "column_kTaPdQ",
+        "column_J63weT",
+        "column_cU3MNW",
+        "column_7GzKcH",
+        "column_pUUbbm",
+        "column_LRCjhD",
+        "column_ARJqii",
+        "column_dqh6q3",
+        "column_iMqM86",
+        "column_77TKPk",
+        "column_xbxmJg",
+        "column_fqmkHV",
+        "column_7qXHja",
+        "column_xCDzgQ"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "silvestre",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_FYMXCc",
+    "editoriales_cXTELH"
+  ]
+}

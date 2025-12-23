@@ -1,0 +1,373 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_7XQJHk": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner2.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-cuadros-vuelos-blue"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga4_168df0ac-f6e9-4f5a-8e3e-96687af597fd.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-estrellas-bolsillos-black"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga5.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-mini-rayada"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner3.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-flores-tachas-black"
+          }
+        },
+        "column_eraKKT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caliga7.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-raindoor-gray"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/calguna6.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-acolchada-cintas-brown"
+          }
+        },
+        "column_t36T3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kvjnsd-01.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-acolchada-ajustable-gray"
+          }
+        },
+        "column_AFgait": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_01.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "vest-lineas-lurex-blue"
+          }
+        },
+        "column_4GH8xH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_02.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-lineas-lurex-blue"
+          }
+        },
+        "column_7kdnz3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_03.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "blazer-lineas-lurex-blue"
+          }
+        },
+        "column_GegrDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner4.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-sun-blue-r"
+          }
+        },
+        "column_PxyMNA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vuelosgree.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-vichy-vuelos-gray"
+          }
+        },
+        "column_kQ8qyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tachas-white_6796eea0-997e-47ae-ab9c-040a28bf9ccf.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-flores-tachas-white"
+          }
+        },
+        "column_BgGRqU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/abirgo-melangee.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "abrigo-lanilla-melange-brown"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "polera-manga-larga-vuelos-beige"
+          }
+        },
+        "column_yUbii6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pretina.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-pretina-ajustada-gray"
+          }
+        },
+        "column_4CRiag": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/trench.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "abrigo-trench-vichy-beige"
+          }
+        },
+        "column_RGAywG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VIDECSAAS-02.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "top-strapless-tachas-gray"
+          }
+        },
+        "column_Mm4aNU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pants_5259f2b3-72a8-42e3-9b3d-65fa9dd6dc6d.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-tachas-bolsillos-gray"
+          }
+        },
+        "column_Ftadh4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/buf.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-maxi-red"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_eJiMXj",
+        "column_ARJqii",
+        "column_j3YKwM",
+        "column_eraKKT",
+        "column_7EGhit",
+        "column_t36T3x",
+        "column_AFgait",
+        "column_4GH8xH",
+        "column_7kdnz3",
+        "column_GegrDP",
+        "column_PxyMNA",
+        "column_kQ8qyP",
+        "column_BgGRqU",
+        "column_UbAfd8",
+        "column_yUbii6",
+        "column_4CRiag",
+        "column_RGAywG",
+        "column_Mm4aNU",
+        "column_Ftadh4"
+      ],
+      "settings": {
+        "skip_container": false,
+        "collection_selected": "gran-via"
+      }
+    },
+    "editoriales_e9VRqG": {
+      "type": "editoriales",
+      "blocks": {
+        "column_ULzrDq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner9.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "baguette-bag-beige"
+          }
+        },
+        "column_JfPheR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caliga9.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "bufanda-maxi-beige"
+          }
+        },
+        "column_qwTk3a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tvybunj-01.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-flores-tachas-black"
+          }
+        },
+        "column_C8WQGe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tor.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "sweater-cuello-tortuga-ecru"
+          }
+        },
+        "column_ryz7Hd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner10.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "bufanda-maxi-black"
+          }
+        },
+        "column_3zEtCr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cinturon.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "cinturon-tachas-black"
+          }
+        },
+        "column_QqxEYr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "chiporro-drizzle-black"
+          }
+        },
+        "column_FRYhUe": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/banner6.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-acolchada-ajustable-gray"
+          }
+        },
+        "column_AM3fqW": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Caluga_01.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "vest-lineas-lurex-blue"
+          }
+        },
+        "column_4TQVij": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Caluga_02.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-lineas-lurex-blue"
+          }
+        },
+        "column_eHHcKb": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Caluga_03.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "blazer-lineas-lurex-blue"
+          }
+        },
+        "column_q3WM4b": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/edit13.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cargo-bag-blue"
+          }
+        }
+      },
+      "block_order": [
+        "column_ULzrDq",
+        "column_JfPheR",
+        "column_qwTk3a",
+        "column_C8WQGe",
+        "column_ryz7Hd",
+        "column_3zEtCr",
+        "column_QqxEYr",
+        "column_FRYhUe",
+        "column_AM3fqW",
+        "column_4TQVij",
+        "column_eHHcKb",
+        "column_q3WM4b"
+      ],
+      "settings": {
+        "skip_container": false,
+        "collection_selected": "gran-via"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_7XQJHk",
+    "editoriales_e9VRqG"
+  ]
+}

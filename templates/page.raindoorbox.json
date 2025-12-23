@@ -1,0 +1,455 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_plp_TjqfGi": {
+      "type": "editoriales-plp",
+      "blocks": {
+        "column_r9zPnk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Web-Lunes10.png",
+            "size": "full",
+            "page_selected": "silvestre"
+          }
+        },
+        "column_tHtx9B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BannerMobile_Miercoles29.png",
+            "size": "half",
+            "page_selected": "slow-editorial"
+          }
+        },
+        "column_e4Ef9c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barra_Menu_Home_Aurora.jpg",
+            "size": "half",
+            "page_selected": "aurora"
+          }
+        },
+        "column_p6UNPW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/editorial9_b9fef5a3-4429-4304-bb40-90c56edf15da.jpg",
+            "size": "half",
+            "page_selected": "chiloe-editorial-nueva-coleccion"
+          }
+        },
+        "column_GXG9mr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/La_Herencia_Barra_Lateral.jpg",
+            "size": "half",
+            "page_selected": "la-herencia"
+          }
+        },
+        "column_QU3cM6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barra_Menu_Home_Josefa_Saez.jpg",
+            "size": "full",
+            "page_selected": "josefa-saez-x-raindoor"
+          }
+        }
+      },
+      "block_order": [
+        "column_r9zPnk",
+        "column_tHtx9B",
+        "column_e4Ef9c",
+        "column_p6UNPW",
+        "column_GXG9mr",
+        "column_QU3cM6"
+      ],
+      "disabled": true,
+      "name": "Listado de Editoriales",
+      "settings": {
+        "show_button": true,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false
+      }
+    },
+    "rich_text_Pek8KF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V6zeLP": {
+          "type": "heading",
+          "settings": {
+            "heading": "RAINDOORBOX",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V6zeLP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_text_R3GXDy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tfmAqV": {
+          "type": "heading",
+          "settings": {
+            "heading": "HISTORIA DE LA CAMPAÑA",
+            "heading_size": "h2"
+          }
+        },
+        "text_hWcatG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Raindoorbox</strong> nace para sorprender a las amantes de la marca, entregándoles una experiencia única y llena de detalles. Una edición especial que incluye una caja de regalo con sorpresas exclusivas de Raindoor y de las marcas que nos acompañan.<br/>Este año, nos quisimos inspirar en el sur de Chile con sus bosques y frescura que refleja la esencia del verano. </p><p>Cómo obtener la RaindoorBox S'26: </p><ul><li><strong>Ser de las primeras 500 en comprar.</strong></li><li><strong>Realizar un pedido por sobre $79.990</strong></li></ul><p>Recuerda que esta caja está avaluada en <strong>$256.990.</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfmAqV",
+        "text_hWcatG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/MTF_0684.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_hTcKMT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UYkRWt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-14.png",
+            "title": "ALMA CHILOÉ",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Vx7yz9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-15.png",
+            "title": "WILD STAR",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4bDycQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-16.png",
+            "title": "LOVE WINTER",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NfbdYD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-17.png",
+            "title": "LAKE & FRIENDS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eEYhxd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-18.png",
+            "title": "COZY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eFnB4R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/RAINDOORBOX_EDICIONES-19.png",
+            "title": "RESET JEANS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UYkRWt",
+        "column_Vx7yz9",
+        "column_4bDycQ",
+        "column_NfbdYD",
+        "column_eEYhxd",
+        "column_eFnB4R"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "EDICIONES",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_PYTWPB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_b8VEnX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logos-10.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e9DkUc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logos-08.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PVrt6d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logos-12.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xQy7je": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logos-11.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_J9FiRQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logos-09.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abQYTw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logo_Raindoor_af41a2f6-2992-44e1-a052-d95ae0da923e.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_b8VEnX",
+        "column_e9DkUc",
+        "column_PVrt6d",
+        "column_xQy7je",
+        "column_J9FiRQ",
+        "column_abQYTw"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "MARCAS QUE NOS ACOMPAÑAN ESTE AÑO",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_ycT4n3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_EkVbrT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-25.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HHCzgN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-26.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hTdcCU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-27.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mANTTR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-28.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8qm8Rt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-29.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UP3iKM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-30.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aBq8Mw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/TIPS_PAG_-31.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JaD8CK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MTF_0710.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_EkVbrT",
+        "column_HHCzgN",
+        "column_hTdcCU",
+        "column_mANTTR",
+        "column_8qm8Rt",
+        "column_UP3iKM",
+        "column_aBq8Mw",
+        "column_JaD8CK"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "TIPS PARA ALCANZAR LA RAINDOORBOX",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_plp_TjqfGi",
+    "rich_text_Pek8KF",
+    "image_with_text_R3GXDy",
+    "multicolumn_hTcKMT",
+    "multicolumn_PYTWPB",
+    "multicolumn_ycT4n3"
+  ]
+}

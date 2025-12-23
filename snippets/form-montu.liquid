@@ -1,0 +1,124 @@
+<style>
+  #afiliate-form {
+    text-align: center;
+  }
+
+  #afiliate-form input,
+  #afiliate-form textarea,
+  #afiliate-form button {
+    width: 70%;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    padding: 0.5rem 1rem !important;
+    font-size: 12px;
+  }
+
+  #afiliate-form input:focus,
+  #afiliate-form textarea:focus {
+    border-color: #54b1ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(84, 177, 255, 0.2);
+  }
+
+  #afiliate-form button {
+    background: #ef8dbe !important;
+    color: #3b270c;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  #afiliate-form button:hover {
+    background: #3899e5;
+  }
+
+  #form-response {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  #form-response.success {
+    color: #28a745;
+  }
+
+  #form-response.error {
+    color: #dc3545;
+  }
+  #afiliate-form input[type='date'] {
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width:768px){
+    #afiliate-form input,
+    #afiliate-form textarea,
+    #afiliate-form button {
+width:100%!important;
+    }
+}
+
+</style>
+
+<form id="afiliate-form">
+  <input type="text" name="instagramUsername" placeholder="USUARIO INSTAGRAM" required>
+  <input type="text" name="tiktokUsername" placeholder="USUARIO TIKTOK" required>
+  <input type="email" name="email" placeholder="MAIL" required>
+  <input type="date" name="birthDate" placeholder="FECHA DE NACIMIENTO" required>
+  <input type="text" name="name" placeholder="NOMBRE COMPLETO" required>
+  <input type="text" name="phoneNumber" placeholder="TELÉFONO" required>
+  <input type="text" name="commune" placeholder="COMUNA" required>
+  <textarea name="comments" placeholder="COMENTARIOS (opcional)" rows="3"></textarea>
+  <button type="submit">POSTULAR</button>
+</form>
+
+<div id="form-response"></div>
+
+<script>
+  document.getElementById('afiliate-form').addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const data = {
+      instagramUsername: form.instagramUsername.value.trim(),
+      tiktokUsername: form.tiktokUsername.value.trim(),
+      birthDate: form.birthDate.value,
+      comments: form.comments.value.trim(),
+      phoneNumber: form.phoneNumber.value.trim(),
+      commune: form.commune.value.trim(),
+      email: form.email.value.trim(),
+      name: form.name.value.trim(),
+    };
+
+    const responseDiv = document.getElementById('form-response');
+    responseDiv.textContent = 'Enviando...';
+    responseDiv.className = '';
+
+    try {
+      const response = await fetch('https://backend.montu.io/montu/api/v1/afiliate_program/application/apply/369', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        responseDiv.textContent = '¡Formulario enviado con éxito! 🎉';
+        responseDiv.className = 'success';
+        form.reset();
+      } else {
+        responseDiv.textContent = 'Error: ' + (result.message || 'No se pudo enviar el formulario');
+        responseDiv.className = 'error';
+      }
+    } catch (error) {
+      console.error('Error al enviar:', error);
+      responseDiv.textContent = 'Error de conexión. Intenta de nuevo.';
+      responseDiv.className = 'error';
+    }
+  });
+</script>

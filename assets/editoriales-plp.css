@@ -1,0 +1,105 @@
+{% style %}
+  .section-gallery-{{ section.id }} .img-normal,
+  .section-gallery-{{ section.id }} .img-cuadrante {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* Aseguramos que las imágenes ocultas no ocupen espacio */
+  .section-gallery-{{ section.id }} img[style*="display: none"] {
+    display: none !important;
+  }
+      .section-gallery-{{ section.id }} {
+        padding-top: {{section.settings.margin_top}}px;
+        padding-bottom: {{section.settings.margin_bottom}}px;
+      }
+
+      .section-gallery-{{ section.id }} .gallery-blocks {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .section-gallery-{{ section.id }} .gallery-blocks > [class^="column-"] {
+        padding: 0.5rem;
+        box-sizing: border-box;
+      }
+
+      /* === Tamaños de columnas === */
+      .section-gallery-{{ section.id }} .column-quarter {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+
+      .section-gallery-{{ section.id }} .column-third {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+      }
+
+      .section-gallery-{{ section.id }} .column-half {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .section-gallery-{{ section.id }} .column-two-thirds {
+        flex: 0 0 66.666%;
+        max-width: 66.666%;
+      }
+
+      .section-gallery-{{ section.id }} .column-full {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+
+
+      /* === Imágenes y videos dentro de bloques === */
+      .section-gallery-{{ section.id }} img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+      }
+
+      .section-gallery-{{ section.id }} a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .section-gallery-{{ section.id }} a:hover {
+        opacity: 0.9;
+      }
+
+
+      .section-gallery-{{ section.id }} #grid-toggle-button {
+        color: rgba(var(--color-foreground), 0.85) !important;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        gap: 0.6rem;
+        min-width: 8rem;
+        font-size: 1.3rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-gallery-{{ section.id }} .grid-icon {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-gallery-{{ section.id }} .grid-view-toggle__inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom:2rem;
+        font-size: 1.4rem;
+    }
+{% endstyle %}

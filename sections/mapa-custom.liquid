@@ -1,0 +1,250 @@
+<style>
+  .mapa_pinflag-{{ section.id }} {
+    display: flex;
+    height: 100%;
+    min-height:400px;
+  }
+  .mapa_pinflag-{{ section.id }} #map {
+    flex: 1;
+  }
+  .mapa_pinflag-{{ section.id }} .sidebar {
+    width: 40%;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .mapa_pinflag-{{ section.id }} .address {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+    padding: 1rem;
+  }
+  .mapa_pinflag-{{ section.id }} .address:last-child {
+    border-bottom:0px;
+  }
+  .mapa_pinflag-{{ section.id }} .info {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease;
+    font-size: 14px;
+    padding: 0 5px; /* sin padding vertical cuando está oculto */
+    display: flex;
+    gap: 10px;
+  }
+  .mapa_pinflag-{{ section.id }} .info img {
+   width:30%;
+   height:100%;
+  }
+  .mapa_pinflag-{{ section.id }} .address.active .info {
+    max-height: 500px; /* suficiente para el contenido */
+    opacity: 1;
+    padding: 10px 5px; /* vuelve el padding vertical */
+  }
+
+  .mapa_pinflag-{{ section.id }} .store_selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mapa_pinflag-{{ section.id }} .address.active .toggle__icon--plus {
+    display:none;
+  }
+  .mapa_pinflag-{{ section.id }} .address.active .toggle__icon--minus {
+    display:flex;
+  }
+
+  .mapa_pinflag-{{ section.id }} .address .toggle__icon--plus {
+    display:flex;
+  }
+  .mapa_pinflag-{{ section.id }} .address .toggle__icon--minus {
+    display:none;
+  }
+
+  @media screen and (max-width:768px){
+    .mapa_pinflag-{{ section.id }} #map {
+      width:100%;
+      height:300px;
+    }
+    .mapa_pinflag-{{ section.id }} {
+display:block;
+    }
+    .mapa_pinflag-{{ section.id }} .sidebar {
+width:100%;
+padding: 2rem 0 0 0;
+
+    }
+  
+  }
+
+  .store_info{
+    overflow-y: auto;
+  }
+</style>
+<div class="mapa_pinflag-{{ section.id }}">
+  <div id="map"></div>
+  <div class="sidebar">
+    {%- for block in section.blocks -%}
+      <div class="address" data-lng="{{ block.settings.longitud }}" data-lat="{{ block.settings.latitud }}">
+        <div class="store_selector">
+          <strong>📍 {{ block.settings.titulo }}</strong>
+          <div class="mas_menos" tabindex="0">
+            <span class="toggle__icon--plus">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 0H7V12H5V0Z" fill="black" style="stroke:none"></path><path d="M12 5V7H0L1.19209e-07 5L12 5Z" fill="black" style="stroke:none"></path>
+              </svg>
+            </span>
+            <span class="toggle__icon--minus">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5V7H0L1.19209e-07 5L12 5Z" fill="black" style="stroke:none"></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="info">
+          <img src="{{ block.settings.imagen | image_url }}" width="" height="" alt="{{ block.settings.titulo }}">
+          <div class="store_info">
+            {{ block.settings.direccion }}
+            {{ block.settings.horarios }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div id="api_key" data-api-key="{{ section.settings.api_key }}"></div>
+</div>
+
+<script>
+  let map;
+  let marker;
+
+  function initMap() {
+    const center = { lat: -33.4489, lng: -70.6693 };
+    map = new google.maps.Map(document.getElementById('map'), {
+      center,
+      zoom: 6,
+    });
+
+    const bounds = new google.maps.LatLngBounds();
+    const addresses = document.querySelectorAll('.address');
+    const markers = [];
+
+    addresses.forEach((item, index) => {
+      const lat = parseFloat(item.dataset.lat);
+      const lng = parseFloat(item.dataset.lng);
+      const position = { lat, lng };
+
+      const marker = new google.maps.Marker({
+        position,
+        map,
+        label: `${index + 1}`,
+      });
+
+      // Guardar relación marker <-> div
+      marker._relatedDiv = item;
+
+      marker.addListener('click', () => {
+        map.panTo(position);
+        map.setZoom(14);
+
+        addresses.forEach((el) => el.classList.remove('active'));
+        marker._relatedDiv.classList.add('active');
+
+        // Scroll automático hacia el div si está fuera de vista
+        marker._relatedDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
+      item.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+  
+        addresses.forEach((el) => el.classList.remove('active'));
+  
+        if (!isActive) {
+          item.classList.add('active');
+          map.panTo(position);
+          map.setZoom(14);
+        }
+      });
+
+      markers.push(marker);
+      bounds.extend(position);
+    });
+
+    // Mostrar todos los marcadores en vista
+    map.fitBounds(bounds);
+  }
+</script>
+<div id="map-wrapper-{{ section.id }}" data-api-key="{{ section.settings.api_key }}"></div>
+
+<script>
+  const mapWrapper = document.getElementById('map-wrapper-{{ section.id }}');
+  const apiKey = mapWrapper?.dataset.apiKey;
+
+  if (apiKey) {
+    const script = document.createElement('script');
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+    script.async = true;
+    document.head.appendChild(script);
+  } else {
+    console.error('API Key no encontrada en data-api-key');
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Mapa",
+  "settings": [
+    {
+      "type": "text",
+      "id": "api_key",
+      "label": "Api Key"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Tienda",
+      "settings": [
+        {
+          "type": "text",
+          "id": "titulo",
+          "label": "Titulo"
+        },
+        {
+          "type": "text",
+          "id": "direccion",
+          "label": "Dirección"
+        },
+
+        {
+          "type": "text",
+          "id": "latitud",
+          "label": "Latitud"
+        },
+        {
+          "type": "text",
+          "id": "longitud",
+          "label": "Longitud"
+        },
+        {
+          "type": "richtext",
+          "id": "horarios",
+          "label": "Horarios"
+        },
+        {
+          "type": "image_picker",
+          "id": "imagen",
+          "label": "Imagen"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mapa",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

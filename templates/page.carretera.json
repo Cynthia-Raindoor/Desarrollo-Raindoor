@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_aJfdgp": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/editoria_estrellacafe.png",
+            "image_cuadrante": "shopify://shop_images/editoria_estrellacafe_70a967d4-91e1-4cee-8bf1-cf9fa771356d.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-colores-brown"
+          }
+        },
+        "column_WFYYNC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga10_bb147563-f3c1-4fa8-a5f1-4bfedf86a7d0.png",
+            "image_cuadrante": "shopify://shop_images/caluga10_8cf4bf9b-f64c-451b-9d22-d781fddca845.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "cartera-baguette-burgundy"
+          }
+        },
+        "column_WiFLjN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga6_2c7a13db-a712-440f-aa8c-867d17428320.png",
+            "image_cuadrante": "shopify://shop_images/caluga6_651da385-75cf-4020-8be8-0a94126237aa.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-whistler-black"
+          }
+        },
+        "column_3BRFBM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga7_917bacd2-3180-4b0d-a546-8bea91e05d32.png",
+            "image_cuadrante": "shopify://shop_images/caluga7_153735d8-1e37-4918-934a-582045afe063.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "jockey-bordado-grey"
+          }
+        },
+        "column_pDw8yY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga13_cc8ba1b7-03c8-4b5d-8749-395310f07130.png",
+            "image_cuadrante": "shopify://shop_images/caluga13_c941efe0-7883-4b84-97ad-6fefa30bc3b2.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "collar-mini-corazon-gold"
+          }
+        },
+        "column_KaQFaU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pinche-brown_editorial.png",
+            "image_cuadrante": "shopify://shop_images/Pinche-brown_editorial_ad6bc8a3-bfe3-4aa9-865e-a10fccc5219c.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pinche-print-brown"
+          }
+        },
+        "column_iMqM86": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cinturon-black_edito.png",
+            "image_cuadrante": "shopify://shop_images/cinturon-black_edito_371c4e7c-ff31-46d3-9b5d-3b0c088e1e76.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "cinturon-estrellas-tachas-black"
+          }
+        },
+        "column_77TKPk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluuga13.png",
+            "image_cuadrante": "shopify://shop_images/caluuga13_2ad10529-1fb4-4bfb-9cfa-227e7a961593.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "collet-black"
+          }
+        },
+        "column_Xyxq4j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cartera_editorial.png",
+            "image_cuadrante": "shopify://shop_images/cartera_editorial_cb8a8bf3-4670-4251-94bd-faa1ef40269e.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "cartera-baguette-black"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bannerllavero.png",
+            "image_cuadrante": "shopify://shop_images/bannerllavero_f795cc1c-8708-4d70-96fa-3f709c669f6d.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "llavero-raindoor-pink"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/carrr.png",
+            "image_cuadrante": "shopify://shop_images/carrr_ad994e78-8b10-400f-b3d5-a466a68f7bb7.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "etiqueta-maleta-estrella-black"
+          }
+        },
+        "column_WFhQGy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga9_d1b8b92c-cb4a-491f-8373-49521a85ce4c.png",
+            "image_cuadrante": "shopify://shop_images/caluga9_e7feafb0-45cd-4f5b-b8cb-8c7721aa83aa.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "poleron-crew-neck-logo-parche-grey"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12_8bd3a8ad-2899-44d3-9faf-987e653c7936.png",
+            "image_cuadrante": "shopify://shop_images/caluga12_44bf1cec-603d-4a83-b5ed-571257bab965.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pinche-tachas-black"
+          }
+        },
+        "column_PgQDEj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit2.png",
+            "image_cuadrante": "shopify://shop_images/edit2_4aa9fda3-beb7-40ad-9d24-11ec4032b7d2.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-wide-leg-diagonal-tachas-black"
+          }
+        },
+        "column_iRkH4D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner21.png",
+            "image_cuadrante": "shopify://shop_images/banner21_871bda96-b7dd-4181-a259-98dd3754dc1a.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-print-ecru"
+          }
+        },
+        "column_NQYG44": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga4_a26732e7-2139-4e4d-824f-a945d3ae132a.png",
+            "image_cuadrante": "shopify://shop_images/caluga4_b2d13d8e-53f5-4c91-bab7-19091fde2406.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "llavero-estrella-blue"
+          }
+        },
+        "column_nf3aB7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edit4_f7e93d50-7ee2-4851-a937-31f4107d661b.png",
+            "image_cuadrante": "shopify://shop_images/edit4_cb0d691a-ccde-4788-8017-567498dddba1.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sticker-rose"
+          }
+        },
+        "column_qHUcEW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pants-cinturon.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cinturon-blue"
+          }
+        },
+        "column_TyGrNB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/edito2.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cinturon-black"
+          }
+        },
+        "column_wqrG4H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga_sticker_gris.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sticker-print"
+          }
+        },
+        "column_qekQhp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sticker_editorial.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sticker-green"
+          }
+        },
+        "column_j7GnYW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/calcetin_editorial.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pack-calcetin-lurex"
+          }
+        },
+        "column_DJ6HEX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluuga12_f8c4631a-ffb2-4917-8e86-03e4de443b27.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "billetera-tachas-brown"
+          }
+        },
+        "column_kqdBMr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/noi_612bb048-c876-4276-a40d-098477f80c5d.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-noi-black-1"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_WFYYNC",
+        "column_WiFLjN",
+        "column_3BRFBM",
+        "column_pDw8yY",
+        "column_KaQFaU",
+        "column_iMqM86",
+        "column_77TKPk",
+        "column_Xyxq4j",
+        "column_bLVeCb",
+        "column_ARJqii",
+        "column_WFhQGy",
+        "column_UbAfd8",
+        "column_PgQDEj",
+        "column_iRkH4D",
+        "column_NQYG44",
+        "column_nf3aB7",
+        "column_qHUcEW",
+        "column_TyGrNB",
+        "column_wqrG4H",
+        "column_qekQhp",
+        "column_j7GnYW",
+        "column_DJ6HEX",
+        "column_kqdBMr"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "carretera",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_aJfdgp"
+  ]
+}

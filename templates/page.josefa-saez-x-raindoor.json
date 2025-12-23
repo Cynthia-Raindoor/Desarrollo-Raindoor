@@ -1,0 +1,228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_PHwNRz": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa-02_1.webp",
+            "video": "",
+            "size": "full",
+            "selected_product": ""
+          }
+        },
+        "column_wLGbgf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_01_77a6c189-e4ff-4984-b80f-ab4ad57cec38.png",
+            "image_cuadrante": "shopify://shop_images/Caluga_01_184302bf-7eb2-40fe-890a-23835f5f895c.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "vestido-largo-estampado-brown"
+          }
+        },
+        "column_fQxgEm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_02_b45bbf5d-6b3f-48bd-9b72-2ded265cbde2.png",
+            "image_cuadrante": "shopify://shop_images/Caluga_02_ce0a3c8f-2b87-4310-9461-f8dd5aa6c18c.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "vestido-largo-strapless-white"
+          }
+        },
+        "column_WiFLjN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa-09.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa-09.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-corte-lateral-estrella-grey"
+          }
+        },
+        "column_3BRFBM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa-07.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa-07.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-logo-grey"
+          }
+        },
+        "column_JfQNzf": {
+          "type": "column",
+          "settings": {
+            "video": "https://cdn.shopify.com/videos/c/o/v/15fb6422f58842678de17f874cecf4a7.mp4",
+            "size": "full",
+            "selected_product": "sweater-chile"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa-033.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa-033.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "jockey-cotele-bordado-burgundy"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa44-04.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa44-04.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "poncho-flecos-gray"
+          }
+        },
+        "column_KaQFaU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa11-10.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa11-10.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-globo-lurex-navy"
+          }
+        },
+        "column_J63weT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa11-11.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa11-11.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-estampada-vuelo-lurex-navy"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa555-05.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa555-05.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "poleron-hoodie-estampado-grey"
+          }
+        },
+        "column_iMqM86": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa1212-12.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa1212-12.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "jockey-bordado-brown"
+          }
+        },
+        "column_77TKPk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa1313-13.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa1313-13.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "cardigan-navy"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa1414-14.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa1414-14.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-lino-liso-white"
+          }
+        },
+        "column_WFhQGy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa1515-15.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa1515-15.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-hombro-vuelos-white"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa155-15.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa155-15.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "vest-lino-green"
+          }
+        },
+        "column_xCDzgQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial_Josefa1616-16.webp",
+            "image_cuadrante": "shopify://shop_images/Editorial_Josefa1616-16.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-rayas-lino-green"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_wLGbgf",
+        "column_fQxgEm",
+        "column_WiFLjN",
+        "column_3BRFBM",
+        "column_JfQNzf",
+        "column_eJiMXj",
+        "column_j3YKwM",
+        "column_KaQFaU",
+        "column_J63weT",
+        "column_bLVeCb",
+        "column_iMqM86",
+        "column_77TKPk",
+        "column_ARJqii",
+        "column_WFhQGy",
+        "column_UbAfd8",
+        "column_xCDzgQ"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_PHwNRz"
+  ]
+}

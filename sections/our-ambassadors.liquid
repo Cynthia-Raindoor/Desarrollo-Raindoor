@@ -1,0 +1,458 @@
+{%- style -%}
+  /* ============================================ */
+  /* VARIABLES DE COLORES */
+  /* ============================================ */
+  #ambassadors-{{ section.id }} {
+    --color-primary: {{ section.settings.primary_color | default: '#d97cb6' }};
+    --color-primary-dark: {{ section.settings.primary_color_dark | default: '#c9659e' }};
+    --color-text-dark: {{ section.settings.text_color_dark | default: '#333333' }};
+    --color-text-light: {{ section.settings.text_color_light | default: '#666666' }};
+    --color-white: #ffffff;
+  }
+
+  /* ============================================ */
+  /* LAYOUT PRINCIPAL */
+  /* ============================================ */
+  #ambassadors-{{ section.id }} {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  
+  #ambassadors-{{ section.id }} .ambassador-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  
+  /* ============================================ */
+  /* COLUMNA IZQUIERDA - POSTULA */
+  /* ============================================ */
+  
+  #ambassadors-{{ section.id }} .postula-section {
+    width: 100%;
+  }
+  
+  /* Header POSTULA - Línea continua con texto encima */
+  #ambassadors-{{ section.id }} .postula-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 15px 0;
+  }
+  
+  #ambassadors-{{ section.id }} .postula-header::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    transform: translateY(-50%);
+    z-index: 0;
+  }
+  
+  #ambassadors-{{ section.id }} .postula-header h2 {
+    color: var(--color-text-dark);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    background: white;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    line-height: 1;
+  }
+  
+  #ambassadors-{{ section.id }} .postula-description {
+    text-align: center;
+    color: var(--color-text-dark);
+    margin-bottom: 30px;
+    line-height: 1.5;
+    padding: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+  
+  #ambassadors-{{ section.id }} .form-container {
+    width: 100%;
+  }
+  
+  /* ============================================ */
+  /* COLUMNA DERECHA - LAS VENTAJAS */
+  /* ============================================ */
+  
+  #ambassadors-{{ section.id }} .ventajas-section {
+    width: 100%;
+  }
+  
+  /* Header LAS VENTAJAS - Línea continua con texto encima */
+  #ambassadors-{{ section.id }} .ventajas-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 15px 0;
+  }
+  
+  #ambassadors-{{ section.id }} .ventajas-header::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    transform: translateY(-50%);
+    z-index: 0;
+  }
+  
+  #ambassadors-{{ section.id }} .ventajas-header h2 {
+    color: var(--color-text-dark);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    background: white;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    line-height: 1;
+  }
+  
+  /* GRID 2x2 DE BENEFICIOS */
+  #ambassadors-{{ section.id }} .benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 40px;
+    padding: 0 20px;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    {% if section.settings.show_benefit_border -%}
+    border: 2px solid #e0e0e0;
+    padding: 30px 20px;
+    border-radius: 8px;
+    {%- endif %}
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-icon {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 0 0 10px 0;
+    color: var(--color-text-dark);
+    line-height: 1.3;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-description {
+    line-height: 1.5;
+    color: var(--color-text-light);
+    margin: 0;
+  }
+  
+  #ambassadors-{{ section.id }} .benefit-description p {
+    margin: 0;
+  }
+  
+  /* ============================================ */
+  /* RESPONSIVE */
+  /* ============================================ */
+  
+  @media (max-width: 1024px) {
+    #ambassadors-{{ section.id }} .ambassador-wrapper {
+      gap: 60px;
+    }
+  }
+  
+  @media (max-width: 968px) {
+    #ambassadors-{{ section.id }} .ambassador-wrapper {
+      grid-template-columns: 1fr;
+      gap: 60px;
+    }
+    
+    #ambassadors-{{ section.id }} .postula-header h2,
+    #ambassadors-{{ section.id }} .ventajas-header h2 {
+      font-size: 24px;
+      letter-spacing: 3px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #ambassadors-{{ section.id }} .benefits-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    #ambassadors-{{ section.id }} .postula-header h2,
+    #ambassadors-{{ section.id }} .ventajas-header h2 {
+      font-size: 23r;
+      letter-spacing: 2px;
+      padding: 5px 20px;
+    }
+    
+    #ambassadors-{{ section.id }} .postula-description {
+      font-size: 9px;
+    }
+    
+    #ambassadors-{{ section.id }} .postula-header::before,
+    #ambassadors-{{ section.id }} .ventajas-header::before {
+      height: 8px;
+    }
+  }
+{%- endstyle -%}
+
+<section id="ambassadors-{{ section.id }}">
+  <div class="ambassador-wrapper">
+    
+    <!-- ============================================ -->
+    <!-- COLUMNA IZQUIERDA: POSTULA -->
+    <!-- ============================================ -->
+    <div class="postula-section">
+      <div class="postula-header">
+        <h2>{{ section.settings.postula_title | default: 'POSTULA' }}</h2>
+      </div>
+      
+      {%- if section.settings.postula_description != blank -%}
+        <p class="postula-description">
+          {{ section.settings.postula_description }}
+        </p>
+      {%- endif -%}
+      
+      <div class="form-container">
+        {% render 'form-montu' %}
+      </div>
+    </div>
+    
+    <!-- ============================================ -->
+    <!-- COLUMNA DERECHA: LAS VENTAJAS -->
+    <!-- ============================================ -->
+    <div class="ventajas-section">
+      <div class="ventajas-header">
+        <h2>{{ section.settings.ventajas_title | default: 'LAS VENTAJAS' }}</h2>
+      </div>
+      
+      {%- if section.blocks.size > 0 -%}
+        <div class="benefits-grid">
+          {%- for block in section.blocks -%}
+            <div class="benefit-item" {{ block.shopify_attributes }}>
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}">
+              {%- endif -%}
+              
+                {%- if block.settings.icon != blank -%}
+                  <div class="benefit-icon">
+                    {%- assign icon = block.settings.icon -%}
+                    <img 
+                      src="{{ icon | image_url: width: 180 }}"
+                      srcset="{{ icon | image_url: width: 180 }} 1x, {{ icon | image_url: width: 360 }} 2x"
+                      alt="{{ icon.alt | escape | default: block.settings.title }}"
+                      loading="lazy"
+                      width="90"
+                      height="90">
+                  </div>
+                {%- endif -%}
+                
+                {%- if block.settings.title != blank -%}
+                  <h3 class="benefit-title">{{ block.settings.title }}</h3>
+                {%- endif -%}
+                
+                {%- if block.settings.description != blank -%}
+                  <div class="benefit-description">
+                    {{ block.settings.description }}
+                  </div>
+                {%- endif -%}
+              
+              {%- if block.settings.link != blank -%}
+                </a>
+              {%- endif -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <div style="text-align: center; padding: 40px 20px; color: #999; font-size: 13px;">
+          <p>Agrega bloques de "Beneficio" para mostrar las ventajas aquí.</p>
+        </div>
+      {%- endif -%}
+    </div>
+    
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Ambassadors",
+  "settings": [
+    {
+      "type": "header",
+      "content": "🎨 Colores"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Color primario (rosa claro)",
+      "default": "#d97cb6"
+    },
+    {
+      "type": "color",
+      "id": "primary_color_dark",
+      "label": "Color primario oscuro (rosa)",
+      "default": "#c9659e"
+    },
+    {
+      "type": "color",
+      "id": "text_color_dark",
+      "label": "Color de texto oscuro",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "text_color_light",
+      "label": "Color de texto claro",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "📝 Sección Postula"
+    },
+    {
+      "type": "text",
+      "id": "postula_title",
+      "label": "Título",
+      "default": "POSTULA"
+    },
+    {
+      "type": "textarea",
+      "id": "postula_description",
+      "label": "Descripción",
+      "default": "CUÉNTANOS CUALES SON TUS REDES SOCIALES Y PORQUE QUIERES SER PARTE DE RAINDOOR AMBASSADORS"
+    },
+    {
+      "type": "header",
+      "content": "⭐ Sección Las Ventajas"
+    },
+    {
+      "type": "text",
+      "id": "ventajas_title",
+      "label": "Título",
+      "default": "LAS VENTAJAS"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_benefit_border",
+      "label": "Mostrar borde en beneficios",
+      "default": false,
+      "info": "Agrega un borde alrededor de cada beneficio"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Beneficio",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Ícono",
+          "info": "Tamaño recomendado: 180x180px PNG con fondo transparente"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título",
+          "default": "BENEFICIO"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Descripción",
+          "default": "<p>Descripción del beneficio aquí.</p>"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Enlace (opcional)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ambassadors",
+      "settings": {
+        "postula_title": "POSTULA",
+        "postula_description": "CUÉNTANOS CUALES SON TUS REDES SOCIALES Y PORQUE QUIERES SER PARTE DE RAINDOOR AMBASSADORS",
+        "ventajas_title": "LAS VENTAJAS"
+      },
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "COMISIÓN EN EFECTIVO",
+            "description": "<p>Gana un 5% en cada compra neta que use tu código.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "APRENDE + CRECE",
+            "description": "<p>Nuestro equipo te enseñará cómo perfeccionar tu contenido.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "EVENTOS + DESCUENTOS",
+            "description": "<p>Invitaciones especiales a eventos y oportunidades. Acceso a nuestras alianzas de descuentos.</p>"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "title": "TRY ON",
+            "description": "<p>Agendas exclusivas con nuestras vendedoras en tiendas para que puedas mostrar todas las colecciones.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

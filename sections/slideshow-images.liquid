@@ -1,0 +1,168 @@
+<div class="swiper slide-home-{{ section.id }} {% if section.settings.top_margin == true %}margin-top-main{% endif %}">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <a href="{{ block.settings.link }}" {% if block.settings.link == blank %}style="pointer-events: none;"{% endif %}>
+          
+          {% comment %} --- Lógica DESKTOP: Prioriza Video sobre Imagen --- {% endcomment %}
+          {% if block.settings.video_desktop != blank %}
+            {{ block.settings.video_desktop | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_desktop', image_size: 'master' }}
+          {% else %}
+             <img class="only_desktop" src="{{ block.settings.image | image_url }}" width="" height="" loading="lazy">
+          {% endif %}
+
+          {% comment %} --- Lógica MOBILE: Prioriza Video sobre Imagen --- {% endcomment %}
+          {% if block.settings.video_mobile != blank %}
+            {{ block.settings.video_mobile | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_mobile', image_size: 'master' }}
+          {% else %}
+            <img class="only_mobile" src="{{ block.settings.image_mobile | image_url }}" width="" height="" loading="lazy">
+          {% endif %}
+
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Botones opcionales -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<style>
+    /* Aplica 100% de ancho tanto a imágenes como a videos */
+    .slide-home-{{ section.id }} img,
+    .slide-home-{{ section.id }} video {
+        width: 100%;
+        display: block; /* Elimina espacios fantasma debajo */
+        object-fit: cover; /* Asegura que cubra el espacio si el ratio varía */
+    }
+
+    .slide-home-{{ section.id }}.margin-top-main {
+        margin-top: -95px;
+    }
+
+    /* Ocultar elementos mobile por defecto */
+    .slide-home-{{ section.id }} .only_mobile {
+        display: none !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        /* En mobile, ocultar desktop y mostrar mobile */
+        .slide-home-{{ section.id }} .only_desktop {
+            display: none !important;
+        }
+        .slide-home-{{ section.id }} .only_mobile {
+            display: block !important;
+        }
+    }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const carruseles = document.querySelectorAll('.slide-home-{{ section.id }}');
+    if (!carruseles.length) return;
+
+    carruseles.forEach((el) => {
+      new Swiper(el, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        speed: 600,
+        // Si hay videos, a veces es mejor quitar el autoplay del slider para que no se corte el video,
+        // pero lo dejo comentado por si quieres que pase solo.
+        /*
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        */
+        navigation: {
+          nextEl: el.querySelector('.swiper-button-next'),
+          prevEl: el.querySelector('.swiper-button-prev'),
+        },
+        pagination: {
+          el: el.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Slider Imágenes/Video",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "top_margin",
+      "default": false,
+      "label": "¿Dejar arriba del todo?"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slides",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Versión Escritorio"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Imagen escritorio"
+        },
+        {
+          "type": "video",
+          "id": "video_desktop",
+          "label": "Video escritorio (MP4)",
+          "info": "Si subes un video, reemplazará a la imagen de escritorio."
+        },
+        {
+          "type": "header",
+          "content": "Versión Móvil"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Imagen mobile"
+        },
+        {
+          "type": "video",
+          "id": "video_mobile",
+          "label": "Video mobile (MP4)",
+          "info": "Si subes un video, reemplazará a la imagen móvil."
+        },
+        {
+          "type": "header",
+          "content": "General"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Url de destino"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sliders Home (Video/Img)",
+      "blocks": [
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

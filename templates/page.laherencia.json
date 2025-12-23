@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_jjyCtP": {
+      "type": "editoriales",
+      "blocks": {
+        "column_RcdL6N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner_2.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-denim-cuello-vuelos-blue"
+          }
+        },
+        "column_eJiMXj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Editorial1.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-bordadas-gray"
+          }
+        },
+        "column_ARJqii": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_d5607320-4062-4bcf-bc70-a6096466322a.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-lazo-frontal-brown"
+          }
+        },
+        "column_j3YKwM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_2b824c50-f795-41a9-9ec6-c54e083fe0ec.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pants-diagonal-bolsillo-gray"
+          }
+        },
+        "column_bLVeCb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner3_80fcc37f-4579-4c2c-b2fc-219f31775180.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-bolsillos-gray"
+          }
+        },
+        "column_YwJWHm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_18c5f7fe-7bfa-49c9-96ce-73e5755788a8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-tachas-corte-lateral-gray"
+          }
+        },
+        "column_7EGhit": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_ffd9c8f7-d526-4c7c-add5-26b342198cd8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-multi-estrellas-gray"
+          }
+        },
+        "column_t36T3x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6_e2203a97-151d-43b0-bf93-3244e196dc0f.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "cardigan-cinta-red"
+          }
+        },
+        "column_AFgait": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/10.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-dibujo-flores-white"
+          }
+        },
+        "column_4GH8xH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/8_af181c25-874c-4cea-b176-56df39280145.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-cuello-tortuga-ecru"
+          }
+        },
+        "column_7kdnz3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-pockets-cow"
+          }
+        },
+        "column_GegrDP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5_4a424897-9f9c-42ed-8537-e38acf6e23b4.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chiporro-mapa-mundi"
+          }
+        },
+        "column_PxyMNA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tirobajo.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-tiro-bajo"
+          }
+        },
+        "column_WFhQGy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bag2.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "bag-tachas-black"
+          }
+        },
+        "column_kQ8qyP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/andorra.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-andorra-gray-r"
+          }
+        },
+        "column_BgGRqU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/7_78c1d439-b31c-4bfc-abb9-7809990217f6.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sweater-trenzado-black"
+          }
+        },
+        "column_UbAfd8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bag-xl.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "shopper-tachas-red"
+          }
+        },
+        "column_yUbii6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Caluga_01_b36f9a42-a69b-4ebd-9706-953047bb3790.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "cardigan-cinta-gray"
+          }
+        },
+        "column_4CRiag": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cartera-bag.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "bag-tachas-red"
+          }
+        },
+        "column_qHUcEW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/deim.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "chaqueta-denim-cuello-vuelos-blue"
+          }
+        },
+        "column_QhKKdC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/tachas-corte.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-cortes-tachas-black-r"
+          }
+        },
+        "column_X6ABx3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/redstar.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-red-star"
+          }
+        }
+      },
+      "block_order": [
+        "column_RcdL6N",
+        "column_eJiMXj",
+        "column_ARJqii",
+        "column_j3YKwM",
+        "column_bLVeCb",
+        "column_YwJWHm",
+        "column_7EGhit",
+        "column_t36T3x",
+        "column_AFgait",
+        "column_4GH8xH",
+        "column_7kdnz3",
+        "column_GegrDP",
+        "column_PxyMNA",
+        "column_WFhQGy",
+        "column_kQ8qyP",
+        "column_BgGRqU",
+        "column_UbAfd8",
+        "column_yUbii6",
+        "column_4CRiag",
+        "column_qHUcEW",
+        "column_QhKKdC",
+        "column_X6ABx3"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": false,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_jjyCtP"
+  ]
+}

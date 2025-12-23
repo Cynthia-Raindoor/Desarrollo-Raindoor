@@ -1,0 +1,108 @@
+{%- if card_product.variants.size > 1 -%}
+  <div class="custom-modal">
+    <p>Disponible en:</p>
+    <div class="swatch-variants">
+      {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
+      {%- for variant in card_product.variants -%}
+        <div class="quick-add no-js-hidden">
+          <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
+            <button
+              id="{{ product_form_id }}-variant-{{ variant.id }}"
+              type="submit"
+              name="add"
+              class="quick-add__submit button button--full-width button--secondary{% unless variant.available %} no-disponible{% endunless %}"
+              aria-haspopup="dialog"
+              aria-labelledby="{{ product_form_id }}-variant-{{ variant.id }} title-{{ section_id }}-{{ card_product.id }}"
+              data-product-url="{{ card_product.url }}"
+              data-variant-id="{{ variant.id }}"
+              {% unless variant.available %}
+                disabled
+              {% endunless %}
+            >
+              {{ variant.title }}
+              <div class="loading__spinner hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="spinner" viewBox="0 0 66 66">
+                  <circle stroke-width="6" cx="33" cy="33" r="30" fill="none" class="path"></circle>
+                </svg>
+              </div>
+            </button>
+          </modal-opener>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <style>
+    .custom-modal {
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.95);
+      position: absolute;
+      bottom: 1rem;
+      padding: 1rem 0 !important;
+      left: 1rem;
+      width: calc(100% - 2rem);
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      transition: opacity 200ms ease, visibility 200ms ease;
+    }
+
+    @media screen and (max-width: 750px) {
+      .custom-modal {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .custom-modal.active {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    @media screen and (min-width: 751px) {
+      .custom-modal {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .grid__item:hover .custom-modal {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    .custom-modal .quick-add {
+      margin: 0 !important;
+    }
+    .custom-modal button:after,
+    .custom-modal button:before {
+      display: none;
+    }
+
+    .swatch-variants {
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      justify-content: center;
+    }
+    .custom-modal p {
+      margin: 0 !important;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .custom-modal button {
+      padding: 0;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px !important;
+      height: 30px !important;
+      font-size: 1rem;
+      min-width: auto;
+      min-height: auto;
+      font-weight: 700;
+    }
+  </style>
+{%- endif -%}

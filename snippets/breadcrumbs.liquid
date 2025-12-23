@@ -1,0 +1,99 @@
+<nav class="breadcrumbs page-width">
+  <ol class="breadcrumbs-list">
+    <li class="breadcrumbs-list__item">
+      <a class="breadcrumbs-list__link" href="{{ routes.root_url }}">Inicio</a> {{ divider }}
+    </li>
+
+    {%- if template.name == 'collection' and collection.handle -%}
+      {%- if show_collection_listing_link -%}
+        <li class="breadcrumbs-list__item">
+          <a class="breadcrumbs-list__link" href="{{ routes.collections_url }}">{{ collections_title | escape }}</a>
+          {{ divider }}
+        </li>
+      {%- endif -%}
+      <li class="breadcrumbs-list__item">
+        {{- 'icon-right.svg' | inline_asset_content -}}
+
+        <a
+          class="breadcrumbs-list__link"
+          href="{{ routes.collections_url }}/{{ collection.handle }}"
+          aria-current="page"
+        >
+          {{- collection.title | escape -}}
+        </a>
+      </li>
+
+    {%- elsif template.name == 'product' -%}
+      {%- if collection -%}
+        {%- if show_collection_listing_link -%}
+          <li class="breadcrumbs-list__item">
+            <a class="breadcrumbs-list__link" href="{{ routes.collections_url }}">{{ collections_title | escape }}</a>
+            {{ divider }}
+          </li>
+        {%- endif -%}
+        <li class="breadcrumbs-list__item">
+          <a class="breadcrumbs-list__link" href="{{ collection.url }}">{{ collection.title | escape }}</a>
+          {{ divider }}
+        </li>
+      {%- endif -%}
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ product.url }}" aria-current="page">{{ product.title | escape }}</a>
+      </li>
+
+    {%- elsif template.name == 'blog' and current_tags -%}
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ blog.url }}">{{ blog.title | escape }}</a> {{ divider }}
+      </li>
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ blog_tag_url }}" aria-current="page">
+          {{- current_tags | join: ', ' -}}
+        </a>
+      </li>
+
+    {%- elsif template.name == 'article' -%}
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ blog.url }}">{{ blog.title | escape }}</a> {{ divider }}
+      </li>
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ article.url }}" aria-current="page">{{ article.title | escape }}</a>
+      </li>
+
+    {%- elsif other_templates contains template.name or template.directory == 'customers' -%}
+      <li class="breadcrumbs-list__item">
+        <a class="breadcrumbs-list__link" href="{{ item_url }}" aria-current="page">{{ item_title | escape }}</a>
+      </li>
+    {%- endif -%}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumbs-list {
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  .breadcrumbs-list__item,
+  .breadcrumbs-prod-nav,
+  .breadcrumbs-prod-nav__link {
+    display: flex;
+    align-items: center;
+  }
+  .breadcrumbs-list__link,
+  .breadcrumbs-list__rss,
+  .breadcrumbs-prod-nav__link {
+    opacity: 0.8;
+  }
+  ol.breadcrumbs-list a,
+  ol.breadcrumbs-list svg {
+    color: gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  ol.breadcrumbs-list svg {
+    width: 13px;
+  }
+</style>

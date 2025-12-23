@@ -1,0 +1,297 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "editoriales_cXTELH": {
+      "type": "editoriales",
+      "blocks": {
+        "column_dw6KbK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/polka-dots.png",
+            "image_cuadrante": "shopify://shop_images/top-polka-dots.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "top-polka-dot-brown"
+          }
+        },
+        "column_Pz6Fr6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga6_08a32caa-904b-4c7e-995e-d8d6cf4cb20f.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0146.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "falda-globo-lurex-navy"
+          }
+        },
+        "column_dM3Kqd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga7_b103e702-463f-40e9-a798-ba32c37ceceb.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0160.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "blusa-pliegues-white"
+          }
+        },
+        "column_ET6R7A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner-chalas-negras.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0898.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "sandalias-tachas-black"
+          }
+        },
+        "column_q7Wiia": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga8_a75355d2-c602-4657-81d5-74b474f8575a.png",
+            "image_cuadrante": "shopify://shop_images/sandalia-tiras-gold.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "sandalia-tiras-gold"
+          }
+        },
+        "column_kHNdxT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga9_845b8838-206a-426b-8cc6-0c90d67d0092.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0560-2.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "top-panal-vuelos-lurex-pink"
+          }
+        },
+        "column_agFcTg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner4_9206e080-327a-4a20-b623-184bc6a5c31c.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0255.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-vuelos-white"
+          }
+        },
+        "column_U6WXcF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga10_38de47fd-3754-4273-9996-19dc817fa52b.png",
+            "image_cuadrante": "shopify://shop_images/short-pink.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "short-pretina-elasticada-pink"
+          }
+        },
+        "column_zch9yp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga11_91007ba0-457d-440d-8427-1562976d51d5.png",
+            "image_cuadrante": "shopify://shop_images/vestpink.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "vest-cruzado-pink"
+          }
+        },
+        "column_6xQtKy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga12_85ef7a3b-09e5-4118-b41a-86d54603cae2.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0748.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-larga-grey"
+          }
+        },
+        "column_nUXkFq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga13_7dbd5414-c181-4c29-b0b2-07dc61cc365d.png",
+            "image_cuadrante": "shopify://shop_images/falda-globo-lurex-ecru.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "falda-globo-lurex-ecru"
+          }
+        },
+        "column_3LhbXQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner5_fcfba31d-fd5d-4ebf-8680-4e7b3da95d5d.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0120.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "panuelo-polka-dot-brown"
+          }
+        },
+        "column_FhxCpb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner14.png",
+            "image_cuadrante": "shopify://shop_images/MTF_9433.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-pretina-rayas-white"
+          }
+        },
+        "column_EfiYTU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FALDA_BLUE.png",
+            "image_cuadrante": "shopify://shop_images/FALDA_BLUE.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-print-blue"
+          }
+        },
+        "column_tDY39R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga15_f69ea898-244b-471b-bb3b-3d437258783b.png",
+            "image_cuadrante": "shopify://shop_images/blusa-cintas-white.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "blusa-cintas-white"
+          }
+        },
+        "column_qqhytU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pants-pliegues-editorial_ec50ed05-f17d-4a98-964c-2040f1c69ae8.png",
+            "image_cuadrante": "shopify://shop_images/pants-pliegues.png",
+            "video": "",
+            "size": "third",
+            "selected_product": "pantalon-plisado-low-rise-blue"
+          }
+        },
+        "column_CQJTbN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga16_ab20d73f-1ef2-4c5e-a333-db24ae8ad2cd.png",
+            "image_cuadrante": "shopify://shop_images/MTF_9246.jpg",
+            "video": "",
+            "size": "third",
+            "selected_product": "top-panal-white"
+          }
+        },
+        "column_fBFTmg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FALDA_GRAY_68df0d07-396e-4a2b-95d7-132f4942db76.png",
+            "image_cuadrante": "shopify://shop_images/FALDA_GRAY.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-print-grey"
+          }
+        },
+        "column_rDh9w7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner20.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0088_1.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-vuelos-grey"
+          }
+        },
+        "column_MJHTBE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/banner-top-asimetrico.png",
+            "image_cuadrante": "shopify://shop_images/MTF_0764.jpg",
+            "video": "",
+            "size": "full",
+            "selected_product": "polera-asimetrica-estrellas-grey"
+          }
+        },
+        "column_kYaDKz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga4_8c37e67b-1f34-4226-b5c5-3e9af939301b.png",
+            "image_cuadrante": "shopify://shop_images/blusa-manga-corta-lurex-white.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-manga-corta-lurex-white"
+          }
+        },
+        "column_9ajWgU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/caluga5_cb6b6b7d-c394-4e23-b960-721466cf962e.png",
+            "image_cuadrante": "shopify://shop_images/MTF_9863.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-rayas-green"
+          }
+        },
+        "column_4GjLyM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Flare.jpg",
+            "image_cuadrante": "shopify://shop_images/pocket-flare-blue.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-pocket-flare-blue"
+          }
+        }
+      },
+      "block_order": [
+        "column_dw6KbK",
+        "column_Pz6Fr6",
+        "column_dM3Kqd",
+        "column_ET6R7A",
+        "column_q7Wiia",
+        "column_kHNdxT",
+        "column_agFcTg",
+        "column_U6WXcF",
+        "column_zch9yp",
+        "column_6xQtKy",
+        "column_nUXkFq",
+        "column_3LhbXQ",
+        "column_FhxCpb",
+        "column_EfiYTU",
+        "column_tDY39R",
+        "column_qqhytU",
+        "column_CQJTbN",
+        "column_fBFTmg",
+        "column_rDh9w7",
+        "column_MJHTBE",
+        "column_kYaDKz",
+        "column_9ajWgU",
+        "column_4GjLyM"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "silvestre",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "editoriales_cXTELH"
+  ]
+}

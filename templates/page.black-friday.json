@@ -1,0 +1,277 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_4nd8QV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Cb6TmK": {
+          "type": "heading",
+          "settings": {
+            "heading": "EARLY ACCESS A NUESTRO BLACK FRIDAY"
+          }
+        },
+        "text_M4zc8y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Suscríbete a la lista VIP Raindoor y sé parte de este Black Friday con acceso antes que nadie y con sorpresas exclusivas para las primeras sólo por una hora</p>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_Cb6TmK",
+        "text_M4zc8y"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "scheme-1",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    },
+    "custom_liquid_KRh9Vf": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-Xsna3s\"></div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_aQJqcK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7mKngf": {
+          "type": "column",
+          "settings": {
+            "title": "TIP 1",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YFhzpt": {
+          "type": "column",
+          "settings": {
+            "title": "TIP 2",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NRqQUK": {
+          "type": "column",
+          "settings": {
+            "title": "TIP 3",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qnXgEW": {
+          "type": "column",
+          "settings": {
+            "title": "TIP 4",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7mKngf",
+        "column_YFhzpt",
+        "column_NRqQUK",
+        "column_qnXgEW"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "PREPÁRATE PARA ESTE BLACK FRIDAY",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_mxb8DY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_8WXBNL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo puedo saber si mi pedido está bien?",
+            "icon": "check_mark",
+            "row_content": "<p>Una vez que realices tu compra, te llegará un correo con la confirmación de tu pedido. En la parte superior de esta confirmación de correo aparecerá \"PEDIDO #XXXX\" con el cual podrás reconocer tu compra más adelante.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LzMbrf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué hacer si no me llega correo de confirmación?",
+            "icon": "check_mark",
+            "row_content": "<p>Envíanos un mensaje por WhatsApp al +56 9 7208 2702 con tu nombre completo, RUT, correo electrónico y el comprobante de pago, asegurándote de que el número de transacción esté claramente visible.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TFLt7G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuándo puedo retirar mi pedido en Tienda?",
+            "icon": "check_mark",
+            "row_content": "<p>Cuando sea notificado mediante el correo. <strong>Atención, </strong>no vayas antes de recibir este correo. </p><p>Desde el día de confirmación de retiro, tienes 5 días para ir a buscar tu pedido en la tienda seleccionada. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yefgnX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuáles son los tiempos de despacho?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Región Metropolitana: 3 a 5 días </li><li>Regiones: 5 a 8 días</li><li>Pedidos Same - Day: Estarán desactivados por la campaña de Black. </li><li>Pedidos Express: Ventas del día despachadas el mismo día, sujeto a apertura y cierre sucursal. </li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zcpJ9w": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué hago si mi pedido presenta problemas en el envío o está mal la dirección?",
+            "icon": "check_mark",
+            "row_content": "<p>Si tu pedido presenta problemas de dirección puedes contactarte con nosotros a nuestro WhatsApp +569 7208 2702 y nos contactaremos con nuestra ejecutiva para que pueda corregir la dirección. Si el pedido presenta retraso también debes contactarte con nosotros para solicitar<br/>información a la empresa de despacho correspondiente.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fj7QzG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Por cuanto tiempo puedo realizar un cambio?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Para cambios tienes hasta 90 días desde que realizaste la<br/>compra en tiendas Raindoor o que recibiste tu compra por raindoor.cl. Los cambios siempre están sujetos a stock de productos.</li><li>No se realizan cambios ni devoluciones de compras realizadas<br/>en tiendas que comercialicen productos Raindoor.</li><li>Productos comprados en tienda, se cambian o devuelven exclusivamente en tienda.</li><li>Productos comprados por pagina web, se cambian o devuelven en tienda como también por medio de Reversso </li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_atN9Bz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Por cuánto tiempo puedo realizar una devolución?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Para devoluciones son 10 días desde que realizaste la compra en tiendas Raindoor o que recibiste tu compra por raindoor.cl</li><li>No se realizan cambios ni devoluciones de compras realizadas en tiendas que comercialicen productos Raindoor.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nQ6tK9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Tienes más dudas sobre la campaña?",
+            "icon": "check_mark",
+            "row_content": "<p>Cualquier otra pregunta sobre la campaña puedes revisar en nuestros términos y condiciones: <a href=\"https://www.raindoor.cl/pages/terminos-y-condiciones-black-friday-2025\" title=\"AQUÍ\">https://www.raindoor.cl/pages/terminos-y-condiciones-black-friday-2025</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_8WXBNL",
+        "collapsible_row_LzMbrf",
+        "collapsible_row_TFLt7G",
+        "collapsible_row_yefgnX",
+        "collapsible_row_zcpJ9w",
+        "collapsible_row_fj7QzG",
+        "collapsible_row_atN9Bz",
+        "collapsible_row_nQ6tK9"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "PREGUNTAS FRECUENTES",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "small",
+        "desktop_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_dMRBjG": {
+      "type": "collage",
+      "blocks": {
+        "image_kUpQt9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BLACK_FRIDAY_EarlyAccess_1080x1350_40406a2c-6d20-48dc-b158-7e41c6827fd9.jpg"
+          }
+        },
+        "image_LRimdJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BLACK_FRIDAY_EarlyAccess_1080x1350_0f1de332-9cae-4570-96b9-994205a6b53d.jpg"
+          }
+        },
+        "image_iiJdNn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BLACK_FRIDAY_EarlyAccess_1080x1350_0f1de332-9cae-4570-96b9-994205a6b53d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_kUpQt9",
+        "image_LRimdJ",
+        "image_iiJdNn"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_4nd8QV",
+    "custom_liquid_KRh9Vf",
+    "multicolumn_aQJqcK",
+    "collapsible_content_mxb8DY",
+    "collage_dMRBjG"
+  ]
+}

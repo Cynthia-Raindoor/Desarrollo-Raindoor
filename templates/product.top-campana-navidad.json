@@ -1,0 +1,236 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD": {
+          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
+          "settings": {
+            "product": "{{product}}",
+            "waitForElementSelector": "",
+            "waitForElementDelay": 5
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text_source": "text",
+            "text": "{{ product.vendor }}",
+            "metafield_namespace": "",
+            "metafield_key": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "loox_reviews_loox_rating_hEPd3R": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "#3b270c",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "color_swatch_8nkkJq": {
+          "type": "color-swatch",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "pinflag_check_in_store_check_in_store_BMmcHQ": {
+          "type": "shopify://apps/pinflag-check-in-store/blocks/check_in_store/0199a082-a090-7641-ac7a-faacd646422b",
+          "settings": {
+            "button_label": "Ver Stock Tiendas",
+            "popup_title": "Disponibilidad en Tiendas",
+            "custom_css": ".shopify-block shopify-app-block .stock-btn {\n background-color: #3B270C !important;\n}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_FxJgiM": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_source": "text",
+            "text": "¿No ves la Raindoorbox en tu carrito? ¡No te preocupes! ¡Todos los pedidos sobre $79.990 incluyen Raindoorbox!",
+            "metafield_namespace": "",
+            "metafield_key": "",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible_tab_dMrEAX": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Descripción",
+            "icon": "clipboard",
+            "content": "",
+            "metafield_name": "custom.descripci_n",
+            "page": ""
+          }
+        },
+        "text_fTijmt": {
+          "type": "text",
+          "settings": {
+            "text_source": "metafield",
+            "text": "",
+            "metafield_namespace": "custom",
+            "metafield_key": "descripci_n",
+            "text_style": "body"
+          }
+        },
+        "collapsible_tab_3RcxFJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Detalles y material",
+            "icon": "leather",
+            "content": "",
+            "metafield_name": "custom.detalles_y_material",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Kzyra4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Recomendaciones",
+            "icon": "heart",
+            "content": "",
+            "metafield_name": "custom.medidas_y_recomendaciones",
+            "page": ""
+          }
+        },
+        "collapsible_tab_z8xj7g": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cambio fácil",
+            "icon": "question_mark",
+            "content": "",
+            "metafield_name": "custom.cambio_f_cil_raindoor",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD",
+        "vendor",
+        "title",
+        "price",
+        "loox_reviews_loox_rating_hEPd3R",
+        "color_swatch_8nkkJq",
+        "variant_picker",
+        "pinflag_check_in_store_check_in_store_BMmcHQ",
+        "quantity_selector",
+        "buy_buttons",
+        "text_FxJgiM",
+        "description",
+        "collapsible_tab_dMrEAX",
+        "text_fTijmt",
+        "collapsible_tab_3RcxFJ",
+        "collapsible_tab_Kzyra4",
+        "collapsible_tab_z8xj7g"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "17632535078b2753c9": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_yjgNDb": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_yjgNDb"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "<strong>¡También te podría gustar!</strong>",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17632535078b2753c9",
+    "related-products"
+  ]
+}

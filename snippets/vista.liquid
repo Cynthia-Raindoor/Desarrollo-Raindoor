@@ -1,0 +1,163 @@
+<div class="grid-view-toggle ">
+  <div class="grid-view-toggle__inner">
+    <button
+      type="button"
+      id="grid-toggle-button"
+      class="grid-view-button d-flex justify-content-start align-items-center"
+    >
+      <span class="grid-icon">
+        {{ 'icon-vista-4.svg' | inline_asset_content }}
+      </span>
+      <span class="txt-buttons-cat txt-vista4">Vista 4</span>
+    </button>
+  </div>
+</div>
+
+<style>
+  {% comment %} .facets-container-drawer .product-count {
+    padding-left: 10px !important;
+  }
+  #FacetSortDrawerForm,
+  .facets-container-drawer .product-count {
+    margin: 0 !important;
+  } {% endcomment %}
+ 
+  .grid-view-toggle__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+  }
+  .grid-view-toggle__label {
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  #grid-toggle-button {
+    color: rgba(var(--color-foreground), 0.85) !important;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    gap: 0.6rem;
+    min-width: 8rem;
+    font-size: 1.3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #grid-toggle-button:hover {
+    border-color: rgb(var(--color-foreground));
+  }
+  .grid-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+  }
+  #grid-toggle-button.active .grid-icon svg {
+    fill: rgb(var(--color-background));
+  }
+  #product-grid {
+    transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+
+  @media screen and (min-width: 768px) {
+     .facets {
+    display: flex !important;
+    align-items: center;
+  }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('#ProductGridContainer');
+    const toggleBtn = document.querySelector('#grid-toggle-button');
+    if (!container || !toggleBtn) return;
+
+    const storageKey = 'preferredGridColumns';
+    const desktopClasses = ['grid--1-col-desktop', 'grid--2-col-desktop', 'grid--3-col-desktop', 'grid--4-col-desktop'];
+
+    let isAnimating = false;
+    let lastGrid = null;
+
+    function getGrid() {
+      return document.querySelector('#product-grid');
+    }
+
+    function updateButton(columns) {
+      const isTwo = columns === '2';
+      const button = document.getElementById('grid-toggle-button');
+      const iconSpan = button.querySelector('.grid-icon');
+      const textSpan = button.querySelector('.txt-buttons-cat');
+
+      const svg2 = `{{ 'icon-vista-2.svg' | inline_asset_content }}`;
+      const svg4 = `{{ 'icon-vista-4.svg' | inline_asset_content }}`;
+
+      iconSpan.innerHTML = isTwo ? svg2 : svg4;
+      textSpan.textContent = `Vista ${isTwo ? '2' : '4'}`;
+      textSpan.className = `txt-buttons-cat txt-vista${isTwo ? '2' : '4'}`;
+      button.classList.toggle('active', isTwo);
+    }
+
+    function applyFadeIn(grid) {
+      if (!grid || isAnimating) return;
+      isAnimating = true;
+      grid.style.opacity = '0';
+      void grid.offsetHeight;
+      requestAnimationFrame(() => {
+        grid.style.opacity = '1';
+      });
+      setTimeout(() => {
+        isAnimating = false;
+      }, 400);
+    }
+
+    function applyView(columns, shouldFade = true) {
+      const grid = getGrid();
+      if (!grid) return;
+
+      grid.classList.remove(...desktopClasses);
+      grid.classList.add(`grid--${columns}-col-desktop`);
+
+      updateButton(columns);
+      localStorage.setItem(storageKey, columns);
+
+      if (shouldFade) {
+        applyFadeIn(grid);
+      }
+    }
+
+    // === TOGGLE CLICK ===
+    toggleBtn.addEventListener('click', () => {
+      const current = localStorage.getItem(storageKey) || '4';
+      const next = current === '2' ? '4' : '2';
+      applyView(next, true);
+    });
+
+    // === CARGA INICIAL ===
+    let saved = localStorage.getItem(storageKey);
+    if (!saved || !['2', '4'].includes(saved)) saved = '4';
+    updateButton(saved);
+    applyView(saved, false);
+
+    // === OBSERVER: nuevo grid por AJAX ===
+    const observer = new MutationObserver(() => {
+      const currentGrid = getGrid();
+      if (currentGrid && currentGrid !== lastGrid && !currentGrid.dataset.processed) {
+        lastGrid = currentGrid;
+        currentGrid.dataset.processed = 'true';
+        const cols = localStorage.getItem(storageKey) || '4';
+        applyView(cols, true);
+      }
+    });
+
+    observer.observe(container, { childList: true, subtree: true });
+  });
+</script>

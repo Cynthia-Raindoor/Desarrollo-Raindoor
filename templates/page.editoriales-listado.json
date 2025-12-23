@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_BwkCGk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TA4fEX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "EDITORIALES"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TA4fEX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "color_scheme": "",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    },
+    "editoriales_plp_TjqfGi": {
+      "type": "editoriales-plp",
+      "blocks": {
+        "column_r9zPnk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Mobile-Lunes10.png",
+            "image_cuadrante": "shopify://shop_images/Banner-Mobile-Lunes10.png",
+            "size": "half",
+            "page_selected": "silvestre"
+          }
+        },
+        "column_tHtx9B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BannerMobile_Miercoles29.png",
+            "image_cuadrante": "shopify://shop_images/BannerMobile_Miercoles29.png",
+            "size": "half",
+            "page_selected": "slow-editorial"
+          }
+        },
+        "column_e4Ef9c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Barra_Menu_Home_Aurora.jpg",
+            "size": "half",
+            "page_selected": "aurora"
+          }
+        },
+        "column_p6UNPW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner-MOBILE-Miercoles-17.png",
+            "size": "half",
+            "page_selected": "josefa-saez-x-raindoor"
+          }
+        },
+        "column_GXG9mr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Mobile_Home_Carretera.jpg",
+            "size": "half",
+            "page_selected": "carretera"
+          }
+        },
+        "column_WMeT7h": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Banner_bueno_Mobile_All_Denim.jpg",
+            "size": "half",
+            "page_selected": "all-denim"
+          }
+        }
+      },
+      "block_order": [
+        "column_r9zPnk",
+        "column_tHtx9B",
+        "column_e4Ef9c",
+        "column_p6UNPW",
+        "column_GXG9mr",
+        "column_WMeT7h"
+      ],
+      "name": "Listado de Editoriales",
+      "settings": {
+        "show_button": false,
+        "margin_top": 20,
+        "margin_bottom": 50,
+        "skip_container": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_BwkCGk",
+    "editoriales_plp_TjqfGi"
+  ]
+}

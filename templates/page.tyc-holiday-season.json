@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mapa_custom_kW3JWq": {
+      "type": "mapa-custom",
+      "blocks": {
+        "item_PJXGfq": {
+          "type": "item",
+          "settings": {
+            "titulo": "Mall Casacostanera",
+            "direccion": "Av. Nueva Costanera 3900, Vitacura",
+            "latitud": "-33.4011438",
+            "longitud": "-70.6196852",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "imagen": "shopify://shop_images/1747342906-primary.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "item_PJXGfq"
+      ],
+      "disabled": true,
+      "name": "Mapa",
+      "settings": {
+        "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    },
+    "rich_text_7K4eWn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xgVKDM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Términos y Condiciones NAVIDAD"
+          }
+        },
+        "text_LaEKHP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Vigencia:</strong></em><em> Desde el </em><em><strong>18 de noviembre</strong></em><em> hasta el </em><em><strong>31<br/>de diciembre de 2025</strong></em><em>, o hasta agotar stock.<br/><br/></em><em><strong>Válido en todas las tiendas Raindoor y en </strong></em><a href=\"http://www.raindoor.cl/\"><em><strong>www.raindoor.cl</strong></em></a><em><strong>, exceptuando<br/>Tienda Valdivia (ver condiciones especiales).</strong></em></p><h3><strong>1. Promoción “Arma tu Look” – $34.990</strong></h3><p>Incluye la compra conjunta de <strong>1 Top + 1 Bottom</strong> entre<br/>los productos seleccionados.</p><h4><strong>Condiciones de cambio</strong></h4><ul><li>El cambio debe realizarse por el <strong>conjunto completo</strong> (top + bottom).</li><li>Se permite cambiar cada producto por separado <strong>solo dentro de su misma categoría</strong>: Top por otro Top// o Bottom por otro Bottom</li><li>No se permite seleccionar <strong>dos productos de la misma categoría</strong> en la compra inicial ni en el proceso de cambio.</li></ul><h4><strong>Condiciones de devolución</strong></h4><ul><li>La devolución debe realizarse por el <strong>conjunto completo</strong>.</li><li>El reembolso se efectuará según el método de pago original.</li></ul><h4><strong>Productos seleccionados de la campaña</strong></h4><p><strong>Bottoms</strong></p><ul><li>Falda Print Grey</li><li>Falda Cargo Brown</li><li>Falda Print Blue</li><li>Falda Cargo Grey</li><li>Falda Cargo White</li><li>Short Moon Black</li><li>Short Moon Blue</li><li>Short Moon White</li></ul><p><strong>Tops</strong></p><ul><li>Top Cruzado Black</li><li>Top Cruzado Ecru</li><li>Top Logo White</li><li>Top Logo Grey</li><li>Top Tank Básica Black</li><li>Top Tank Básica White</li></ul><h3><strong>2. Promoción “Botella + Jockey + Holiday Box” – $19.990</strong></h3><p><strong>Condiciones de cambio</strong></p><ul><li>Se permiten cambios por el <strong>mismo producto en diferente color</strong>, cuando aplique.</li><li>No se permiten cambios por productos de otras categorías.</li></ul><p><strong>Condiciones de devolución</strong></p><ul><li>La devolución debe realizarse por el <strong>set completo</strong>.</li><li>El reembolso se realizará según el método de pago original.</li></ul><h4><strong>3. Vestidos y Enteritos – $24.990</strong></h4><p><strong>Condiciones</strong></p><ul><li>Cambios y devoluciones se realizan de forma <strong>normal</strong>, según la política general de la tienda.</li></ul><p><strong>Productos seleccionados</strong></p><ul><li>Vestido Corto Black</li><li>Vestido Corto White</li><li>Enterito Halter Black</li><li>Vestido Camisero White</li></ul><h4><strong>4. Pantalones – $29.990</strong></h4><p><strong>Condiciones</strong></p><ul><li>Cambios y devoluciones se realizan de forma <strong>normal</strong>, según la política<br/>general de la tienda.</li></ul><p><strong>Productos seleccionados</strong></p><ul><li>Pantalón Wide Leg Bag Black</li><li>Pantalón Wide Leg Cargo Black</li><li>Pantalón Diagonal Bolsillo Gray</li><li>Pantalón Corte Entrepierna Grey</li><li>Pantalón Wide Leg Bag Blue</li><li>Pantalón Estrellas Bordadas White</li></ul><h4><strong>5. Plazos Legales y Comerciales</strong></h4><ul><li><strong>Cambios: </strong>90 días.</li><li><strong>Devoluciones: </strong>10 días.</li><li><strong>Garantía legal:</strong> 6 meses por fallas de fabricación.</li></ul><h4><strong>6. Promoción “Compra Resorte” – 15% de descuento enpantalones</strong></h4><ul><li>Por la compra de <strong>cualquier producto Raindoor</strong>, el cliente recibe un <strong>voucher físico</strong> con un <strong>15% de descuento en pantalones</strong>, válido en toda la tienda. (promoción en tiendas)</li><li>Aplica <strong>descuentos sobre descuentos</strong>.</li><li>NO aplica sobre descuentos de embajadoras o promociones activas. </li><li>Para hacer válido el descuento, el cliente debe presentar el <strong>voucher físico </strong>en caja.</li><li>La vigencia del voucher es de <strong>90 días</strong>, utilizable en <strong>cualquier tienda Raindoor</strong>.</li></ul><h4><strong>CONDICIONES ESPECIALES – TIENDA VALDIVIA</strong></h4><p><strong>Promoción exclusiva Valdivia</strong></p><ul><li><strong>Blusa o Polera + Pantalón seleccionado por $34.990</strong></li><li><strong>Botella+ Jockey + Holiday Box – $19.990</strong></li></ul><p><strong>Condiciones</strong></p><ul><li>Cambios permitidos por el <strong>mismo producto en distinto color</strong>.</li><li>La devolución debe realizarse por el <strong>set completo</strong>.</li></ul>",
+            "text_size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgVKDM",
+        "text_LaEKHP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "left",
+        "color_scheme": "scheme-2",
+        "color_bg": "",
+        "color_heading": "",
+        "color_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "mapa_custom_kW3JWq",
+    "rich_text_7K4eWn"
+  ]
+}
