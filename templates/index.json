@@ -9,91 +9,49 @@
  */
 {
   "sections": {
-    "slideshow_images_N9idkg": {
-      "type": "slideshow-images",
-      "blocks": {
-        "slide_4YKUbD": {
-          "type": "slide",
-          "settings": {
-            "video_desktop": "shopify://files/videos/BANNER WEB NAVIDAD2.mp4",
-            "video_mobile": "shopify://files/videos/BANNER MOBILE NAVIDAD 2.mp4",
-            "link": "shopify://pages/navidad-girls-gift"
-          }
-        },
-        "slide_EA9fTx": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BANNER-WEB-PANT-ANIMAL.gif",
-            "image_mobile": "shopify://shop_images/PANT-ANIMAL-PRINT-STAR-BANNER-MOBILE.gif",
-            "link": "shopify://collections/jeans"
-          }
-        },
-        "slide_pkRdEJ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/myjnhtbgrvfdecs-02.png",
-            "image_mobile": "shopify://shop_images/ngdbfsvdca-01.png",
-            "link": "shopify://pages/holiday-season"
-          }
-        }
-      },
-      "block_order": [
-        "slide_4YKUbD",
-        "slide_EA9fTx",
-        "slide_pkRdEJ"
-      ],
-      "disabled": true,
-      "name": "Sliders Home",
-      "settings": {
-        "top_margin": true
-      }
-    },
     "slideshow_images_9cbLYC": {
       "type": "slideshow-images",
       "blocks": {
+        "slide_fUrWet": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_LUNES_29._Mesa_de_trabajo_1_copia_33.webp",
+            "image_mobile": "shopify://shop_images/BANNER_LUNES_29._Mesa_de_trabajo_1_copia_32.webp",
+            "link": "shopify://pages/new-year"
+          }
+        },
         "slide_ykLfW7": {
           "type": "slide",
-          "name": "Viernes 19",
+          "name": "Sale 31/12",
           "settings": {
-            "image": "shopify://shop_images/65f5beff-d44b-40d0-abdd-1c7b119e70a0.jpg",
-            "image_mobile": "shopify://shop_images/fdfcc217-68e1-4bf3-91f3-39c7a3000a63.jpg",
-            "link": "shopify://collections/holiday-season"
+            "image": "shopify://shop_images/BANNER_DESK.webp",
+            "image_mobile": "shopify://shop_images/BANNER_MOBILE_REBAJAS.webp",
+            "link": "shopify://collections/summer-sale"
           }
         },
         "slide_4BCECb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BANNER-WEB-NOVEDADES.png",
-            "image_mobile": "shopify://shop_images/BANNER-MOBILE-NOVEDADES.png",
-            "link": "shopify://collections/new-new"
+            "image": "shopify://shop_images/BANNER_WEB_PANTS_VIERNES_6.webp",
+            "image_mobile": "shopify://shop_images/BANNER_MOBILE_PANTS_VIERNES_6.webp",
+            "link": "shopify://collections/pantalones-summer-sale"
           }
         },
         "slide_GU9Ekk": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BANNER_WEB_NY.webp",
-            "image_mobile": "shopify://shop_images/BANNER_MOBILE_NY.webp",
-            "link": "shopify://collections/ano-nuevo"
-          }
-        },
-        "slide_Kq9bRX": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/10e03dfb-69dc-4e3b-a668-0447f6984305.png",
-            "image_mobile": "shopify://shop_images/9bb51eff-3357-4333-811c-77f721c4dd8f.png",
-            "link": "shopify://collections/holiday-season"
+            "image": "shopify://shop_images/BANNER_VESTIDO_WEB-VIERNES6.webp",
+            "image_mobile": "shopify://shop_images/BANNER_VESTIDOS_MOBILE-VIERNES6.webp",
+            "link": "shopify://collections/vestidos-y-enteritos"
           }
         }
       },
       "block_order": [
+        "slide_fUrWet",
         "slide_ykLfW7",
         "slide_4BCECb",
-        "slide_GU9Ekk",
-        "slide_Kq9bRX"
+        "slide_GU9Ekk"
       ],
       "name": "Sliders Home",
       "settings": {
@@ -106,47 +64,47 @@
         "slide_7hrWhj": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HNDGTBFVDCSXA-01.png",
+            "image": "shopify://shop_images/CALUGAS_SALE_Mesa_de_trabajo_2_copia_48.webp",
             "heading": "",
-            "button_label": "AMIGA SECRETA",
-            "link": "shopify://collections/especial-para-amiga-secreta"
+            "button_label": "",
+            "link": "shopify://collections/pantalones-29990"
           }
         },
         "slide_NfQcm3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/NHTBGFVDCSAXSA-01.png",
+            "image": "shopify://shop_images/CALUGAS_SALE_Mesa_de_trabajo_1-04.webp",
             "heading": "",
-            "button_label": "WISH LIST",
-            "link": "shopify://collections/arma-tu-wish-list"
-          }
-        },
-        "slide_kfzRmU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/htefdgbvsd-01.png",
-            "heading": "",
-            "button_label": "top + bottom $34.990",
-            "link": "shopify://collections/top-bottom-a-34-990"
+            "button_label": "",
+            "link": "shopify://collections/vestidos-y-enteritos"
           }
         },
         "slide_CDCRDQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HTERGDRSFDACS.png",
+            "image": "shopify://shop_images/CALUGA_TANK_ESTRELLA.webp",
             "heading": "",
-            "button_label": "Botella + Jockey $19.990",
-            "link": "shopify://collections/botella-jockey-a-19-990"
+            "button_label": "",
+            "link": "shopify://collections/blusas-y-poleras-19-990"
+          }
+        },
+        "slide_kfzRmU": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_SALE-11.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/short-y-faldas-19-990"
           }
         }
       },
       "block_order": [
         "slide_7hrWhj",
         "slide_NfQcm3",
-        "slide_kfzRmU",
-        "slide_CDCRDQ"
+        "slide_CDCRDQ",
+        "slide_kfzRmU"
       ],
-      "disabled": true,
       "name": "Home collection",
       "settings": {
         "margin-top": 10,
@@ -155,52 +113,43 @@
         "dots": true
       }
     },
-    "home_collections_fDMjVz": {
+    "home_collections_ExbfwL": {
       "type": "home-collections",
       "blocks": {
-        "slide_GkLY87": {
+        "slide_arYj6D": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/9e05daa8-0af3-4569-900f-2d432959ef74.jpg",
+            "image": "shopify://shop_images/5f9587b1-efd6-494f-be11-9c6d911730e8.png",
             "heading": "",
-            "button_label": "TOP + BOTTOM $34.990",
-            "link": "shopify://collections/top-bottom-a-34-990"
+            "button_label": "TOPS & BLUSAS",
+            "link": "shopify://collections/top-blusas"
           }
         },
-        "slide_9MLNwP": {
+        "slide_4mfeLi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/33e2b00a-aeb6-4dfe-a96d-3ca33d1d4169.jpg",
+            "image": "shopify://shop_images/0c708b1d-3cce-4f23-8d7c-cff333e7701f.png",
             "heading": "",
-            "button_label": "PANTALONES $29.990",
-            "link": "shopify://collections/pantalones-29990"
+            "button_label": "JEANS",
+            "link": "shopify://collections/jeans"
           }
         },
-        "slide_tPEi76": {
+        "slide_KxQBtX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3df33049-65d3-4ee2-8024-c49efc84509e.jpg",
+            "image": "shopify://shop_images/5bf88468-940d-48ec-a272-808c16a5c97f.png",
             "heading": "",
-            "button_label": "JOCKEY + CINTURÓN $19.990",
-            "link": "shopify://collections/jockey-cinturon-19-990"
-          }
-        },
-        "slide_nki6F7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/0653bc7f-c44a-45f0-a387-c0dc1c201538.jpg",
-            "heading": "",
-            "button_label": "VESTIDOS HASTA $24.990",
-            "link": "shopify://collections/vestidos-a-24-990"
+            "button_label": "SHORTS & FALDAS",
+            "link": "shopify://collections/faldas-shorts"
           }
         }
       },
       "block_order": [
-        "slide_GkLY87",
-        "slide_9MLNwP",
-        "slide_tPEi76",
-        "slide_nki6F7"
+        "slide_arYj6D",
+        "slide_4mfeLi",
+        "slide_KxQBtX"
       ],
+      "disabled": true,
       "name": "Home collection",
       "settings": {
         "margin-top": 10,
@@ -214,10 +163,55 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"benefits-wrapper\">\n  <div class=\"benefits-slider\">\n\n    <!-- SAME DAY (PRIMERO) -->\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/caja.png?v=1765455389\" alt=\"Retiros Blue Express\" />\n      </div>\n      <p class=\"title\">SAME DAY</p>\n      <p class=\"subtitle\">compra hoy recibe hoy</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/devolver.png?v=1765455389\" alt=\"90 Días\" />\n      </div>\n      <p class=\"title\">90 DÍAS</p>\n      <p class=\"subtitle\">para cambios</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/tarjeta-de-credito.png?v=1765455389\" alt=\"6 Cuotas\" />\n      </div>\n      <p class=\"title\">HASTA 6 CUOTAS</p>\n      <p class=\"subtitle\">sin interés con Mercado Pago</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/marcador-de-posicion.png?v=1765455389\" alt=\"Nuestras Tiendas\" />\n      </div>\n      <p class=\"title\">NUESTRAS TIENDAS</p>\n      <p class=\"subtitle\">Encuentra la más cercana</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/tienda.png?v=1765455389\" alt=\"Retira en Tienda\" />\n      </div>\n      <p class=\"title\">RETIRA EN TIENDA</p>\n      <p class=\"subtitle\">fácil y rápido</p>\n    </div>\n\n    <!-- CLON (ÚLTIMO) para que el carrusel mobile cierre el loop igual que antes -->\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/caja.png?v=1765455389\" alt=\"Retiros Blue Express\" />\n      </div>\n      <p class=\"title\">SAME DAY</p>\n      <p class=\"subtitle\">compra hoy recibe hoy</p>\n    </div>\n\n  </div>\n</div>\n\n<style>\n  .benefits-wrapper {\n    width: 100%;\n    padding: 20px 0;\n    overflow: hidden; \n  }\n\n  /* --- Configuración de IMÁGENES PNG --- */\n  .benefit-icon img {\n    width: 40px;        /* Tamaño fijo para que se vean uniformes */\n    height: 40px;\n    object-fit: contain;\n    display: block;     \n  }\n\n  /* --- DESKTOP --- */\n  .benefits-slider {\n    display: flex;\n    justify-content: space-between;\n    gap: 20px;\n    width: 100%;\n  }\n\n  .benefit-item {\n    flex: 1;\n    text-align: center;\n  }\n  \n  /* Ocultar el clon en desktop */\n  .benefit-item:last-child {\n    display: none; \n  }\n\n  .benefit-icon {\n    margin-bottom: 8px;\n    display: flex;             \n    justify-content: center;   \n    align-items: center;       \n  }\n\n  .title {\n    font-weight: bold;\n    margin: 0;\n    font-size: 14px;\n  }\n\n  .subtitle {\n    margin: 0;\n    font-size: 13px;\n    color: #444;\n  }\n\n  /* --- MOBILE (Carrusel) --- */\n  @media (max-width: 768px) {\n    \n    .benefits-slider {\n      display: flex !important;\n      flex-wrap: nowrap !important;\n      gap: 0 !important;\n      width: 100% !important; \n      animation: carouselSlide 15s infinite ease-in-out;\n    }\n\n    .benefit-item {\n      /* Asegura que cada item ocupe toda la pantalla sin aplastarse */\n      flex: 0 0 100% !important;\n      width: 100% !important;\n      max-width: 100% !important;\n      padding: 0 20px;\n      box-sizing: border-box;\n    }\n    \n    /* Mostrar el clon en mobile */\n    .benefit-item:last-child {\n        display: block !important; \n    }\n\n    @keyframes carouselSlide {\n      0%, 15%   { transform: translateX(0%); }    \n      20%, 35%  { transform: translateX(-100%); } \n      40%, 55%  { transform: translateX(-200%); } \n      60%, 75%  { transform: translateX(-300%); } \n      80%, 95%  { transform: translateX(-400%); } \n      100%      { transform: translateX(-500%); } \n    }\n  }\n</style>",
+        "custom_liquid": "<div class=\"benefits-wrapper\">\n  <div class=\"benefits-slider\">\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/devolver.png?v=1765455389\" alt=\"90 Días\" />\n      </div>\n      <p class=\"title\">90 DÍAS</p>\n      <p class=\"subtitle\">para cambios</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/tarjeta-de-credito.png?v=1765455389\" alt=\"6 Cuotas\" />\n      </div>\n      <p class=\"title\">HASTA 6 CUOTAS</p>\n      <p class=\"subtitle\">sin interés con Mercado Pago</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/marcador-de-posicion.png?v=1765455389\" alt=\"Nuestras Tiendas\" />\n      </div>\n      <p class=\"title\">NUESTRAS TIENDAS</p>\n      <p class=\"subtitle\">Encuentra la más cercana</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1680/7523/files/tienda.png?v=1765455389\" alt=\"Retira en Tienda\" />\n      </div>\n      <p class=\"title\">RETIRA EN TIENDA</p>\n      <p class=\"subtitle\">fácil y rápido</p>\n    </div>\n\n  </div>\n</div>\n\n<style>\n  .benefits-wrapper {\n    width: 100%;\n    padding: 20px 0;\n    overflow: hidden;\n  }\n\n  .benefit-icon img {\n    width: 40px;\n    height: 40px;\n    object-fit: contain;\n    display: block;\n  }\n\n  /* --- DESKTOP --- */\n  .benefits-slider {\n    display: flex;\n    justify-content: space-between;\n    gap: 20px;\n    width: 100%;\n  }\n\n  .benefit-item {\n    flex: 1;\n    text-align: center;\n  }\n\n  .benefit-icon {\n    margin-bottom: 8px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n\n  .title {\n    font-weight: bold;\n    margin: 0;\n    font-size: 14px;\n  }\n\n  .subtitle {\n    margin: 0;\n    font-size: 13px;\n    color: #444;\n  }\n\n  /* --- MOBILE (Carrusel) --- */\n  @media (max-width: 768px) {\n    .benefits-slider {\n      display: flex !important;\n      flex-wrap: nowrap !important;\n      gap: 0 !important;\n      width: 100% !important;\n      animation: carouselSlide 12s infinite ease-in-out;\n    }\n\n    .benefit-item {\n      flex: 0 0 100% !important;\n      width: 100% !important;\n      padding: 0 20px;\n      box-sizing: border-box;\n    }\n\n    @keyframes carouselSlide {\n      0%, 20%   { transform: translateX(0%); }\n      25%, 45%  { transform: translateX(-100%); }\n      50%, 70%  { transform: translateX(-200%); }\n      75%, 95%  { transform: translateX(-300%); }\n      100%      { transform: translateX(0%); }\n    }\n  }\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "home_collections_fDMjVz": {
+      "type": "home-collections",
+      "blocks": {
+        "slide_tPEi76": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-33.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/jockey-cinturon-19-990"
+          }
+        },
+        "slide_9MLNwP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-32.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/pantalones-29990"
+          }
+        },
+        "slide_nki6F7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-34.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/top-bottom-a-34-990"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tPEi76",
+        "slide_9MLNwP",
+        "slide_nki6F7"
+      ],
+      "disabled": true,
+      "name": "Home collection",
+      "settings": {
+        "margin-top": 10,
+        "margin-bottom": 10,
+        "carrusel": true,
+        "dots": true
       }
     },
     "custom_liquid_9dJXzw": {
@@ -231,13 +225,88 @@
         "padding_bottom": 52
       }
     },
+    "pinflag_home_featured_collection_knEEU9": {
+      "type": "pinflag-home-featured-collection",
+      "name": "Home collection 2",
+      "settings": {
+        "collection": "iconicos-para-este-verano",
+        "products_to_show": 10,
+        "title": "<strong>ICÓNICOS PARA ESTE VERANO</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "desktop_navigation_style": "side_arrows",
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "home_collections_eMdheH": {
+      "type": "home-collections",
+      "blocks": {
+        "slide_9GUcy8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA_SANDALIAS_GOLD.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/sandalias"
+          }
+        },
+        "slide_cACryg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_SALE-08.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/blazers"
+          }
+        },
+        "slide_KdRF9H": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGAS_SALE_Mesa_de_trabajo_2-05.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/polerones-40-off"
+          }
+        }
+      },
+      "block_order": [
+        "slide_9GUcy8",
+        "slide_cACryg",
+        "slide_KdRF9H"
+      ],
+      "name": "Home collection",
+      "settings": {
+        "margin-top": 10,
+        "margin-bottom": 10,
+        "carrusel": true,
+        "dots": true
+      }
+    },
     "pinflag_home_featured_collection_BLCDiM": {
       "type": "pinflag-home-featured-collection",
+      "disabled": true,
       "name": "Home collection 2",
       "settings": {
         "collection": "jeans",
         "products_to_show": 10,
-        "title": "<strong>REGALA JEANS ESTA NAVIDAD</strong>",
+        "title": "<strong>ICONIC JEANS</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -259,50 +328,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "home_collections_ExbfwL": {
-      "type": "home-collections",
-      "blocks": {
-        "slide_arYj6D": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/10b08e53-1f0c-4e32-910b-ada2bfcfc30a.jpg",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/regalos-9-990-19-990"
-          }
-        },
-        "slide_4mfeLi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/293080df-542a-455f-8b8e-8e8875566c4d.jpg",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/regalos-20-990-39-990"
-          }
-        },
-        "slide_KxQBtX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/0c3a2880-449a-45ab-ac60-b160fcfa814c.jpg",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/regalos-40-990-59-990"
-          }
-        }
-      },
-      "block_order": [
-        "slide_arYj6D",
-        "slide_4mfeLi",
-        "slide_KxQBtX"
-      ],
-      "name": "Home collection",
-      "settings": {
-        "margin-top": 10,
-        "margin-bottom": 10,
-        "carrusel": true,
-        "dots": true
       }
     },
     "collage_dLcEkJ": {
@@ -347,43 +372,13 @@
         "padding_bottom": 36
       }
     },
-    "pinflag_home_featured_collection_knEEU9": {
-      "type": "pinflag-home-featured-collection",
-      "name": "Home collection 2",
-      "settings": {
-        "collection": "favoritos-de-nuestras-tiendas",
-        "products_to_show": 10,
-        "title": "<strong>FAVORITOS DE NAVIDAD</strong>",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": true,
-        "desktop_navigation_style": "side_arrows",
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "pinflag_home_featured_collection_zTgJb3": {
       "type": "pinflag-home-featured-collection",
       "name": "Home collection 2",
       "settings": {
-        "collection": "sandalias",
+        "collection": "favoritos-raindoorgirls",
         "products_to_show": 10,
-        "title": "<strong>REGALA SANDALIAS</strong>",
+        "title": "<strong>FAVORITOS DE LAS RAINDOORGIRLS</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -409,12 +404,11 @@
     },
     "pinflag_home_featured_collection_zRY7Wd": {
       "type": "pinflag-home-featured-collection",
-      "disabled": true,
       "name": "Home collection 2",
       "settings": {
         "collection": "shorts-faldas",
         "products_to_show": 10,
-        "title": "<strong>VERANO A PRECIO BLACK FRIDAY</strong>",
+        "title": "<strong> INFALTABLES DEL VERANO</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -444,7 +438,7 @@
         "hotspot_fxGcha": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "jockey-estrella-bicolor-brown",
+            "selected_product": "top-cruzado-ecru",
             "position_x": 27,
             "position_y": 35
           }
@@ -460,7 +454,7 @@
         "hotspot_rY9tVy": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "blusa-pliegues-white",
+            "selected_product": "top-tank-basica-black",
             "position_x": 38,
             "position_y": 95
           }
@@ -483,67 +477,68 @@
       "disabled": true,
       "name": "Hotspots Products",
       "settings": {
-        "header": "<p><strong>COMPRA TU OUTFIT DE NAVIDAD</strong></p>",
-        "background_image": "shopify://shop_images/HOTSPOT-NAVIDAD.png",
+        "header": "<p><strong>COMPRA TU OUTFIT DE AÑO NUEVO</strong></p>",
+        "background_image": "shopify://shop_images/HOT_SPOT_01_1.webp",
         "hotspot_color": "#3b270c"
       }
     },
     "hotspots_fn8hAY": {
       "type": "hotspots",
       "blocks": {
-        "hotspot_FkTxKL": {
+        "hotspot_mfRQ8L": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "panuelo-polka-dot-taupe",
-            "position_x": 84,
-            "position_y": 55
+            "selected_product": "pantalon-estrella-zebra-black",
+            "position_x": 34,
+            "position_y": 53
           }
         },
         "hotspot_qRUBdh": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "falda-larga-panal-white",
-            "position_x": 69,
-            "position_y": 63
+            "selected_product": "short-estrella-white",
+            "position_x": 87,
+            "position_y": 60
+          }
+        },
+        "hotspot_FkTxKL": {
+          "type": "hotspot",
+          "settings": {
+            "selected_product": "top-cruzado-ecru",
+            "position_x": 83,
+            "position_y": 40
           }
         },
         "hotspot_gTAD9i": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "collar-conchita-gold",
-            "position_x": 78,
-            "position_y": 81
-          }
-        },
-        "hotspot_mfRQ8L": {
-          "type": "hotspot",
-          "settings": {
-            "selected_product": "sandalia-tiras-gold",
-            "position_x": 21,
-            "position_y": 88
+            "selected_product": "top-tank-basica-black",
+            "position_x": 44,
+            "position_y": 35
           }
         }
       },
       "block_order": [
-        "hotspot_FkTxKL",
+        "hotspot_mfRQ8L",
         "hotspot_qRUBdh",
-        "hotspot_gTAD9i",
-        "hotspot_mfRQ8L"
+        "hotspot_FkTxKL",
+        "hotspot_gTAD9i"
       ],
       "name": "Hotspots Products",
       "settings": {
-        "header": "<p><strong>REGALA UN OUTFIT ESTA NAVIDAD</strong></p>",
-        "background_image": "shopify://shop_images/HOT-SPOT-WEB.png",
+        "header": "<p><strong>LOOK PERFECTO PARA EL VERANO</strong></p>",
+        "background_image": "shopify://shop_images/HOT_SPOT_01_1.webp",
         "hotspot_color": "#3b270c"
       }
     },
     "pinflag_home_featured_collection_kkikY7": {
       "type": "pinflag-home-featured-collection",
+      "disabled": true,
       "name": "Home collection 2",
       "settings": {
         "collection": "basicos",
         "products_to_show": 10,
-        "title": "<strong>BÁSICOS RAINDOOR PARA ESTA NAVIDAD</strong>",
+        "title": "<strong>BÁSICOS RAINDOOR </strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -681,16 +676,16 @@
     }
   },
   "order": [
-    "slideshow_images_N9idkg",
     "slideshow_images_9cbLYC",
     "home_collections_Hj4BgM",
-    "home_collections_fDMjVz",
-    "custom_liquid_wcL93n",
-    "custom_liquid_9dJXzw",
-    "pinflag_home_featured_collection_BLCDiM",
     "home_collections_ExbfwL",
-    "collage_dLcEkJ",
+    "custom_liquid_wcL93n",
+    "home_collections_fDMjVz",
+    "custom_liquid_9dJXzw",
     "pinflag_home_featured_collection_knEEU9",
+    "home_collections_eMdheH",
+    "pinflag_home_featured_collection_BLCDiM",
+    "collage_dLcEkJ",
     "pinflag_home_featured_collection_zTgJb3",
     "pinflag_home_featured_collection_zRY7Wd",
     "hotspots_7VjxCk",

@@ -36,7 +36,7 @@
     <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
-    <!-- ✨ Cursor Sparkle Trail Script ✨ -->
+   {% comment %} <!-- ✨ Cursor Sparkle Trail Script ✨ -->
 {% if template.name == 'index' %}
 <!-- ✨ Cursor Sparkle Trail Script ✨ -->
 <script>
@@ -90,7 +90,7 @@
   })();
 </script>
 {% endif %}
-
+{% endcomment %}
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"

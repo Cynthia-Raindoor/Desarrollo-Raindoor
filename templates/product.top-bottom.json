@@ -15,7 +15,7 @@
         "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD": {
           "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
-            "product": "{{product}}",
+            "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
             "waitForElementDelay": 5
           }
@@ -174,7 +174,9 @@
         "collapsible_tab_Kzyra4",
         "collapsible_tab_z8xj7g"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".stock-btn {background: rgb(59, 39, 12); display: flex; position: relative; top: 83px; left: 160px; height: 37px; margin-top: -50px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",

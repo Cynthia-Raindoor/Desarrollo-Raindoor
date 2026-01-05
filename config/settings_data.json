@@ -10,7 +10,7 @@
 {
   "current": {
     "free_shipping": true,
-    "mini_cart_free": 19990,
+    "mini_cart_free": 34990,
     "logo": "shopify://shop_images/cCYgA24_-_Imgur.webp",
     "logo_width": 170,
     "favicon": "shopify://shop_images/logo_pestana_web_favicon_09173a8d-61bf-4894-a71c-1626dfb5c11b.png",
@@ -129,7 +129,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
     "cart_recommendations_enabled": true,

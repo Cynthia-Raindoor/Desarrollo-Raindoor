@@ -1,0 +1,28 @@
+{% assign swatches = product.metafields.zsoft.related_product_custom.value %}
+
+<div class="swatches">
+  {% if swatches.size > 1 and swatches.size != null %}
+    {% for swatch in swatches %}
+      <div 
+        class="swatch" 
+        style="background-color: 
+        {% if swatch.metafields.custom.color_hexa.value %}
+          {{ swatch.metafields.custom.color_hexa.value }}
+        {% else %}
+        var(--color-swatch-{{ swatch.metafields.custom.color.value.first | downcase | default: 'gris' }});
+        {% endif %}"
+        data-img0='{{ swatch.media[0] | image_url: width: 533 }}'
+        data-img1='{% if swatch.media[1] %}{{ swatch.media[1] | image_url: width: 533 }}{% endif %}'
+        data-product-id="{{ swatch.id }}"
+        data-title="{{ swatch.title }}"
+        data-url="{{ swatch.url }}"
+        data-price="{{ swatch.price | money }}"
+        data-compare-price="{% if swatch.compare_at_price > swatch.price %}{{ swatch.compare_at_price | money }}{% endif %}"
+        data-variants='{{ swatch.variants | json | escape }}'
+        data-first-variant-id="{{ swatch.selected_or_first_available_variant.id }}"
+        onclick="changeProduct(this)"
+        {% if swatch.id == product.id %}active{% endif %}
+      >{% if swatch.available == false %}<i></i>{% else %}&nbsp;{% endif %}</div>
+    {% endfor %}
+  {% endif %}
+</div>

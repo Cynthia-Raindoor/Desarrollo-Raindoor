@@ -25,10 +25,10 @@
           "name": "Mall Paseo Los Dominicos",
           "settings": {
             "titulo": "Mall Plaza Los Dominicos",
-            "direccion": "Av. Padre Hurtado Sur 875, Las Condes Local: C_1085-1089",
+            "direccion": "Av. Padre Hurtado Sur 875, Las Condes",
             "latitud": "-33.41516365",
             "longitud": "-70.5406502420392",
-            "horarios": "<p><strong>Lunes a jueves:</strong> 10:30 am a 20:30 hrs.</p><p><strong>Viernes y sábado:</strong> 10:30 am a 21:00 hrs</p><p><strong>Domingo:</strong>11:00 a 20:00 hrs.<br/></p>",
+            "horarios": "<ul><li>Local: C_1085-1089</li></ul><p><strong>Contacto:</strong></p><p>+56993573103</p><p>tiendalosdominicos@raindoor.cl</p><p><strong>Horarios:</strong></p><p><strong>Lunes a jueves:</strong> 10:30 am a 20:30 hrs.</p><p><strong>Viernes y sábado:</strong> 10:30 am a 21:00 hrs</p><p><strong>Domingo:</strong>11:00 a 20:00 hrs.<br/></p>",
             "imagen": "shopify://shop_images/IMG_9738.heic"
           }
         },
@@ -40,7 +40,7 @@
             "direccion": "Av. Presidente Kennedy 5413.",
             "latitud": "-33.40273165",
             "longitud": "-70.5786205037373",
-            "horarios": "<ul><li>Nivel 2, Local 287 -A</li><li>Contacto: +56937502216</li><li>Horarios:</li></ul><ol><li><strong>Lunes a jueves:</strong> 10:00 a 20:30 hrs.</li><li><strong>Viernes y sábado: </strong>10:00 a 21:00 hrs.</li><li><strong>Domingo:</strong> 11:00 a 20:30 hrs. </li></ol>",
+            "horarios": "<ul><li>Nivel 2, Local 287-A</li></ul><p><strong>      Contacto</strong>: </p><p>      +56937502216</p><p>       tiendaparquearauco@raindoor.cl</p><p><strong>Horarios:</strong></p><p><strong>Lunes a jueves:</strong> 10:00 a 20:30 hrs.</p><p><strong>Viernes y sábado: </strong>10:00 a 21:00 hrs.</p><p><strong>Domingo:</strong> 11:00 a 20:30 hrs. </p>",
             "imagen": "shopify://shop_images/IMG_9738.heic"
           }
         },
@@ -52,7 +52,7 @@
             "direccion": "Av. Andrés Bello 2425, Providencia",
             "latitud": "-33.4183131",
             "longitud": "-70.6085746",
-            "horarios": "<ul><li>Piso 2, Local 2108</li><li>Contacto:<br/>+56 9 8301 3362<br/>costanera.center@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 21:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 2, Local 2108<br/><strong>Contacto</strong>:<br/>+56 9 8301 3362<br/>costanera.center@raindoor.cl</li></ul><p><strong>Horarios</strong>:<br/>Lunes a domingo: 10:00 a 21:00 horas</p>",
             "imagen": "shopify://shop_images/1713984711-primary.jpg"
           }
         },
@@ -64,7 +64,7 @@
             "direccion": "Av. Nueva Costanera 3900, Vitacura",
             "latitud": "-33.4033631",
             "longitud": "-70.5986609",
-            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li><li>Contacto:<br/>+56 9 7382 6430<br/>casa.costanera@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:30 horas</li></ul>",
+            "horarios": "<ul><li>Piso -1, Planta Baja - Local 236A</li></ul><p>     <strong>Contacto</strong>:<br/>     +56 9 7382 6430<br/>      casa.costanera@raindoor.cl</p><p><strong>Horarios</strong>:<br/>Lunes a domingo: 10:00 a 20:30 horas</p>",
             "imagen": "shopify://shop_images/1747342906-primary.jpg"
           }
         },
@@ -76,7 +76,7 @@
             "direccion": "Av. La Dehesa 1445, Lo Barnechea.",
             "latitud": "-33.357279582675396",
             "longitud": "-70.51516233244814",
-            "horarios": "<ul><li>Piso 2 - Local 2086 </li><li>Contacto:<br/>+56 9 79636506<br/></li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 2 - Local 2086 </li></ul><p><strong>      Contacto</strong>:<br/>     +56 9 79636506</p><p>      tiendaladehesa@raindoor.cl</p><p><strong>Horarios</strong><br/>Lunes a Domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/IMG_9738.heic"
           }
         },
@@ -88,7 +88,7 @@
             "direccion": "14 Norte 976, Viña del Mar",
             "latitud": "-33.0097376",
             "longitud": "-71.5457208",
-            "horarios": "<ul><li>Piso 3 - Local 328</li><li>Contacto:<br/>+56 9 6615 5943<br/>tiendamarina@raindoor.cl</li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 3 - Local 328</li></ul><p><strong>      Contacto</strong>:<br/>     +56 9 6615 5943<br/>       tiendamarina@raindoor.cl</p><p><strong>Horarios:</strong><br/>Lunes a Domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/marina_oriente.jpg"
           }
         },
@@ -100,7 +100,7 @@
             "direccion": "Av. Circunvalación Oriente 1055, Talca",
             "latitud": "-35.4231882",
             "longitud": "-71.6496958",
-            "horarios": "<ul><li>Piso 1 - Local 1139-1140</li><li>Contacto: <br/>+56 9 5483 8588<br/>raindoortalca@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 1 - Local 1139-1140</li></ul><p><strong>      Contacto</strong>: <br/>     +56 9 5483 8588<br/>       raindoortalca@raindoor.cl</p><p><strong>Horarios</strong>:<br/>Lunes a domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/1747342771-marker.jpg"
           }
         },
@@ -112,7 +112,7 @@
             "direccion": "El Roble 770, Chillán.",
             "latitud": "-36.609577111170424",
             "longitud": "-72.10061850345785",
-            "horarios": "<ul><li>Piso 2 - Local 121</li><li>Contacto:<br/>+56 9 40753380<br/>tiendachillan@raindoor.cl </li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 2 - Local 121</li></ul><p><strong>      Contacto</strong>:<br/>    +569 4075 3380<br/>      tiendachillan@raindoor.cl </p><p><strong>Horarios:</strong><br/>Lunes a Domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/APERTURA_CHILLAN.jpg"
           }
         },
@@ -124,7 +124,7 @@
             "direccion": "Av. Jorge Alessandri 3177, Concepción",
             "latitud": "-36.7918656",
             "longitud": "-73.0690384",
-            "horarios": "<ul><li>Piso 1 - Local H131</li><li>Contacto:<br/>+56972885709<br/>tiendatrebol@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas.</li></ul>",
+            "horarios": "<ul><li>Piso 1 - Local H131</li></ul><p><strong>      Contacto</strong>:<br/>     +56972885709<br/>      tiendatrebol@raindoor.cl</p><p><strong>Horarios</strong>:<br/>Lunes a domingo: 10:00 a 20:00 horas.</p>",
             "imagen": "shopify://shop_images/Imagen_de_WhatsApp_2024-04-29_a_las_14.45.01_d898b405_eaa5baef-e818-4be9-9e95-3730350515c2.jpg"
           }
         },
@@ -136,7 +136,7 @@
             "direccion": "Fresia N°335, Pucón",
             "latitud": "-39.275641581804784",
             "longitud": "-71.97628400517338",
-            "horarios": "<ul><li>Contacto:<br/>+56978965362<br/></li><li>Horarios<br/>Lunes a Domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<p><strong>Contacto</strong>:<br/>+56978965362</p><p>tiendapucon@raindoor.cl<br/></p><p><strong>Horarios:</strong><br/>Lunes a Domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/IMG_2984.heic"
           }
         },
@@ -148,7 +148,7 @@
             "direccion": "Mall Paseo Valdivia",
             "latitud": "-39.8143523",
             "longitud": "-73.24349579999999",
-            "horarios": "<ul><li>Piso 1, Local 108-D</li><li>Contacto:<br/>+56 9 8547 8244<br/>tiendavaldivia@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo: 10:00 a 20:00 horas</li></ul>",
+            "horarios": "<ul><li>Piso 1, Local 108-D</li></ul><p><strong>      Contacto</strong>:<br/>     +56 9 8547 8244<br/>      tiendavaldivia@raindoor.cl</p><p><strong>Horarios</strong>:<br/>Lunes a domingo: 10:00 a 20:00 horas</p>",
             "imagen": "shopify://shop_images/1722528941-primary.jpg"
           }
         },
@@ -160,7 +160,7 @@
             "direccion": "Illapel 10, Puerto Montt",
             "latitud": "-41.4736888",
             "longitud": "-72.9345251",
-            "horarios": "<ul><li>Piso 2, Local 211-A</li><li>Contacto:<br/>+56978714259<br/>tiendapuertomontt@raindoor.cl</li><li>Horarios:<br/>Lunes a domingo de 10:00 a 20:00 horas.</li></ul>",
+            "horarios": "<ul><li>Piso 2, Local 211-A</li></ul><p><strong>      Contacto</strong>:<br/>     +56978714259<br/>      tiendapuertomontt@raindoor.cl</p><p><strong>Horarios</strong>:<br/>Lunes a domingo de 10:00 a 20:00 horas.</p>",
             "imagen": "shopify://shop_images/IMG_4723_1.jpg"
           }
         },
@@ -168,12 +168,12 @@
           "type": "item",
           "name": "Mall Plaza Los Ángeles",
           "settings": {
-            "titulo": "[Próximamente] Mall Plaza Los Ángeles",
-            "direccion": "Valdivia 440, Los Ángeles",
+            "titulo": "Mall Plaza Los Ángeles",
+            "direccion": "Valdivia 440, Los Ángeles                                 Nivel 2",
             "latitud": "-37.4669782",
             "longitud": "-72.3531378",
-            "horarios": "",
-            "imagen": "shopify://shop_images/IMG_3240.jpg"
+            "horarios": "<p><strong>Contacto:</strong></p><p>+569 9616 3502</p><p>tiendalosangeles@raindoor.cl</p><p><strong>Horarios</strong>:</p><p><strong>Lunes a sábado:</strong> 10:00 a 20:00hrs</p><p><strong>Domingo:</strong>11:00 a 20:00 hrs<br/><br/></p>",
+            "imagen": "shopify://shop_images/1722528941-primary_1a6024b2-c06d-4924-9055-d8ace8bce511.jpg"
           }
         },
         "item_hxxhkf": {
