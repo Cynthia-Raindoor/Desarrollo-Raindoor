@@ -25,7 +25,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner-Web-Lunes10.png",
-            "size": "full",
             "page_selected": "silvestre"
           }
         },
@@ -33,7 +32,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/BannerMobile_Miercoles29.png",
-            "size": "half",
             "page_selected": "slow-editorial"
           }
         },
@@ -41,7 +39,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Barra_Menu_Home_Aurora.jpg",
-            "size": "half",
             "page_selected": "aurora"
           }
         },
@@ -49,7 +46,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/editorial9_b9fef5a3-4429-4304-bb40-90c56edf15da.jpg",
-            "size": "half",
             "page_selected": "chiloe-editorial-nueva-coleccion"
           }
         },
@@ -57,7 +53,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/La_Herencia_Barra_Lateral.jpg",
-            "size": "half",
             "page_selected": "la-herencia"
           }
         },
@@ -65,7 +60,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Barra_Menu_Home_Josefa_Saez.jpg",
-            "size": "full",
             "page_selected": "josefa-saez-x-raindoor"
           }
         }
@@ -81,7 +75,6 @@
       "disabled": true,
       "name": "Listado de Editoriales",
       "settings": {
-        "show_button": true,
         "margin_top": 50,
         "margin_bottom": 50,
         "skip_container": false
@@ -93,8 +86,7 @@
         "heading_V6zeLP": {
           "type": "heading",
           "settings": {
-            "heading": "RAINDOORBOX",
-            "heading_size": "h1"
+            "heading": "RAINDOORBOX"
           }
         }
       },
@@ -103,12 +95,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 16
+        "color_scheme": ""
       }
     },
     "image_with_text_R3GXDy": {

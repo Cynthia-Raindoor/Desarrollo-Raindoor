@@ -47,8 +47,7 @@
         "heading_CqFeUd": {
           "type": "heading",
           "settings": {
-            "heading": "Coméntanos sobre tu marca",
-            "heading_size": "h1"
+            "heading": "Coméntanos sobre tu marca"
           }
         },
         "text_XpxE3N": {
@@ -61,11 +60,7 @@
           "type": "button",
           "settings": {
             "button_label": "Etiqueta de botón",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link": ""
           }
         }
       },
@@ -76,12 +71,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": ""
       }
     }
   },

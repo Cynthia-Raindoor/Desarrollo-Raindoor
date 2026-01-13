@@ -1,3 +1,73 @@
+// Swatches
+
+window.changeProduct = function(swatch) {
+  const card = swatch.closest('.card-wrapper');
+  if (!card) return;
+  
+  card.querySelectorAll('.swatch').forEach(s => s.removeAttribute('active'));
+  swatch.setAttribute('active', '');
+  
+  const mediaContainer = card.querySelector('.media--hover-effect');
+  if (mediaContainer) {
+    const images = mediaContainer.querySelectorAll('img');
+    if (images[0] && swatch.dataset.img0) {
+      images[0].src = swatch.dataset.img0;
+      images[0].srcset = swatch.dataset.img0;
+    }
+    if (images[1] && swatch.dataset.img1) {
+      images[1].src = swatch.dataset.img1;
+      images[1].srcset = swatch.dataset.img1;
+    }
+  }
+  
+  card.querySelectorAll('.card__heading a').forEach(link => {
+    if (swatch.dataset.title) link.textContent = swatch.dataset.title;
+    if (swatch.dataset.url) link.href = swatch.dataset.url;
+  });
+  
+  const cardLink = card.querySelector('.card__inner a.link__url');
+  if (cardLink && swatch.dataset.url) cardLink.href = swatch.dataset.url;
+  
+  const priceContainer = card.querySelector('.price');
+  if (priceContainer && swatch.dataset.price) {
+    const priceSale = priceContainer.querySelector('.price-item--sale');
+    const priceRegular = priceContainer.querySelector('.price-item--regular');
+    
+    if (swatch.dataset.comparePrice) {
+      if (priceSale) priceSale.textContent = swatch.dataset.price;
+      if (priceRegular) priceRegular.textContent = swatch.dataset.comparePrice;
+      priceContainer.classList.add('price--on-sale');
+    } else {
+      if (priceRegular) priceRegular.textContent = swatch.dataset.price;
+      priceContainer.classList.remove('price--on-sale');
+    }
+  }
+  
+  if (swatch.dataset.variants) {
+    const variants = JSON.parse(swatch.dataset.variants);
+    const plpSwatches = card.querySelector('.plp-swatches');
+    if (plpSwatches) {
+      if (variants.length === 1) {
+        plpSwatches.innerHTML = '<button type="button" class="plp-swatch" data-variant-id="' + variants[0].id + '" onclick="updateSelectedVariant(this)">Talla Única</button>';
+      } else {
+        plpSwatches.innerHTML = variants.map(v => 
+          '<button type="button" class="plp-swatch' + (!v.available ? ' disabled' : '') + '" data-variant-id="' + v.id + '" onclick="updateSelectedVariant(this)"' + (!v.available ? ' disabled' : '') + '>' + v.option1 + '</button>'
+        ).join('');
+      }
+    }
+  }
+  
+  const variantInput = card.querySelector('input.product-variant-id');
+  if (variantInput && swatch.dataset.firstVariantId) {
+    variantInput.value = swatch.dataset.firstVariantId;
+  }
+  
+  const quickAddBtn = card.querySelector('.quick-add__submit[data-product-url]');
+  if (quickAddBtn && swatch.dataset.url) {
+    quickAddBtn.setAttribute('data-product-url', swatch.dataset.url);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const menus = document.querySelectorAll(".footer-block--menu");
 

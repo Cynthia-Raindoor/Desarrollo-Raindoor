@@ -1,0 +1,12 @@
+{% if product.metafields.custom.talla_modelo %}
+  <div class="medida-modelo">
+    <p>Modelo: {{ product.metafields.custom.talla_modelo }}</p>
+  </div>
+  <style>
+    .medida-modelo,
+    .medida-modelo p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+{% endif %}

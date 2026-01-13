@@ -8,14 +8,20 @@
           {% if block.settings.video_desktop != blank %}
             {{ block.settings.video_desktop | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_desktop', image_size: 'master' }}
           {% else %}
-             <img class="only_desktop" src="{{ block.settings.image | image_url }}" width="" height="" loading="lazy">
+           <img class="only_desktop" src="//www.raindoor.cl/cdn/shop/files/BANNER_DESK.webp?v=1767189810&amp;width=2400" srcset="//www.raindoor.cl/cdn/shop/files/BANNER_DESK.webp?v=1767189810&amp;width=1920 1920w,
+                      //www.raindoor.cl/cdn/shop/files/BANNER_DESK.webp?v=1767189810&amp;width=2400 2400w,
+                      //www.raindoor.cl/cdn/shop/files/BANNER_DESK.webp?v=1767189810&amp;width=3000 3000w" sizes="100vw" width="2400" height="1350" loading="eager" fetchpriority="high" alt="">
+
           {% endif %}
 
           {% comment %} --- Lógica MOBILE: Prioriza Video sobre Imagen --- {% endcomment %}
           {% if block.settings.video_mobile != blank %}
             {{ block.settings.video_mobile | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_mobile', image_size: 'master' }}
           {% else %}
-            <img class="only_mobile" src="{{ block.settings.image_mobile | image_url }}" width="" height="" loading="lazy">
+            <img class="only_mobile" src="//www.raindoor.cl/cdn/shop/files/BANNER_MOBILE_REBAJAS.webp?v=1767190017&amp;width=1200" srcset="//www.raindoor.cl/cdn/shop/files/BANNER_MOBILE_REBAJAS.webp?v=1767190017&amp;width=768 768w,
+                      //www.raindoor.cl/cdn/shop/files/BANNER_MOBILE_REBAJAS.webp?v=1767190017&amp;width=1200 1200w,
+                      //www.raindoor.cl/cdn/shop/files/BANNER_MOBILE_REBAJAS.webp?v=1767190017&amp;width=1536 1536w" sizes="100vw" width="1200" height="1501" loading="eager" fetchpriority="high" alt="">
+
           {% endif %}
 
         </a>

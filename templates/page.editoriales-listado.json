@@ -48,8 +48,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner-Mobile-Lunes10.png",
-            "image_cuadrante": "shopify://shop_images/Banner-Mobile-Lunes10.png",
-            "size": "half",
             "page_selected": "silvestre"
           }
         },
@@ -57,8 +55,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/BannerMobile_Miercoles29.png",
-            "image_cuadrante": "shopify://shop_images/BannerMobile_Miercoles29.png",
-            "size": "half",
             "page_selected": "slow-editorial"
           }
         },
@@ -66,7 +62,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Barra_Menu_Home_Aurora.jpg",
-            "size": "half",
             "page_selected": "aurora"
           }
         },
@@ -74,7 +69,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner-MOBILE-Miercoles-17.png",
-            "size": "half",
             "page_selected": "josefa-saez-x-raindoor"
           }
         },
@@ -82,7 +76,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner_Mobile_Home_Carretera.jpg",
-            "size": "half",
             "page_selected": "carretera"
           }
         },
@@ -90,7 +83,6 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Banner_bueno_Mobile_All_Denim.jpg",
-            "size": "half",
             "page_selected": "all-denim"
           }
         }
@@ -105,7 +97,6 @@
       ],
       "name": "Listado de Editoriales",
       "settings": {
-        "show_button": false,
         "margin_top": 20,
         "margin_bottom": 50,
         "skip_container": true

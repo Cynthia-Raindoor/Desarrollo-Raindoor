@@ -12,14 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}",
-            "waitForElementSelector": "",
-            "waitForElementDelay": 5
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -38,21 +30,6 @@
           "type": "price",
           "settings": {}
         },
-        "loox_reviews_loox_rating_hEPd3R": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "contentSize": 16,
-            "pattern": "",
-            "hideText": false,
-            "alignment": "",
-            "layout": "",
-            "textColor": "",
-            "starColor": "#3b270c",
-            "showAllReviews": false,
-            "looxOpenFloatingWidget": false,
-            "emptyRatingWidget": false
-          }
-        },
         "color_swatch_8nkkJq": {
           "type": "color-swatch",
           "settings": {}
@@ -62,14 +39,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "pinflag_check_in_store_check_in_store_BMmcHQ": {
-          "type": "shopify://apps/pinflag-check-in-store/blocks/check_in_store/0199a082-a090-7641-ac7a-faacd646422b",
-          "settings": {
-            "button_label": "Ver Stock Tiendas",
-            "popup_title": "Disponibilidad en Tiendas",
-            "custom_css": ".shopify-block shopify-app-block .stock-btn {\n background-color: #3B270C !important;\n}"
           }
         },
         "quantity_selector": {
@@ -152,14 +121,11 @@
         }
       },
       "block_order": [
-        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD",
         "vendor",
         "title",
         "price",
-        "loox_reviews_loox_rating_hEPd3R",
         "color_swatch_8nkkJq",
         "variant_picker",
-        "pinflag_check_in_store_check_in_store_BMmcHQ",
         "quantity_selector",
         "buy_buttons",
         "text_FxJgiM",
@@ -189,22 +155,6 @@
     },
     "17632535078b2753c9": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_yjgNDb": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": true,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_yjgNDb"
-      ],
       "settings": {
         "include_margins": true
       }

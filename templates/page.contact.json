@@ -23,8 +23,7 @@
         "heading_gkMWjj": {
           "type": "heading",
           "settings": {
-            "heading": "CARGOS DISPONIBLES",
-            "heading_size": "h1"
+            "heading": "CARGOS DISPONIBLES"
           }
         },
         "text_wEyiyW": {
@@ -40,12 +39,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "scheme-2"
       }
     },
     "form": {
@@ -65,8 +59,7 @@
         "heading_xRYdQP": {
           "type": "heading",
           "settings": {
-            "heading": "¿Te gustaría vender nuestros productos?",
-            "heading_size": "h1"
+            "heading": "¿Te gustaría vender nuestros productos?"
           }
         },
         "text_jckKUw": {
@@ -83,12 +76,7 @@
       "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "scheme-2"
       }
     }
   },

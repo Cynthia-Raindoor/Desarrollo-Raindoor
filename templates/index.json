@@ -33,17 +33,13 @@
         "slide_4BCECb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BANNER_WEB_PANTS_VIERNES_6.webp",
-            "image_mobile": "shopify://shop_images/BANNER_MOBILE_PANTS_VIERNES_6.webp",
-            "link": "shopify://collections/pantalones-summer-sale"
+            "link": "shopify://collections/short-y-faldas-19-990"
           }
         },
         "slide_GU9Ekk": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BANNER_VESTIDO_WEB-VIERNES6.webp",
-            "image_mobile": "shopify://shop_images/BANNER_VESTIDOS_MOBILE-VIERNES6.webp",
-            "link": "shopify://collections/vestidos-y-enteritos"
+            "link": "shopify://collections/sandalias"
           }
         }
       },
@@ -82,10 +78,10 @@
         "slide_CDCRDQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/CALUGA_TANK_ESTRELLA.webp",
+            "image": "shopify://shop_images/CALUGA_FALDA_ECRU.webp",
             "heading": "",
             "button_label": "",
-            "link": "shopify://collections/blusas-y-poleras-19-990"
+            "link": "shopify://collections/short-y-faldas-19-990"
           }
         },
         "slide_kfzRmU": {
@@ -673,6 +669,43 @@
         "padding_top": 32,
         "padding_bottom": 8
       }
+    },
+    "collection_collage_jNHFCU": {
+      "type": "collection-collage",
+      "blocks": {
+        "collection_nAwTEN": {
+          "type": "collection",
+          "settings": {
+            "collection": "pantalones-full"
+          }
+        },
+        "collection_HpRCdH": {
+          "type": "collection",
+          "settings": {
+            "collection": "accesorios-y-bolsos"
+          }
+        },
+        "collection_LaNPEB": {
+          "type": "collection",
+          "settings": {
+            "collection": "conjuntos-vestidos"
+          }
+        }
+      },
+      "block_order": [
+        "collection_nAwTEN",
+        "collection_HpRCdH",
+        "collection_LaNPEB"
+      ],
+      "custom_css": [],
+      "name": "Collage de colecciones",
+      "settings": {
+        "heading": "VISITA NUESTRAS COLECCIONES",
+        "heading_size": "h2",
+        "show_product_count": false,
+        "show_view_all": true,
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -694,6 +727,7 @@
     "custom_liquid_mwP69Y",
     "newsletter_BEfi7t",
     "page_bGTYwT",
-    "multicolumn_Wanyr3"
+    "multicolumn_Wanyr3",
+    "collection_collage_jNHFCU"
   ]
 }

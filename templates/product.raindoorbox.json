@@ -12,14 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD": {
-          "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
-          "settings": {
-            "product": "{{product}}",
-            "waitForElementSelector": "",
-            "waitForElementDelay": 5
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -50,15 +42,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "pinflag_check_in_store_check_in_store_BMmcHQ": {
-          "type": "shopify://apps/pinflag-check-in-store/blocks/check_in_store/0199a082-a090-7641-ac7a-faacd646422b",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}",
-            "colour": "#000000",
-            "custom_css": ".shopify-block.shopify-app-block {\n background: black;\n}"
           }
         },
         "quantity_selector": {
@@ -132,13 +115,11 @@
         }
       },
       "block_order": [
-        "kiwi_size_chart_recommender_kiwi_sizing_3D9QxD",
         "vendor",
         "title",
         "price",
         "color_swatch_8nkkJq",
         "variant_picker",
-        "pinflag_check_in_store_check_in_store_BMmcHQ",
         "quantity_selector",
         "buy_buttons",
         "description",

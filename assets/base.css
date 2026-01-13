@@ -3595,20 +3595,22 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-/* ✨ Click Sparkle Effect ✨ */
+
+
+/* ✨ Click Sparkle Effect ✨ 
 .cursor-sparkle {
   position: fixed;
   left: 0;
   top: 0;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  /* Tamaño de la estrellita (si usas emoji) */
+  /* Tamaño de la estrellita (si usas emoji) 
   font-size: 18px;
   z-index: 9999;
   animation: cursorSparkleFall 0.8s ease-out forwards;
 }
 
-/* Animación de caída + desvanecimiento */
+ Animación de caída + desvanecimiento 
 @keyframes cursorSparkleFall {
   0% {
     opacity: 1;
@@ -3617,5 +3619,4 @@ details-disclosure > details {
   100% {
     opacity: 0;
     transform: translate(-50%, -50%) translateY(24px) scale(0.6);
-  }
-}
+  }  */
