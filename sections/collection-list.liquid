@@ -230,7 +230,13 @@
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               {{ block.shopify_attributes }}
             >
-              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
+              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
+              {% render 'card-collection',
+                card_collection: block.settings.collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                placeholder_image: placeholder_image
+              %}
             </li>
           {%- endfor -%}
         </ul>
@@ -253,7 +259,13 @@
         <ul class="collection-list grid collection-list--{{ total_blocks }}-items" role="list">
           {%- for block in section.blocks -%}
             <li class="collection-list__item grid__item" {{ block.shopify_attributes }}>
-              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
+              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
+              {% render 'card-collection',
+                card_collection: block.settings.collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                placeholder_image: placeholder_image
+              %}
             </li>
           {%- endfor -%}
         </ul>
@@ -286,7 +298,13 @@
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               {{ block.shopify_attributes }}
             >
-              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
+              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
+              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
+              {% render 'card-collection',
+                card_collection: block.settings.collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                placeholder_image: placeholder_image
+              %}
             </li>
           {%- endfor -%}
         </ul>

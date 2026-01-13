@@ -1,0 +1,321 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_images_FtxEVn": {
+      "type": "slideshow-images",
+      "blocks": {
+        "slide_3Yd6HJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_9910752b-65f3-4574-81e2-248731b49b00.png",
+            "image_mobile": "shopify://shop_images/2_c7f38563-b15c-40d5-aa47-5beaf9c278a6.png",
+            "link": "shopify://collections/holiday-season"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3Yd6HJ"
+      ],
+      "disabled": true,
+      "name": "Sliders Home",
+      "settings": {
+        "top_margin": true
+      }
+    },
+    "editoriales_eEq4i9": {
+      "type": "editoriales",
+      "blocks": {
+        "column_grJbaX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/22c34733-be96-4cb3-bf40-31ba6f9942aa.jpg",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-01.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "sandalias-tachas-black"
+          }
+        },
+        "column_gcFydW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_5.png",
+            "image_cuadrante": "shopify://shop_images/11086317-ff94-4fa4-9bf3-55ca5fe6ceb9.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "short-estrella-white"
+          }
+        },
+        "column_k68z6G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-03.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "blusa-pliegues-white"
+          }
+        },
+        "column_P9zcfV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_6.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-12.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-cinturon-black"
+          }
+        },
+        "column_LDYLfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-02.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "conjunto-lino-pistacho"
+          }
+        },
+        "column_TnTGXf": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/11_1c25ed2f-0d99-4306-92ff-ab31f1856b22.png",
+            "image_cuadrante": "shopify://shop_images/9_dd6ab7c7-c1bd-45ad-822f-13e802f8d34b.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-ajustable-beige"
+          }
+        },
+        "column_WfmAmB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_7.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-13.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "top-cruzado-ecru"
+          }
+        },
+        "column_PzBczm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_2.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-04.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-ojal-back-pocket-blue"
+          }
+        },
+        "column_emKmjb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_8.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-14.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-bordadas-white"
+          }
+        },
+        "column_QekrN8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_1_copia_24.png",
+            "image_cuadrante": "shopify://shop_images/88419313-94d4-44c1-b6f8-07a4c4eff4f5.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "chaqueta-jeans-black"
+          }
+        },
+        "column_gEQPpK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_1_copia_25.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-06.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-pocket-blue"
+          }
+        },
+        "column_KFrVXx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_1_copia_27.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-15.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_LGK9fG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_1_copia_28.png",
+            "image_cuadrante": "shopify://shop_images/9ebae89a-1c50-49f0-a22c-6cbe347b125f.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_h7JNyw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_3.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-08.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_YENLbV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_24_copia_4.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-09.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_pFmpzY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_Normal_Mesa_de_trabajo_1_copia_26.png",
+            "image_cuadrante": "shopify://shop_images/CUADRANTE-10.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_BL36ph": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/24da5c20-8cec-4dfd-8ce1-fe9d82e2d2c6.jpg",
+            "image_cuadrante": "shopify://shop_images/e5ac1808-c187-4fc6-8143-2a95d0cd8c34.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-straight-pocket-grey"
+          }
+        },
+        "column_PQ9XDg": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/16.png",
+            "image_cuadrante": "shopify://shop_images/14_e7cfcc8a-e647-4ddd-8d96-247d83b1b8ee.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "pantalon-estrellas-bordadas-white"
+          }
+        },
+        "column_3YETNk": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/NYTGBFV-02.png",
+            "image_cuadrante": "shopify://shop_images/NYTGBFV-01.png",
+            "video": "",
+            "size": "full",
+            "selected_product": "falda-estampada-vuelos-lurex-blue"
+          }
+        },
+        "column_qwL6Q9": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dimensionado1.png",
+            "image_cuadrante": "shopify://shop_images/15_c9ef4da0-e259-4a0e-8999-3926eff858b8.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "blusa-pliegues-white"
+          }
+        },
+        "column_G8pGwF": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dimensionado2.png",
+            "image_cuadrante": "shopify://shop_images/16_e63aedd9-e8ae-41c3-9769-a584af6d7e82.png",
+            "video": "",
+            "size": "half",
+            "selected_product": "havaiana-slim-square-cafe"
+          }
+        }
+      },
+      "block_order": [
+        "column_grJbaX",
+        "column_gcFydW",
+        "column_k68z6G",
+        "column_P9zcfV",
+        "column_LDYLfX",
+        "column_TnTGXf",
+        "column_WfmAmB",
+        "column_PzBczm",
+        "column_emKmjb",
+        "column_QekrN8",
+        "column_gEQPpK",
+        "column_KFrVXx",
+        "column_LGK9fG",
+        "column_h7JNyw",
+        "column_YENLbV",
+        "column_pFmpzY",
+        "column_BL36ph",
+        "column_PQ9XDg",
+        "column_3YETNk",
+        "column_qwL6Q9",
+        "column_G8pGwF"
+      ],
+      "name": "Editoriales",
+      "settings": {
+        "show_button": true,
+        "show_button_collection": false,
+        "margin_top": 50,
+        "margin_bottom": 50,
+        "skip_container": false,
+        "collection_selected": "",
+        "collection_selected_columns": 4,
+        "collection_selected_quantity": 4
+      }
+    },
+    "image_banner_qHFYGR": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/3_6da80db8-adb4-4525-80db-2d8224caf4c1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_images_FtxEVn",
+    "editoriales_eEq4i9",
+    "image_banner_qHFYGR"
+  ]
+}

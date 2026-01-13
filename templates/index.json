@@ -12,42 +12,56 @@
     "slideshow_images_9cbLYC": {
       "type": "slideshow-images",
       "blocks": {
-        "slide_fUrWet": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BANNER_LUNES_29._Mesa_de_trabajo_1_copia_33.webp",
-            "image_mobile": "shopify://shop_images/BANNER_LUNES_29._Mesa_de_trabajo_1_copia_32.webp",
-            "link": "shopify://pages/new-year"
-          }
-        },
         "slide_ykLfW7": {
           "type": "slide",
           "name": "Sale 31/12",
           "settings": {
-            "image": "shopify://shop_images/BANNER_DESK.webp",
-            "image_mobile": "shopify://shop_images/BANNER_MOBILE_REBAJAS.webp",
+            "image": "shopify://shop_images/BANNER-WEB-REBAJAS_472d6b9c-dd77-4913-ad2f-0fad1833d407.png",
+            "image_mobile": "shopify://shop_images/BANNER-MOBILE-REBAJAS_2.png",
             "link": "shopify://collections/summer-sale"
+          }
+        },
+        "slide_fUrWet": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_WEB-NEW_DROP-BALLON.webp",
+            "image_mobile": "shopify://shop_images/BANNER_MOVBILE-NEW_DROO-BALLON.webp",
+            "link": "shopify://collections/jeans"
           }
         },
         "slide_4BCECb": {
           "type": "slide",
           "settings": {
-            "link": "shopify://collections/short-y-faldas-19-990"
+            "image": "shopify://shop_images/BANNER_PANTS_WEB_1.webp",
+            "image_mobile": "shopify://shop_images/BANNER_PANTS_MOBILE_1.webp",
+            "link": "shopify://collections/pantalones-29990"
           }
         },
         "slide_GU9Ekk": {
           "type": "slide",
           "settings": {
-            "link": "shopify://collections/sandalias"
+            "image": "shopify://shop_images/BANNER_WEB_TOP_72e6c875-9c7e-496c-b044-0d083a035462.webp",
+            "image_mobile": "shopify://shop_images/BANNER_TOP_MIBLE_c4c7851e-6e2b-44ec-86ba-efd142bd02cb.webp",
+            "link": "shopify://collections/blusas-y-poleras-19-990"
+          }
+        },
+        "slide_fMXkxN": {
+          "type": "slide",
+          "name": "Sol de Sal 1",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/BANNER_WEB_TOP_72e6c875-9c7e-496c-b044-0d083a035462.webp",
+            "image_mobile": "shopify://shop_images/BANNER_TOP_MIBLE_c4c7851e-6e2b-44ec-86ba-efd142bd02cb.webp",
+            "link": "shopify://collections/blusas-y-poleras-19-990"
           }
         }
       },
       "block_order": [
-        "slide_fUrWet",
         "slide_ykLfW7",
+        "slide_fUrWet",
         "slide_4BCECb",
-        "slide_GU9Ekk"
+        "slide_GU9Ekk",
+        "slide_fMXkxN"
       ],
       "name": "Sliders Home",
       "settings": {
@@ -69,10 +83,10 @@
         "slide_NfQcm3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/CALUGAS_SALE_Mesa_de_trabajo_1-04.webp",
+            "image": "shopify://shop_images/CALUGA_TANK_ESTRELLA_5ae508a1-21bf-46eb-acc8-de16d42eff64.webp",
             "heading": "",
             "button_label": "",
-            "link": "shopify://collections/vestidos-y-enteritos"
+            "link": "shopify://collections/blusas-y-poleras-19-990"
           }
         },
         "slide_CDCRDQ": {
@@ -146,7 +160,7 @@
         "slide_KxQBtX"
       ],
       "disabled": true,
-      "name": "Home collection",
+      "name": "Home collection SDS",
       "settings": {
         "margin-top": 10,
         "margin-bottom": 10,
@@ -247,6 +261,45 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_W6BPY8": {
+      "type": "collage",
+      "blocks": {
+        "image_BYTWrt": {
+          "type": "image",
+          "settings": {}
+        },
+        "product_iLYjX7": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_L6Y4pB": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BYTWrt",
+        "product_iLYjX7",
+        "collection_L6Y4pB"
+      ],
+      "disabled": true,
+      "name": "Collage SDS",
+      "settings": {
+        "heading": "Collage multimedia",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -484,7 +537,7 @@
         "hotspot_mfRQ8L": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "pantalon-estrella-zebra-black",
+            "selected_product": "falda-ajustable-beige",
             "position_x": 34,
             "position_y": 53
           }
@@ -492,25 +545,25 @@
         "hotspot_qRUBdh": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "short-estrella-white",
-            "position_x": 87,
-            "position_y": 60
+            "selected_product": "baguette-bag-beige",
+            "position_x": 79,
+            "position_y": 76
           }
         },
         "hotspot_FkTxKL": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "top-cruzado-ecru",
-            "position_x": 83,
-            "position_y": 40
+            "selected_product": "sandalia-cruzada-brown",
+            "position_x": 47,
+            "position_y": 92
           }
         },
         "hotspot_gTAD9i": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "top-tank-basica-black",
-            "position_x": 44,
-            "position_y": 35
+            "selected_product": "blusa-algodon-white",
+            "position_x": 70,
+            "position_y": 30
           }
         }
       },
@@ -523,7 +576,7 @@
       "name": "Hotspots Products",
       "settings": {
         "header": "<p><strong>LOOK PERFECTO PARA EL VERANO</strong></p>",
-        "background_image": "shopify://shop_images/HOT_SPOT_01_1.webp",
+        "background_image": "shopify://shop_images/d625b365-b0af-4f1c-aaab-142d4aefec59.png",
         "hotspot_color": "#3b270c"
       }
     },
@@ -669,43 +722,6 @@
         "padding_top": 32,
         "padding_bottom": 8
       }
-    },
-    "collection_collage_jNHFCU": {
-      "type": "collection-collage",
-      "blocks": {
-        "collection_nAwTEN": {
-          "type": "collection",
-          "settings": {
-            "collection": "pantalones-full"
-          }
-        },
-        "collection_HpRCdH": {
-          "type": "collection",
-          "settings": {
-            "collection": "accesorios-y-bolsos"
-          }
-        },
-        "collection_LaNPEB": {
-          "type": "collection",
-          "settings": {
-            "collection": "conjuntos-vestidos"
-          }
-        }
-      },
-      "block_order": [
-        "collection_nAwTEN",
-        "collection_HpRCdH",
-        "collection_LaNPEB"
-      ],
-      "custom_css": [],
-      "name": "Collage de colecciones",
-      "settings": {
-        "heading": "VISITA NUESTRAS COLECCIONES",
-        "heading_size": "h2",
-        "show_product_count": false,
-        "show_view_all": true,
-        "full_width": true
-      }
     }
   },
   "order": [
@@ -716,6 +732,7 @@
     "home_collections_fDMjVz",
     "custom_liquid_9dJXzw",
     "pinflag_home_featured_collection_knEEU9",
+    "collage_W6BPY8",
     "home_collections_eMdheH",
     "pinflag_home_featured_collection_BLCDiM",
     "collage_dLcEkJ",
@@ -727,7 +744,6 @@
     "custom_liquid_mwP69Y",
     "newsletter_BEfi7t",
     "page_bGTYwT",
-    "multicolumn_Wanyr3",
-    "collection_collage_jNHFCU"
+    "multicolumn_Wanyr3"
   ]
 }
