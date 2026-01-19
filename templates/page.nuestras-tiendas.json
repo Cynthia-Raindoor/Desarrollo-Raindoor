@@ -23,6 +23,7 @@
         "item_e6aHYk": {
           "type": "item",
           "name": "Mall Paseo Los Dominicos",
+          "disabled": true,
           "settings": {
             "titulo": "Mall Plaza Los Dominicos",
             "direccion": "Av. Padre Hurtado Sur 875, Las Condes",
@@ -231,14 +232,31 @@
         "item_7N77E3",
         "item_4aTnj3"
       ],
+      "disabled": true,
       "name": "Mapa",
       "settings": {
         "api_key": "AIzaSyAreQAJBqeDYtIj3PEC0GHooMNtlB2dg3s"
+      }
+    },
+    "1768334813da0c9254": {
+      "type": "apps",
+      "blocks": {
+        "mapa_raindoor_locations_p3cJfA": {
+          "type": "shopify://apps/mapa-raindoor/blocks/locations/019bb7fe-61e2-7008-9697-a3e1bc35b373",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "mapa_raindoor_locations_p3cJfA"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "main",
-    "mapa_custom_gacARL"
+    "mapa_custom_gacARL",
+    "1768334813da0c9254"
   ]
 }

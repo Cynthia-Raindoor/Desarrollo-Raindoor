@@ -3,14 +3,24 @@
 <div class="swatches">
   {% if swatches.size > 1 and swatches.size != null %}
     {% for swatch in swatches %}
+      
+      {% comment %} 1. Rescatamos el metaobjeto del producto que estamos iterando {% endcomment %}
+      {% assign swatch_image_meta = swatch.metafields.custom.swatches.value %}
+
       <div 
         class="swatch" 
-        style="background-color: 
-        {% if swatch.metafields.custom.color_hexa.value %}
-          {{ swatch.metafields.custom.color_hexa.value }}
-        {% else %}
-        var(--color-swatch-{{ swatch.metafields.custom.color.value.first | downcase | default: 'gris' }});
-        {% endif %}"
+        title="{% if swatch_image_meta.etiqueta %}{{ swatch_image_meta.etiqueta }}{% else %}{{ swatch.title }}{% endif %}"
+        style="
+          {% if swatch_image_meta.imagen != blank %}
+            background-image: url('{{ swatch_image_meta.imagen | image_url: width: 100 }}');
+            background-size: cover;
+            background-position: center;
+          {% elsif swatch.metafields.custom.color_hexa.value %}
+            background-color: {{ swatch.metafields.custom.color_hexa.value }};
+          {% else %}
+            background-color: var(--color-swatch-{{ swatch.metafields.custom.color.value.first | downcase | default: 'gris' }});
+          {% endif %}"
+        
         data-img0='{{ swatch.media[0] | image_url: width: 533 }}'
         data-img1='{% if swatch.media[1] %}{{ swatch.media[1] | image_url: width: 533 }}{% endif %}'
         data-product-id="{{ swatch.id }}"
@@ -22,7 +32,9 @@
         data-first-variant-id="{{ swatch.selected_or_first_available_variant.id }}"
         onclick="changeProduct(this)"
         {% if swatch.id == product.id %}active{% endif %}
-      >{% if swatch.available == false %}<i></i>{% else %}&nbsp;{% endif %}</div>
+      >
+        {% if swatch.available == false %}<i></i>{% else %}&nbsp;{% endif %}
+      </div>
     {% endfor %}
   {% endif %}
 </div>

@@ -47,7 +47,7 @@
         "text_xBBk6d": {
           "type": "text",
           "settings": {
-            "text": "<p>Si estás interesado en ser distribuidor de la marca y vender nuestros productos, tenemos precios especiales para ti. Sólo debes tener tienda o marca con local físico. </p><p>Hoy en día tenemos más de 40 mayoristas activos que con su ayuda hemos logrado tener presencia a lo largo de todo Chile. No queremos quedarnos así, sino que, queremos seguir creciendo y llevando nuestra marca a todos los puntos del país. </p>",
+            "text": "<p>Si estás interesado en ser distribuidor de la marca y vender nuestros productos, tenemos precios especiales para ti. Sólo debes tener tienda o marca con local físico. </p><p>Hoy en día tenemos más de 40 mayoristas activos que con su ayuda hemos logrado tener presencia a lo largo de todo Chile. No queremos quedarnos así, sino que, queremos seguir creciendo y llevando nuestra marca a todos los puntos del país.<br/></p>",
             "text_style": "subtitle"
           }
         },
@@ -86,6 +86,50 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_TzCVri": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PFAtLE": {
+          "type": "column",
+          "settings": {
+            "title": "Contacto directo:",
+            "text": "",
+            "link_label": "Maria.jose.gajardo@raindoor.cl",
+            "link": "mailto:MARIA.JOSE.GAJARDO@RAINDOOR.CL"
+          }
+        },
+        "column_7inanE": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PFAtLE",
+        "column_7inanE"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "mailto:MARIA.JOSE.GAJARDO@RAINDOOR.CL",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -134,6 +178,7 @@
     "main",
     "rich_text_JgnCnE",
     "image_with_text_Dz8khE",
+    "multicolumn_TzCVri",
     "image_banner_LeMP3m",
     "rich_text_zeydJG"
   ]

@@ -15,6 +15,7 @@
         "slide_ykLfW7": {
           "type": "slide",
           "name": "Sale 31/12",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER-WEB-REBAJAS_472d6b9c-dd77-4913-ad2f-0fad1833d407.png",
             "image_mobile": "shopify://shop_images/BANNER-MOBILE-REBAJAS_2.png",
@@ -23,31 +24,32 @@
         },
         "slide_fUrWet": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER_WEB-NEW_DROP-BALLON.webp",
             "image_mobile": "shopify://shop_images/BANNER_MOVBILE-NEW_DROO-BALLON.webp",
             "link": "shopify://collections/jeans"
           }
         },
+        "slide_fMXkxN": {
+          "type": "slide",
+          "name": "Sol de Sal 1",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_WEB_SOL_DE_SAL.webp",
+            "image_mobile": "shopify://shop_images/BANNER_MOBILE_SOL_DE_SAL.webp",
+            "link": "shopify://pages/sol-de-sal"
+          }
+        },
         "slide_4BCECb": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BANNER_PANTS_WEB_1.webp",
-            "image_mobile": "shopify://shop_images/BANNER_PANTS_MOBILE_1.webp",
+            "image": "shopify://shop_images/desk.gif",
+            "image_mobile": "shopify://shop_images/Banner_Mobile.gif",
             "link": "shopify://collections/pantalones-29990"
           }
         },
         "slide_GU9Ekk": {
           "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/BANNER_WEB_TOP_72e6c875-9c7e-496c-b044-0d083a035462.webp",
-            "image_mobile": "shopify://shop_images/BANNER_TOP_MIBLE_c4c7851e-6e2b-44ec-86ba-efd142bd02cb.webp",
-            "link": "shopify://collections/blusas-y-poleras-19-990"
-          }
-        },
-        "slide_fMXkxN": {
-          "type": "slide",
-          "name": "Sol de Sal 1",
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER_WEB_TOP_72e6c875-9c7e-496c-b044-0d083a035462.webp",
@@ -59,9 +61,9 @@
       "block_order": [
         "slide_ykLfW7",
         "slide_fUrWet",
+        "slide_fMXkxN",
         "slide_4BCECb",
-        "slide_GU9Ekk",
-        "slide_fMXkxN"
+        "slide_GU9Ekk"
       ],
       "name": "Sliders Home",
       "settings": {
@@ -115,6 +117,7 @@
         "slide_CDCRDQ",
         "slide_kfzRmU"
       ],
+      "disabled": true,
       "name": "Home collection",
       "settings": {
         "margin-top": 10,
@@ -126,45 +129,54 @@
     "home_collections_ExbfwL": {
       "type": "home-collections",
       "blocks": {
-        "slide_arYj6D": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/5f9587b1-efd6-494f-be11-9c6d911730e8.png",
-            "heading": "",
-            "button_label": "TOPS & BLUSAS",
-            "link": "shopify://collections/top-blusas"
-          }
-        },
         "slide_4mfeLi": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/0c708b1d-3cce-4f23-8d7c-cff333e7701f.png",
+            "image": "shopify://shop_images/CALUGA-01_1.webp",
             "heading": "",
-            "button_label": "JEANS",
+            "button_label": "",
+            "link": "shopify://collections/top-blusas"
+          }
+        },
+        "slide_arYj6D": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA-02.webp",
+            "heading": "",
+            "button_label": "",
             "link": "shopify://collections/jeans"
           }
         },
         "slide_KxQBtX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/5bf88468-940d-48ec-a272-808c16a5c97f.png",
+            "image": "shopify://shop_images/CALUGA-03_2f528d51-cb75-4352-bcd4-642be7a63f40.webp",
             "heading": "",
-            "button_label": "SHORTS & FALDAS",
-            "link": "shopify://collections/faldas-shorts"
+            "button_label": "",
+            "link": "shopify://collections/sweaters-polerones"
+          }
+        },
+        "slide_CCy4VP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CALUGA-04.webp",
+            "heading": "",
+            "button_label": "",
+            "link": "shopify://collections/shorts-faldas"
           }
         }
       },
       "block_order": [
-        "slide_arYj6D",
         "slide_4mfeLi",
-        "slide_KxQBtX"
+        "slide_arYj6D",
+        "slide_KxQBtX",
+        "slide_CCy4VP"
       ],
-      "disabled": true,
       "name": "Home collection SDS",
       "settings": {
         "margin-top": 10,
         "margin-bottom": 10,
-        "carrusel": true,
+        "carrusel": false,
         "dots": true
       }
     },
@@ -177,51 +189,6 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "home_collections_fDMjVz": {
-      "type": "home-collections",
-      "blocks": {
-        "slide_tPEi76": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-33.webp",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/jockey-cinturon-19-990"
-          }
-        },
-        "slide_9MLNwP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-32.webp",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/pantalones-29990"
-          }
-        },
-        "slide_nki6F7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CALUGAS_PROMOCIONES-34.webp",
-            "heading": "",
-            "button_label": "",
-            "link": "shopify://collections/top-bottom-a-34-990"
-          }
-        }
-      },
-      "block_order": [
-        "slide_tPEi76",
-        "slide_9MLNwP",
-        "slide_nki6F7"
-      ],
-      "disabled": true,
-      "name": "Home collection",
-      "settings": {
-        "margin-top": 10,
-        "margin-bottom": 10,
-        "carrusel": true,
-        "dots": true
       }
     },
     "custom_liquid_9dJXzw": {
@@ -239,9 +206,9 @@
       "type": "pinflag-home-featured-collection",
       "name": "Home collection 2",
       "settings": {
-        "collection": "iconicos-para-este-verano",
+        "collection": "nuevo",
         "products_to_show": 10,
-        "title": "<strong>ICÓNICOS PARA ESTE VERANO</strong>",
+        "title": "<strong>NOVEDADES</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -270,19 +237,21 @@
       "blocks": {
         "image_BYTWrt": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/Collage.jpg"
+          }
         },
         "product_iLYjX7": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "top-lurex-rrint",
             "second_image": false
           }
         },
         "collection_L6Y4pB": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "sol-de-sal"
           }
         }
       },
@@ -291,10 +260,9 @@
         "product_iLYjX7",
         "collection_L6Y4pB"
       ],
-      "disabled": true,
       "name": "Collage SDS",
       "settings": {
-        "heading": "Collage multimedia",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
@@ -340,6 +308,7 @@
         "slide_cACryg",
         "slide_KdRF9H"
       ],
+      "disabled": true,
       "name": "Home collection",
       "settings": {
         "margin-top": 10,
@@ -350,12 +319,11 @@
     },
     "pinflag_home_featured_collection_BLCDiM": {
       "type": "pinflag-home-featured-collection",
-      "disabled": true,
       "name": "Home collection 2",
       "settings": {
-        "collection": "jeans",
+        "collection": "summer-sale",
         "products_to_show": 10,
-        "title": "<strong>ICONIC JEANS</strong>",
+        "title": "<strong>SUMMER SALE</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -379,50 +347,9 @@
         "padding_bottom": 36
       }
     },
-    "collage_dLcEkJ": {
-      "type": "collage",
-      "blocks": {
-        "image_hJkUfR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG-3666.webp"
-          }
-        },
-        "product_MFmdWb": {
-          "type": "product",
-          "settings": {
-            "product": "top-tank-basica-white",
-            "second_image": true
-          }
-        },
-        "product_8mxhmH": {
-          "type": "product",
-          "settings": {
-            "product": "falda-globo-lurex-ecru",
-            "second_image": true
-          }
-        }
-      },
-      "block_order": [
-        "image_hJkUfR",
-        "product_MFmdWb",
-        "product_8mxhmH"
-      ],
-      "disabled": true,
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "pinflag_home_featured_collection_zTgJb3": {
       "type": "pinflag-home-featured-collection",
+      "disabled": true,
       "name": "Home collection 2",
       "settings": {
         "collection": "favoritos-raindoorgirls",
@@ -455,9 +382,9 @@
       "type": "pinflag-home-featured-collection",
       "name": "Home collection 2",
       "settings": {
-        "collection": "shorts-faldas",
+        "collection": "jeans",
         "products_to_show": 10,
-        "title": "<strong> INFALTABLES DEL VERANO</strong>",
+        "title": "<strong>ICONIC JEANS</strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -537,32 +464,32 @@
         "hotspot_mfRQ8L": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "falda-ajustable-beige",
-            "position_x": 34,
-            "position_y": 53
+            "selected_product": "falda-tejida-brown",
+            "position_x": 65,
+            "position_y": 50
           }
         },
         "hotspot_qRUBdh": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "baguette-bag-beige",
-            "position_x": 79,
-            "position_y": 76
+            "selected_product": "blazer-tejido-brown",
+            "position_x": 23,
+            "position_y": 70
           }
         },
         "hotspot_FkTxKL": {
           "type": "hotspot",
           "settings": {
             "selected_product": "sandalia-cruzada-brown",
-            "position_x": 47,
+            "position_x": 60,
             "position_y": 92
           }
         },
         "hotspot_gTAD9i": {
           "type": "hotspot",
           "settings": {
-            "selected_product": "blusa-algodon-white",
-            "position_x": 70,
+            "selected_product": "vest-tejido-brown",
+            "position_x": 40,
             "position_y": 30
           }
         }
@@ -573,10 +500,11 @@
         "hotspot_FkTxKL",
         "hotspot_gTAD9i"
       ],
+      "disabled": true,
       "name": "Hotspots Products",
       "settings": {
         "header": "<p><strong>LOOK PERFECTO PARA EL VERANO</strong></p>",
-        "background_image": "shopify://shop_images/d625b365-b0af-4f1c-aaab-142d4aefec59.png",
+        "background_image": "shopify://shop_images/03443995-a7f5-4f45-9852-ec86ef14fe8c.png",
         "hotspot_color": "#3b270c"
       }
     },
@@ -729,13 +657,11 @@
     "home_collections_Hj4BgM",
     "home_collections_ExbfwL",
     "custom_liquid_wcL93n",
-    "home_collections_fDMjVz",
     "custom_liquid_9dJXzw",
     "pinflag_home_featured_collection_knEEU9",
     "collage_W6BPY8",
     "home_collections_eMdheH",
     "pinflag_home_featured_collection_BLCDiM",
-    "collage_dLcEkJ",
     "pinflag_home_featured_collection_zTgJb3",
     "pinflag_home_featured_collection_zRY7Wd",
     "hotspots_7VjxCk",

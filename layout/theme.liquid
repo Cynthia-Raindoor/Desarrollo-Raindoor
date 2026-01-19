@@ -26,27 +26,21 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
-
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'custom-agency.js' | asset_url }}" defer="defer"></script>
- {% comment %}
+
    <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script> 
    <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script> 
-   <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>  {% endcomment %}
-    
-      {% if template.name == 'index' or template contains 'product' or template contains 'cart' %}
-      <script src="{{ 'details-modal.js' | asset_url }}" defer></script>
-      <script src="{{ 'details-disclosure.js' | asset_url }}" defer></script>
-    {% endif %}
 
     {% if settings.predictive_search_enabled %}
       <script src="{{ 'search-form.js' | asset_url }}" defer></script>
     {% endif %}
 
+  {% render 'meta-tags' %}
 
+  
    {% comment %} <!-- ✨ Cursor Sparkle Trail Script se deja comentado - brillos Navidad en cursor ✨ -->
 {% if template.name == 'index' %}
 <!-- ✨ Cursor Sparkle Trail Script ✨ -->

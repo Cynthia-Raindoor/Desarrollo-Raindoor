@@ -1,0 +1,103 @@
+{% assign swatches = product.metafields.zsoft.related_product_custom.value %}
+
+<div class="swatches-pdp">
+  <legend class="form__label">
+    Color:
+    {{ product.metafields.custom.color.value | first | default: product.selected_or_first_available_variant.option1 }}
+  </legend>
+  {% if swatches.size > 1 and swatches.size != null %}
+    <div class="swatches-pdp__container">
+      {% comment %} 1. Renderizar primero el producto activo {% endcomment %}
+      {% for swatch in swatches %}
+        {% if swatch.id == product.id %}
+          {% assign swatch_image_meta = swatch.metafields.custom.swatches.value %}
+          <a
+            href="{{ swatch.url }}"
+            class="swatch-pdp active"
+            title="{% if swatch_image_meta.etiqueta %}{{ swatch_image_meta.etiqueta }}{% else %}{{ swatch.title }}{% endif %}"
+            style="
+              {% if swatch_image_meta.imagen != blank %}
+                background-image: url('{{ swatch_image_meta.imagen | image_url: width: 100 }}');
+                background-size: cover;
+                background-position: center;
+              {% elsif swatch.metafields.custom.color_hexa.value %}
+                background-color: {{ swatch.metafields.custom.color_hexa.value }};
+              {% else %}
+                background-color: var(--color-swatch-{{ swatch.metafields.custom.color.value.first | downcase | default: 'gris' }});
+              {% endif %}
+            "
+          >
+            <span class="visually-hidden">{{ swatch.title }}</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+
+      {% comment %} 2. Renderizar el resto de los productos {% endcomment %}
+      {% for swatch in swatches %}
+        {% unless swatch.id == product.id %}
+          {% assign swatch_image_meta = swatch.metafields.custom.swatches.value %}
+          <a
+            href="{{ swatch.url }}"
+            class="swatch-pdp"
+            title="{% if swatch_image_meta.etiqueta %}{{ swatch_image_meta.etiqueta }}{% else %}{{ swatch.title }}{% endif %}"
+            style="
+              {% if swatch_image_meta.imagen != blank %}
+                background-image: url('{{ swatch_image_meta.imagen | image_url: width: 100 }}');
+                background-size: cover;
+                background-position: center;
+              {% elsif swatch.metafields.custom.color_hexa.value %}
+                background-color: {{ swatch.metafields.custom.color_hexa.value }};
+              {% else %}
+                background-color: var(--color-swatch-{{ swatch.metafields.custom.color.value.first | downcase | default: 'gris' }});
+              {% endif %}
+            "
+          >
+            <span class="visually-hidden">{{ swatch.title }}</span>
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  .swatches-pdp {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .swatches-pdp__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+  .swatch-pdp {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 0 1px transparent; /* Para evitar saltos al hacer hover */
+  }
+
+  /* Estado Active (Producto actual) */
+  .swatch-pdp.active {
+    border-color: #000;
+    box-shadow: 0 0 0 1px #000 inset, 0 0 0 2px #fff inset; /* Doble borde simulado */
+    transform: scale(1.1);
+  }
+
+  /* Estado Hover */
+  .swatch-pdp:hover {
+    transform: scale(1.1);
+    border-color: #666;
+  }
+
+  .swatch-pdp.active:hover {
+    border-color: #000;
+  }
+</style>

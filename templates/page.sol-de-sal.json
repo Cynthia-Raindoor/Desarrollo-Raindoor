@@ -49,7 +49,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-01.png",
             "video": "",
             "size": "full",
-            "selected_product": "sandalias-tachas-black"
+            "selected_product": "top-lurex-rrint"
           }
         },
         "column_gcFydW": {
@@ -59,7 +59,7 @@
             "image_cuadrante": "shopify://shop_images/11086317-ff94-4fa4-9bf3-55ca5fe6ceb9.png",
             "video": "",
             "size": "full",
-            "selected_product": "short-estrella-white"
+            "selected_product": "blusa-manga-corta-white"
           }
         },
         "column_k68z6G": {
@@ -69,7 +69,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-03.png",
             "video": "",
             "size": "full",
-            "selected_product": "blusa-pliegues-white"
+            "selected_product": "falda-globo-lurex-print"
           }
         },
         "column_P9zcfV": {
@@ -79,7 +79,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-12.png",
             "video": "",
             "size": "full",
-            "selected_product": "falda-cinturon-black"
+            "selected_product": "pantalon-estrella-desflecado-blue"
           }
         },
         "column_LDYLfX": {
@@ -89,7 +89,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-02.png",
             "video": "",
             "size": "full",
-            "selected_product": "conjunto-lino-pistacho"
+            "selected_product": "poleron-hoodie-reno-pink"
           }
         },
         "column_TnTGXf": {
@@ -110,7 +110,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-13.png",
             "video": "",
             "size": "full",
-            "selected_product": "top-cruzado-ecru"
+            "selected_product": "poleron-hoodie-raindoor-girls-grey"
           }
         },
         "column_PzBczm": {
@@ -120,7 +120,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-04.png",
             "video": "",
             "size": "full",
-            "selected_product": "pantalon-ojal-back-pocket-blue"
+            "selected_product": "pantalon-bordado-floral-grey-1"
           }
         },
         "column_emKmjb": {
@@ -130,7 +130,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-14.png",
             "video": "",
             "size": "full",
-            "selected_product": "pantalon-estrellas-bordadas-white"
+            "selected_product": "pantalon-balloon-lino-black"
           }
         },
         "column_QekrN8": {
@@ -140,7 +140,7 @@
             "image_cuadrante": "shopify://shop_images/88419313-94d4-44c1-b6f8-07a4c4eff4f5.png",
             "video": "",
             "size": "half",
-            "selected_product": "chaqueta-jeans-black"
+            "selected_product": "pantalon-rayas-rose"
           }
         },
         "column_gEQPpK": {
@@ -150,7 +150,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-06.png",
             "video": "",
             "size": "half",
-            "selected_product": "pantalon-wide-leg-pocket-blue"
+            "selected_product": "top-halter-botones-white"
           }
         },
         "column_KFrVXx": {
@@ -160,7 +160,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-15.png",
             "video": "",
             "size": "half",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "blusa-pliegues-boton-white"
           }
         },
         "column_LGK9fG": {
@@ -170,7 +170,7 @@
             "image_cuadrante": "shopify://shop_images/9ebae89a-1c50-49f0-a22c-6cbe347b125f.jpg",
             "video": "",
             "size": "half",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "pantalon-corte-pierna-black"
           }
         },
         "column_h7JNyw": {
@@ -180,7 +180,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-08.png",
             "video": "",
             "size": "full",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "poleron-logo-bordado-ecru"
           }
         },
         "column_YENLbV": {
@@ -190,7 +190,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-09.png",
             "video": "",
             "size": "full",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "top-botones-nudos-rose"
           }
         },
         "column_pFmpzY": {
@@ -200,7 +200,7 @@
             "image_cuadrante": "shopify://shop_images/CUADRANTE-10.png",
             "video": "",
             "size": "half",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "pantalon-abertura-boton-lateral-rose"
           }
         },
         "column_BL36ph": {
@@ -210,7 +210,27 @@
             "image_cuadrante": "shopify://shop_images/e5ac1808-c187-4fc6-8143-2a95d0cd8c34.jpg",
             "video": "",
             "size": "half",
-            "selected_product": "pantalon-straight-pocket-grey"
+            "selected_product": "polera-manga-corta-logo-grey"
+          }
+        },
+        "column_Ekxbpr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/91c8c535-5826-4b15-9c95-0a295bfeb72d.jpg",
+            "image_cuadrante": "shopify://shop_images/8db01a9b-a1e5-4cf9-b141-cbd80632ee98.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-sun-sky"
+          }
+        },
+        "column_7wXMMe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/EDIT_normal_pant_1_52260b41-48c3-475f-9c71-d29a4a94e24a.jpg",
+            "image_cuadrante": "shopify://shop_images/Edit_2_Cuadrante_pant_1.jpg",
+            "video": "",
+            "size": "half",
+            "selected_product": "pantalon-wide-leg-sun-bone"
           }
         },
         "column_PQ9XDg": {
@@ -276,6 +296,8 @@
         "column_YENLbV",
         "column_pFmpzY",
         "column_BL36ph",
+        "column_Ekxbpr",
+        "column_7wXMMe",
         "column_PQ9XDg",
         "column_3YETNk",
         "column_qwL6Q9",

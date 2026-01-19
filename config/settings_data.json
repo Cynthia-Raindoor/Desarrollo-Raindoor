@@ -21,7 +21,7 @@
     "page_width": 1500,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 12,
-    "spacing_grid_vertical": 8,
+    "spacing_grid_vertical": 4,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
@@ -196,12 +196,17 @@
         "settings": {
           "CartVariants": true,
           "ProductId": "id",
-          "CustomProductImageHeight": 300,
-          "CustomProductImageWidth": 300,
+          "CustomProductImageHeight": 908,
+          "CustomProductImageWidth": 1389,
           "ShowNewsletterSubscriptionStatus": true,
           "CustomCustomerTags": "",
           "CustomProductTags": ""
         }
+      },
+      "17676059084223943535": {
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {

@@ -32,30 +32,53 @@
         }
           .section-{{ section.id }}-padding {
             padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-            padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+            padding-bottom: {{ section.settings.padding_bottom | times: 0.2 | round: 0 }}px;
+
           }
 
           @media screen and (min-width: 750px) {
             .section-{{ section.id }}-padding {
               padding-top: {{ section.settings.padding_top }}px;
-              padding-bottom: {{ section.settings.padding_bottom }}px;
+              padding-bottom: {{ section.settings.padding_bottom | times: 0.2 | round: 0 }}px;
+
             }
           }
 
           /* Estilos generales */
+          
           .custom_collection{{ section.id }} .icon-wrap { display: none; }
           .custom_collection{{ section.id }} .card__media {
             border-radius: 5px !important;
             overflow: hidden !important;
           }
+       .custom_collection{{ section.id }} .card__inner {
+            --ratio-percent: 150% !important; /* Ajusta ALTURA */
+          }
+          .custom_collection{{ section.id }} .card__media img {
+            object-fit: cover !important; /* RELLENAR TODO EL ESPACIO*/
+          }
           .custom_collection{{ section.id }} .card__heading a {
             font-size: 1.4rem;
             font-weight: 700;
           }
+          
           .custom_collection{{ section.id }} p {
             padding: 0;
             margin: 0;
             font-size: 1.2rem;
+          }
+
+          /* FIX SPACING: FORCE TEXT UP */
+          .custom_collection{{ section.id }} .card__content {
+             margin-top: 40px !important; 
+             padding-top: 0 !important;
+             display: block !important;
+             width: 100%;
+          }
+          .custom_collection{{ section.id }} .card__information,
+          .custom_collection{{ section.id }} .card__heading {
+             margin-top: 0 !important;
+             padding-top: 0 !important;
           }
 
           .custom_collection{{ section.id }} slider-component {
@@ -176,10 +199,12 @@
 
           {% if is_large_slider %}
             @media screen and (min-width: 749px) {
-              .custom_collection{{ section.id }} ul li { width:calc(100% / 3.5)!important; }
+              .custom_collection{{ section.id }} ul li { width:calc(100% / 6.5)!important; }
+
             }
             @media screen and (min-width: 1100px) {
-              .custom_collection{{ section.id }} ul li { width:calc(100% / 4.5)!important; }
+              .custom_collection{{ section.id }} ul li { width:calc(100% / 7.5)!important; }
+
             }
           {% endif %}
 
@@ -230,13 +255,7 @@
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               {{ block.shopify_attributes }}
             >
-              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
-              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-              {% render 'card-collection',
-                card_collection: block.settings.collection,
-                media_aspect_ratio: section.settings.image_ratio,
-                placeholder_image: placeholder_image
-              %}
+              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
             </li>
           {%- endfor -%}
         </ul>
@@ -259,13 +278,7 @@
         <ul class="collection-list grid collection-list--{{ total_blocks }}-items" role="list">
           {%- for block in section.blocks -%}
             <li class="collection-list__item grid__item" {{ block.shopify_attributes }}>
-              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
-              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-              {% render 'card-collection',
-                card_collection: block.settings.collection,
-                media_aspect_ratio: section.settings.image_ratio,
-                placeholder_image: placeholder_image
-              %}
+              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
             </li>
           {%- endfor -%}
         </ul>
@@ -298,13 +311,7 @@
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               {{ block.shopify_attributes }}
             >
-              {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
-              {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-              {% render 'card-collection',
-                card_collection: block.settings.collection,
-                media_aspect_ratio: section.settings.image_ratio,
-                placeholder_image: placeholder_image
-              %}
+              {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio, placeholder_image: 'collection-apparel-' | append: forloop.index0 | modulo: 4 | plus: 1 %}
             </li>
           {%- endfor -%}
         </ul>

@@ -166,12 +166,6 @@ div#menu-drawer {
   gap: 1rem;
 }
 
-.tallas-selector label:hover {
-  background: #3B270C !important;
-  color: white !important;
-  transition: 300ms !important;
-}
-
 .text-center {
   text-align: center;
 }
@@ -626,17 +620,15 @@ a.link__url {
 /* ESTILOS PDP */
 
 .product-form__input--pill input[type=radio]:checked+label {
-  background-color: rgba(var(--color-button), var(--alpha-button-background)) !important;
+  border: 2px solid rgba(var(--color-button));
+}
+.product-form__input--pill input[type=radio]+label {
+  border: 1px solid rgba(var(--color-button));
 }
 
 .product__info-wrapper .product__title h1 {
   color: rgba(var(--color-button), var(--alpha-button-background)) !important;
   font-weight: bold;
-}
-
-product-form .product-form__submit,
-button#CartDrawer-Checkout {
-  border-radius: 30px !important;
 }
 
 
@@ -647,4 +639,23 @@ button#CartDrawer-Checkout {
 
 nav.menu-drawer__navigation ul li ul li {
   padding-left: 1rem;
+}
+.grid__item button.stock-btn.custom-stock-btn {
+    background: none !important;
+    color: rgb(59, 39, 12);
+    border: 1px solid;
+    border-radius: 0;
+    height: 42px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    position: relative !important;
+    left: unset !important;
+    top: unset !important;
+    width: 100%;
+}
+
+.icon-discount {
+  height: 11px;
 }

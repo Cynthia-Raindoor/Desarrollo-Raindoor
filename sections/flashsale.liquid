@@ -1,0 +1,486 @@
+{%- assign title_size_desktop = '2.5rem' -%}
+{%- assign title_size_mobile = '1.5rem' -%}
+{%- assign count_num_size_desktop = '2rem' -%}
+{%- assign count_lbl_size_desktop = '0.8rem' -%}
+
+{%- case section.settings.title_size -%}
+  {%- when 'small' -%}
+    {%- assign title_size_desktop = '1.8rem' -%}
+  {%- when 'medium' -%}
+    {%- assign title_size_desktop = '3rem' -%}
+  {%- when 'large' -%}
+    {%- assign title_size_desktop = '4.5rem' -%}
+  {%- when 'xlarge' -%}
+    {%- assign title_size_desktop = '6rem' -%}
+{%- endcase -%}
+
+{%- case section.settings.countdown_size -%}
+  {%- when 'small' -%}
+    {%- assign count_num_size_desktop = '1.5rem' -%}
+    {%- assign count_lbl_size_desktop = '0.7rem' -%}
+  {%- when 'medium' -%}
+    {%- assign count_num_size_desktop = '2.5rem' -%}
+    {%- assign count_lbl_size_desktop = '0.9rem' -%}
+  {%- when 'large' -%}
+    {%- assign count_num_size_desktop = '4rem' -%}
+    {%- assign count_lbl_size_desktop = '1.1rem' -%}
+  {%- when 'xlarge' -%}
+    {%- assign count_num_size_desktop = '5.5rem' -%}
+    {%- assign count_lbl_size_desktop = '1.3rem' -%}
+{%- endcase -%}
+
+{% style %}
+  #Flashsale-{{ section.id }} {
+    background-color: {{ section.settings.background_color }};
+    padding: 4rem 0;
+    max-width: 100%;
+    --fs-title-size: {{ title_size_desktop }};
+    --fs-count-num: {{ count_num_size_desktop }};
+    --fs-count-lbl: {{ count_lbl_size_desktop }};
+  }
+
+  #Flashsale-{{ section.id }} .flashsale-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  #Flashsale-{{ section.id }} .flashsale__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  #Flashsale-{{ section.id }} .flashsale__inner h2 {
+    margin: 0;
+    font-size: var(--fs-title-size);
+    font-weight: 700;
+    flex: 1;
+    line-height: 1.1;
+    color: {{ section.settings.title_color }};
+  }
+
+  /* Countdown Styles */
+  #Flashsale-{{ section.id }} .countdown {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #Flashsale-{{ section.id }} .countdown__inner {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #Flashsale-{{ section.id }} .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: {{ section.settings.countdown_bg }};
+  }
+
+  #Flashsale-{{ section.id }} .countdown-item span {
+    font-size: var(--fs-count-num);
+    font-weight: bold;
+    line-height: 1;
+    color: {{ section.settings.countdown_number_color }};
+  }
+
+  #Flashsale-{{ section.id }} .countdown-item label {
+    font-size: var(--fs-count-lbl);
+    text-transform: uppercase;
+    color: {{ section.settings.countdown_label_color }};
+  }
+
+  #Flashsale-{{ section.id }} .countdown__expired-message {
+    font-size: var(--fs-count-num);
+    font-weight: bold;
+    color: {{ section.settings.countdown_number_color }};
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  /* Banners Styles */
+  #Flashsale-{{ section.id }} .banners {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  #Flashsale-{{ section.id }} .banner_item {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #Flashsale-{{ section.id }} .banner_item img,
+  #Flashsale-{{ section.id }} .banner_item svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  #Flashsale-{{ section.id }} .banner_item a {
+    display: block;
+  }
+
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    #Flashsale-{{ section.id }} {
+      /* En móvil reducimos al 60% aprox para que no explote */
+      --fs-title-size: calc({{ title_size_desktop }} * 0.6);
+      --fs-count-num: calc({{ count_num_size_desktop }} * 0.6);
+      /* El label no lo achicamos tanto para que se lea */
+      --fs-count-lbl: max({{ count_lbl_size_desktop }}, 0.7rem);
+      padding: 2rem 0;
+    }
+
+    #Flashsale-{{ section.id }} .flashsale__inner {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    #Flashsale-{{ section.id }} .countdown {
+      justify-content: center;
+      width: 100%;
+    }
+
+    #Flashsale-{{ section.id }} .banners {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 1.2rem;
+      padding: 0;
+      margin-left: 0;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    #Flashsale-{{ section.id }} .banners::-webkit-scrollbar {
+      display: none;
+    }
+
+    #Flashsale-{{ section.id }} .banner_item {
+      flex: 0 0 {{section.settings.banner_width}}%;
+      scroll-snap-align: center;
+    }
+
+    /* Opcional: para que se vea un poco más grande el contador en móvil si es muy chico */
+    #Flashsale-{{ section.id }} .countdown-item {
+      min-width: 65px;
+      padding: 0.4rem;
+    }
+  }
+{% endstyle %}
+
+<div
+  id="Flashsale-{{ section.id }}"
+  class="flashsale"
+  data-section-id="{{ section.id }}"
+  data-deadline="{{ section.settings.countdown_date }}"
+>
+  <div class="flashsale-container">
+    <div class="flashsale__inner">
+      {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title }}</h2>
+      {% endif %}
+
+      <div class="countdown">
+        <div class="countdown__inner">
+          <div class="countdown-item">
+            <span class="days">00</span>
+            <label class="days-label">{{ section.settings.label_01 }}</label>
+          </div>
+          <div class="countdown-item">
+            <span class="hour">00</span>
+            <label class="hour-label">{{ section.settings.label_02 }}</label>
+          </div>
+          <div class="countdown-item">
+            <span class="minutes">00</span>
+            <label class="minutes-label">{{ section.settings.label_03 }}</label>
+          </div>
+          <div class="countdown-item">
+            <span class="seconds">00</span>
+            <label class="seconds-label">{{ section.settings.label_04 }}</label>
+          </div>
+        </div>
+        <div class="countdown__expired-message" style="display: none;">
+          {{ section.settings.expired_message }}
+        </div>
+      </div>
+    </div>
+
+    <div class="banners">
+      {% for block in section.blocks %}
+        <div class="banner_item banner_{{ forloop.index }}__inner" {{ block.shopify_attributes }}>
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
+          {% endif %}
+
+          {% if block.settings.image != blank %}
+            {{
+              block.settings.image
+              | image_url: width: 1200
+              | image_tag: loading: 'lazy', alt: block.settings.image.alt, class: 'banner-image'
+            }}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+
+          {% if block.settings.link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.flashsale[data-section-id="{{ section.id }}"]');
+    if (!section) return;
+
+    const deadlineAttr = section.getAttribute('data-deadline');
+    if (!deadlineAttr) return;
+
+    let deadline;
+
+    try {
+      const parts = deadlineAttr.split(' ');
+      if (parts.length > 0) {
+        const dateParts = parts[0].split('/');
+        const timePart = parts[1] || '00:00:00';
+
+        if (dateParts.length === 3) {
+          const isoDate = `${dateParts[2]}-${dateParts[1]}-${dateParts[0]}T${timePart}`;
+          deadline = new Date(isoDate).getTime();
+        } else {
+          deadline = new Date(deadlineAttr).getTime();
+        }
+      } else {
+        deadline = new Date(deadlineAttr).getTime();
+      }
+    } catch (e) {
+      console.error('Error parseando fecha', e);
+      deadline = NaN;
+    }
+
+    if (isNaN(deadline)) {
+      console.error('FlashSale: Fecha inválida.');
+      return;
+    }
+
+    const elDays = section.querySelector('.days');
+    const elHours = section.querySelector('.hour');
+    const elMinutes = section.querySelector('.minutes');
+    const elSeconds = section.querySelector('.seconds');
+    const elDaysContainer = elDays.closest('.countdown-item');
+
+    function updateTimer() {
+      const now = new Date().getTime();
+      const distance = deadline - now;
+
+      if (distance < 0) {
+        section.querySelector('.countdown__inner').style.display = 'none';
+        const expiredMsg = section.querySelector('.countdown__expired-message');
+        if (expiredMsg) expiredMsg.style.display = 'block';
+
+        clearInterval(timerInterval);
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (days <= 0) {
+        if (elDaysContainer) elDaysContainer.style.display = 'none';
+      } else {
+        if (elDaysContainer) elDaysContainer.style.display = 'flex';
+        elDays.innerText = days < 10 ? '0' + days : days;
+      }
+
+      elHours.innerText = hours < 10 ? '0' + hours : hours;
+      elMinutes.innerText = minutes < 10 ? '0' + minutes : minutes;
+      elSeconds.innerText = seconds < 10 ? '0' + seconds : seconds;
+    }
+
+    const timerInterval = setInterval(updateTimer, 1000);
+    updateTimer();
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Flash Sale",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Configuración Título"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Título",
+      "default": "Flash Sale"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Color Título",
+      "default": "#000000"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Tamaño Título",
+      "options": [
+        { "value": "small", "label": "Pequeño" },
+        { "value": "medium", "label": "Mediano" },
+        { "value": "large", "label": "Grande" },
+        { "value": "xlarge", "label": "Muy Grande" }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "header",
+      "content": "Configuración Fondo General"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Color de Fondo Sección",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Configuración Cuenta Regresiva"
+    },
+    {
+      "type": "text",
+      "id": "countdown_date",
+      "label": "Fecha Fin (DD/MM/YYYY HH:MM:SS)",
+      "info": "Ej: 31/12/2026 23:59:00",
+      "default": "31/12/2026 23:59:00"
+    },
+    {
+      "type": "text",
+      "id": "expired_message",
+      "label": "Mensaje al terminar",
+      "default": "La oferta ya terminó"
+    },
+    {
+      "type": "select",
+      "id": "countdown_size",
+      "label": "Tamaño Contador",
+      "options": [
+        { "value": "small", "label": "Pequeño" },
+        { "value": "medium", "label": "Mediano" },
+        { "value": "large", "label": "Grande" },
+        { "value": "xlarge", "label": "Muy Grande" }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "color",
+      "id": "countdown_bg",
+      "label": "Color Fondo Contador",
+      "default": "transparent"
+    },
+    {
+      "type": "color",
+      "id": "countdown_number_color",
+      "label": "Color Números",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "countdown_label_color",
+      "label": "Color Etiquetas",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Textos Etiquetas"
+    },
+    {
+      "type": "text",
+      "id": "label_01",
+      "label": "Etiqueta Días",
+      "default": "Días"
+    },
+    {
+      "type": "text",
+      "id": "label_02",
+      "label": "Etiqueta Horas",
+      "default": "Horas"
+    },
+    {
+      "type": "text",
+      "id": "label_03",
+      "label": "Etiqueta Minutos",
+      "default": "Minutos"
+    },
+    {
+      "type": "text",
+      "id": "label_04",
+      "label": "Etiqueta Segundos",
+      "default": "Segundos"
+    },
+    {
+      "type": "range",
+      "id": "banner_width",
+      "label": "Ancho Banner mobile",
+      "default": 70,
+      "min": 50,
+      "max": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Banner",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Imagen Banner"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Enlace (href)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Flash Sale",
+      "blocks": [
+        {
+          "type": "banner"
+        },
+        {
+          "type": "banner"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -4,18 +4,40 @@
       <div class="swiper-slide">
         <a href="{{ block.settings.link }}" {% if block.settings.link == blank %}style="pointer-events: none;"{% endif %}>
           
-          {% comment %} --- Lógica DESKTOP: Prioriza Video sobre Imagen --- {% endcomment %}
+          {% comment %} --- DESKTOP: Video o Imagen --- {% endcomment %}
           {% if block.settings.video_desktop != blank %}
-            {{ block.settings.video_desktop | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_desktop', image_size: 'master' }}
-          {% else %}
-             <img class="only_desktop" src="{{ block.settings.image | image_url }}" width="" height="" loading="lazy">
+            {{ block.settings.video_desktop | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, class: 'only_desktop', image_size: 'master' }}
+          {% elsif block.settings.image != blank %}
+            <img 
+              class="only_desktop" 
+              src="{{ block.settings.image | image_url: width: 2400 }}" 
+              srcset="{{ block.settings.image | image_url: width: 1920 }} 1920w,
+                      {{ block.settings.image | image_url: width: 2400 }} 2400w,
+                      {{ block.settings.image | image_url: width: 3000 }} 3000w"
+              sizes="100vw"
+              width="2400" 
+              height="{{ 2400 | divided_by: block.settings.image.aspect_ratio | ceil }}" 
+              loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+              fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}"
+              alt="{{ block.settings.image.alt | escape }}">
           {% endif %}
 
-          {% comment %} --- Lógica MOBILE: Prioriza Video sobre Imagen --- {% endcomment %}
+          {% comment %} --- MOBILE: Video o Imagen --- {% endcomment %}
           {% if block.settings.video_mobile != blank %}
-            {{ block.settings.video_mobile | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'only_mobile', image_size: 'master' }}
-          {% else %}
-            <img class="only_mobile" src="{{ block.settings.image_mobile | image_url }}" width="" height="" loading="lazy">
+            {{ block.settings.video_mobile | video_tag: autoplay: true, loop: true, muted: true, controls: false, playsinline: true, class: 'only_mobile', image_size: 'master' }}
+          {% elsif block.settings.image_mobile != blank %}
+            <img 
+              class="only_mobile" 
+              src="{{ block.settings.image_mobile | image_url: width: 1200 }}" 
+              srcset="{{ block.settings.image_mobile | image_url: width: 768 }} 768w,
+                      {{ block.settings.image_mobile | image_url: width: 1200 }} 1200w,
+                      {{ block.settings.image_mobile | image_url: width: 1536 }} 1536w"
+              sizes="100vw"
+              width="1200" 
+              height="{{ 1200 | divided_by: block.settings.image_mobile.aspect_ratio | ceil }}" 
+              loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+              fetchpriority="{% if forloop.first %}high{% else %}auto{% endif %}"
+              alt="{{ block.settings.image_mobile.alt | escape }}">
           {% endif %}
 
         </a>
@@ -23,37 +45,46 @@
     {% endfor %}
   </div>
 
-  <!-- Botones opcionales -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-pagination"></div>
 </div>
 
 <style>
-    /* Aplica 100% de ancho tanto a imágenes como a videos */
     .slide-home-{{ section.id }} img,
     .slide-home-{{ section.id }} video {
         width: 100%;
-        display: block; /* Elimina espacios fantasma debajo */
-        object-fit: cover; /* Asegura que cubra el espacio si el ratio varía */
+        height: auto;
+        display: block;
+        object-fit: cover;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
     }
 
     .slide-home-{{ section.id }}.margin-top-main {
         margin-top: -95px;
     }
 
-    /* Ocultar elementos mobile por defecto */
     .slide-home-{{ section.id }} .only_mobile {
         display: none !important;
     }
 
+    .slide-home-{{ section.id }} .swiper-slide {
+        background-color: #f5f5f5;
+    }
+
     @media screen and (max-width: 768px) {
-        /* En mobile, ocultar desktop y mostrar mobile */
         .slide-home-{{ section.id }} .only_desktop {
             display: none !important;
         }
         .slide-home-{{ section.id }} .only_mobile {
             display: block !important;
+        }
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .slide-home-{{ section.id }} img {
+            image-rendering: auto;
         }
     }
 </style>
@@ -69,14 +100,7 @@
         spaceBetween: 0,
         loop: true,
         speed: 600,
-        // Si hay videos, a veces es mejor quitar el autoplay del slider para que no se corte el video,
-        // pero lo dejo comentado por si quieres que pase solo.
-        /*
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        */
+
         navigation: {
           nextEl: el.querySelector('.swiper-button-next'),
           prevEl: el.querySelector('.swiper-button-prev'),
@@ -85,6 +109,15 @@
           el: el.querySelector('.swiper-pagination'),
           clickable: true,
         },
+        on: {
+          init: function() {
+            const firstSlide = this.slides[0];
+            const video = firstSlide.querySelector('video');
+            if (video) {
+              video.load();
+            }
+          }
+        }
       });
     });
   });
@@ -92,7 +125,7 @@
 
 {% schema %}
 {
-  "name": "Slider Imágenes/Video",
+  "name": "Slider Hero (Optimizado)",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -104,59 +137,65 @@
       "id": "top_margin",
       "default": false,
       "label": "¿Dejar arriba del todo?"
+    },
+    {
+      "type": "paragraph",
+      "content": "⚠️ IMPORTANTE: Sube imágenes de 1920x1080px (desktop) y 1080x1920px (mobile) a 72dpi. El código ya optimiza la calidad automáticamente."
     }
   ],
   "blocks": [
     {
       "type": "slide",
-      "name": "Slides",
+      "name": "Slide",
       "limit": 5,
       "settings": [
         {
           "type": "header",
-          "content": "Versión Escritorio"
+          "content": "📐 Versión Escritorio"
         },
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Imagen escritorio"
+          "label": "Imagen escritorio",
+          "info": "Recomendado: 1920x1080px, formato JPG 90% o WebP"
         },
         {
           "type": "video",
           "id": "video_desktop",
           "label": "Video escritorio (MP4)",
-          "info": "Si subes un video, reemplazará a la imagen de escritorio."
+          "info": "Si subes video, reemplaza la imagen. Max 10MB, compresión H.264"
         },
         {
           "type": "header",
-          "content": "Versión Móvil"
+          "content": "📱 Versión Móvil"
         },
         {
           "type": "image_picker",
           "id": "image_mobile",
-          "label": "Imagen mobile"
+          "label": "Imagen móvil",
+          "info": "Recomendado: 1080x1920px (vertical), formato JPG 90% o WebP"
         },
         {
           "type": "video",
           "id": "video_mobile",
-          "label": "Video mobile (MP4)",
-          "info": "Si subes un video, reemplazará a la imagen móvil."
+          "label": "Video móvil (MP4)",
+          "info": "Si subes video, reemplaza la imagen. Max 5MB para mobile"
         },
         {
           "type": "header",
-          "content": "General"
+          "content": "🔗 Configuración"
         },
         {
           "type": "url",
           "id": "link",
-          "label": "Url de destino"
+          "label": "Enlace de destino"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Sliders Home (Video/Img)",
+      "name": "Hero Slider Optimizado",
       "blocks": [
         {
           "type": "slide"
